@@ -174,8 +174,20 @@
   "owner": "Logistics",
   "opened": "2026-11-06",
   "status": "In progress",
-  "last_update": "2026-11-10",
-  "note": "Contract terminated effective 6 Nov. Traffic fines and maintenance being settled.",
+  "last_update": "2026-11-11",
+  "note": "Contract terminated effective 6 Nov. On 10 Nov Logistics was asked for a full vehicle report within 48 hours. On 11 Nov the supplier was given 48 hours to deliver all vehicles with fines and maintenance cleared.",
+  "needs_decision": "no",
+  "resolved_on": null
+ },
+ {
+  "id": "GAS",
+  "item": "Gas refill for the tower",
+  "area": "Admin",
+  "owner": "Accounts",
+  "opened": "2026-11-09",
+  "status": "In progress",
+  "last_update": "2026-11-11",
+  "note": "Refill requested from the gas supplier 9 Nov; reminder sent 11 Nov and acknowledged by the supplier the same day. Refill date not confirmed.",
   "needs_decision": "no",
   "resolved_on": null
  },
@@ -264,6 +276,30 @@
   "resolved_on": null
  },
  {
+  "id": "PACT",
+  "item": "PACT agreement – company documents",
+  "area": "Admin",
+  "owner": "Operations Manager",
+  "opened": "2026-11-10",
+  "status": "In progress",
+  "last_update": "2026-11-11",
+  "note": "PACT asked on 10 Nov for company documents to prepare the agreement. Trade licence, VAT certificate and signatory Emirates ID sent 11 Nov; the remaining documents are not confirmed as sent.",
+  "needs_decision": "no",
+  "resolved_on": null
+ },
+ {
+  "id": "REPFMT",
+  "item": "New daily report format",
+  "area": "Operations",
+  "owner": "Operations Manager",
+  "opened": "2026-11-11",
+  "status": "In progress",
+  "last_update": "2026-11-11",
+  "note": "Issued by Management 11 Nov and shared with all departments the same morning. Accounts has acknowledged. First reports in the new format are due the evening of 11 Nov.",
+  "needs_decision": "no",
+  "resolved_on": null
+ },
+ {
   "id": "AVERDA",
   "item": "Averda waste-collection payment",
   "area": "Finance",
@@ -319,7 +355,7 @@
   "opened": "2026-11-01",
   "status": "Resolved",
   "last_update": "2026-11-10",
-  "note": "AED 33,075 for 1 Nov – 31 Jan received by card.",
+  "note": "Rent for 1 Nov – 31 Jan received by card.",
   "needs_decision": "no",
   "resolved_on": "2026-11-10"
  },

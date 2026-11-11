@@ -61,7 +61,7 @@
   "tenant": "Hydra Villa B05",
   "detail": "1 Nov 2026 – 31 Jan 2027",
   "status": "Paid",
-  "note": "AED 33,075 received by card."
+  "note": "Quarter's rent received by card."
  },
  {
   "id": "C9",
@@ -69,7 +69,7 @@
   "tenant": "Al Reef Door 105",
   "detail": "1 bedroom · 10 Sep 2026 – 9 Sep 2027",
   "status": "Reconciled",
-  "note": "AED 72,000 a year; record updated."
+  "note": "Record updated 10 Nov."
  },
  {
   "id": "C10",
@@ -77,6 +77,6 @@
   "tenant": "Al Reef Door 305",
   "detail": "3 bedroom · 25 Sep 2026 – 24 Sep 2027",
   "status": "Reconciled",
-  "note": "AED 100,000 a year; record updated."
+  "note": "Record updated 10 Nov."
  }
 ]

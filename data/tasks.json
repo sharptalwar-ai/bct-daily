@@ -1,5 +1,23 @@
 [
  {
+  "id": "T9",
+  "date": "2026-11-11",
+  "from": "Management",
+  "owner": "Logistics",
+  "task": "Sama Yalwa vehicles to be delivered to Blumont within 48 hours, with traffic fines and maintenance cleared",
+  "due": "2026-11-13",
+  "status": "In progress"
+ },
+ {
+  "id": "T10",
+  "date": "2026-11-11",
+  "from": "Management",
+  "owner": "All departments",
+  "task": "Send one daily report per department by 8:00 pm in the new five-part format, with counts in the email body",
+  "due": "2026-11-11",
+  "status": "In progress"
+ },
+ {
   "id": "T1",
   "date": "2026-11-10",
   "from": "Accounts",
@@ -16,6 +34,24 @@
   "task": "Complete the cheque deposit list and confirm bank credits",
   "due": "2026-11-11",
   "status": "Planned"
+ },
+ {
+  "id": "T11",
+  "date": "2026-11-10",
+  "from": "Operations Manager",
+  "owner": "Logistics",
+  "task": "Complete report on the Sama Yalwa rented vehicles and the Blumont vehicles: contracts, registration, payments and balances",
+  "due": "2026-11-12",
+  "status": "Planned"
+ },
+ {
+  "id": "T12",
+  "date": "2026-11-10",
+  "from": "Management",
+  "owner": "Operations Manager",
+  "task": "Arrange the company documents requested by PACT for the agreement",
+  "due": null,
+  "status": "In progress"
  },
  {
   "id": "T3",
