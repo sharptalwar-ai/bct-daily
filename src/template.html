@@ -1,0 +1,375 @@
+<meta name="dash-one-writer">
+<style>
+.bm{font-family:var(--font-anthropic-sans);color:var(--color-fg);max-width:1180px;margin:0 auto;display:flex;flex-direction:column;gap:var(--cds-gap-xl)}
+.bm *{box-sizing:border-box}
+.bm-eyebrow{font-size:var(--cds-font-size-caption);letter-spacing:.14em;text-transform:uppercase;color:var(--color-fg-muted);margin:0 0 6px}
+.bm-title{font-family:var(--font-anthropic-serif);font-weight:400;font-size:clamp(28px,4.2vw,44px);line-height:1.08;margin:0}
+.bm-lede{font-size:var(--cds-font-size-heading);line-height:1.45;max-width:62ch;margin:14px 0 0}
+.bm-lede b{font-weight:var(--cds-font-weight-medium)}
+.bm-stamp{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin-top:14px}
+.bm-rule{height:1px;background:var(--color-border-line);border:0;margin:0}
+.bm-kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:var(--cds-gap-md)}
+.bm-card{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-lg);min-width:0}
+.bm-k-label{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin:0 0 8px}
+.bm-k-num{font-family:var(--font-anthropic-serif);font-weight:400;font-size:38px;line-height:1;font-variant-numeric:tabular-nums}
+.bm-k-num small{font-family:var(--font-anthropic-sans);font-size:var(--cds-font-size-body);color:var(--color-fg-muted)}
+.bm-k-sub{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin-top:10px;line-height:1.4}
+.bm-good{color:var(--color-ok)}.bm-poor{color:var(--color-bad)}.bm-flat{color:var(--color-fg-muted)}
+.bm-h{font-family:var(--font-anthropic-serif);font-weight:400;font-size:var(--cds-font-size-title);margin:0 0 4px}
+.bm-sub{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin:0 0 var(--cds-gap-md);max-width:70ch;line-height:1.45}
+.bm-two{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:var(--cds-gap-lg)}
+.bm-chart{position:relative;min-height:300px}
+.bm-chart svg{display:block;width:100%;overflow:visible}
+.bm-chart .tick text,.bm-axis text{fill:var(--cds-text-secondary);font-size:var(--cds-font-size-caption);font-family:var(--font-anthropic-sans)}
+.bm-tip{position:absolute;pointer-events:none;background:var(--cds-surface-popover);border:1px solid var(--cds-border);box-shadow:var(--cds-shadow-popover);border-radius:var(--cds-radius);padding:8px 10px;font-size:var(--cds-font-size-caption);line-height:1.45;white-space:nowrap;z-index:2}
+.bm-tip b{display:block;font-weight:var(--cds-font-weight-medium);font-size:var(--cds-font-size-body)}
+.bm-legend{display:flex;gap:16px;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin-bottom:6px}
+.bm-legend i{display:inline-block;width:14px;height:3px;border-radius:2px;vertical-align:middle;margin-right:6px}
+.bm-brief{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.bm-brief li{display:grid;grid-template-columns:118px 1fr;gap:12px;padding:11px 0;border-top:1px solid var(--color-border-line);line-height:1.45}
+.bm-brief li:first-child{border-top:0;padding-top:0}
+.bm-brief .a{font-size:var(--cds-font-size-caption);letter-spacing:.08em;text-transform:uppercase;color:var(--color-fg-muted);padding-top:2px}
+.bm-dec{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:var(--cds-gap-md)}
+.bm-dec .bm-card{border-left:3px solid var(--color-warn)}
+.bm-dec h4{margin:0 0 6px;font-size:var(--cds-font-size-body);font-weight:var(--cds-font-weight-medium);line-height:1.3}
+.bm-dec p{margin:0;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);line-height:1.45}
+.bm-dec .m{margin-top:10px;display:flex;justify-content:space-between;gap:8px;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.bm-scroll{overflow-x:auto}
+.bm-table{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-body)}
+.bm-table th{text-align:left;font-weight:var(--cds-font-weight-medium);font-size:var(--cds-font-size-caption);letter-spacing:.06em;text-transform:uppercase;color:var(--color-fg-muted);padding:0 12px 8px 0;border-bottom:1px solid var(--color-border-line);white-space:nowrap}
+.bm-table td{padding:10px 12px 10px 0;border-bottom:1px solid var(--color-border-line);vertical-align:top;line-height:1.4}
+.bm-table td.n{font-variant-numeric:tabular-nums;white-space:nowrap}
+.bm-table td.note{color:var(--color-fg-muted);font-size:var(--cds-font-size-caption);min-width:220px}
+.bm-table td.strong{font-weight:var(--cds-font-weight-medium);min-width:190px}
+.bm-pill{display:inline-block;font-size:var(--cds-font-size-caption);padding:2px 9px;border-radius:999px;border:1px solid currentColor;white-space:nowrap;line-height:1.5}
+.bm-pill.ok{color:var(--color-ok)}.bm-pill.warn{color:var(--color-warn)}.bm-pill.bad{color:var(--color-bad)}.bm-pill.mute{color:var(--color-fg-muted)}
+.bm-grid{display:grid;gap:4px;align-items:center;font-size:var(--cds-font-size-caption);min-width:520px}
+.bm-grid .hd{color:var(--color-fg-muted);text-align:center;padding-bottom:4px}
+.bm-grid .rw{padding-right:10px;white-space:nowrap}
+.bm-cell{height:30px;border-radius:6px;display:flex;align-items:center;justify-content:center;border:1px solid var(--color-border-line);color:var(--color-fg-muted)}
+.bm-cell.ok{background:var(--color-ok);border-color:var(--color-ok);color:var(--color-bg)}
+.bm-cell.bad{border-color:var(--color-bad);color:var(--color-bad)}
+.bm-grid .last{color:var(--color-fg-muted);padding-left:12px;white-space:nowrap}
+.bm-key{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin-top:12px}
+.bm-key span{display:inline-flex;align-items:center;gap:6px}
+.bm-key .bm-cell{width:22px;height:18px}
+.bm-month{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:var(--cds-gap-md);margin-top:var(--cds-gap-md)}
+.bm-month .v{font-family:var(--font-anthropic-serif);font-size:26px;font-variant-numeric:tabular-nums}
+.bm-month .l{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.bm-group{font-size:var(--cds-font-size-caption);letter-spacing:.1em;text-transform:uppercase;color:var(--color-fg-muted);margin:var(--cds-gap-lg) 0 var(--cds-gap-sm)}
+.bm details{border-top:1px solid var(--color-border-line);padding-top:var(--cds-pad-md);font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);line-height:1.55}
+.bm details summary{cursor:pointer;color:var(--color-fg)}
+.bm details p{max-width:78ch}
+[data-dash-source-state=refreshing]{opacity:.5}
+@media (max-width:520px){.bm-brief li{grid-template-columns:1fr;gap:2px}.bm-k-num{font-size:32px}}
+</style>
+
+<div class="bm">
+  <header id="top">
+    <p class="bm-eyebrow">Blumont Capital Tower · Daily management report</p>
+    <h1 class="bm-title">Report for <span data-draw="reportDate" data-source="kpis" data-field="report_date" data-row="0">—</span></h1>
+    <p class="bm-lede">The tower has <b data-draw="kOcc" data-source="kpis" data-field="occupied" data-row="0">—</b> of <b data-draw="kTotal" data-source="kpis" data-field="total_units" data-row="0">—</b> rooms occupied, <b data-draw="kPct" data-source="kpis" data-field="occupancy_pct" data-row="0">—</b> of capacity. That is <b data-draw="kDeltaFirst" data-source="kpis" data-field="delta_first" data-row="0">—</b> rooms against <span data-draw="kFirstDate" data-source="kpis" data-field="first_date" data-row="0">—</span>. <b data-draw="kOpen" data-source="kpis" data-field="open_items" data-row="0">—</b> items are open and <b data-draw="kDec" data-source="kpis" data-field="decisions" data-row="0">—</b> of them wait for a management decision.</p>
+    <div class="bm-stamp">
+      <span>Compiled <span data-draw="updatedAt" data-source="meta" data-field="updated_at" data-row="0">—</span> (UAE time)</span>
+      <span>Source: daily report emails received by Management</span>
+      <span>Refreshed every morning at 11:00</span>
+    </div>
+  </header>
+
+  <section class="bm-kpis" id="headline" aria-label="Headline figures">
+    <div class="bm-card"><p class="bm-k-label">Occupied rooms</p><div class="bm-k-num"><span data-draw="kOcc" data-source="kpis" data-field="occupied" data-row="0">—</span> <small>of <span data-draw="kTotal" data-source="kpis" data-field="total_units" data-row="0">—</span></small></div><div class="bm-k-sub"><span data-draw="kDeltaPrev" data-source="kpis" data-field="delta_prev" data-row="0">—</span> on the previous report (<span data-draw="kPrevDate" data-source="kpis" data-field="prev_date" data-row="0">—</span>)</div></div>
+    <div class="bm-card"><p class="bm-k-label">Occupancy</p><div class="bm-k-num" data-draw="kPct" data-source="kpis" data-field="occupancy_pct" data-row="0">—</div><div class="bm-k-sub"><span data-draw="kVacant" data-source="kpis" data-field="vacant" data-row="0">—</span> rooms available to sell</div></div>
+    <div class="bm-card"><p class="bm-k-label">Room issues yesterday</p><div class="bm-k-num"><span data-draw="mClosed" data-source="meta" data-field="room_issues_closed" data-row="0">—</span> <small>of <span data-draw="mLogged" data-source="meta" data-field="room_issues_logged" data-row="0">—</span> closed</small></div><div class="bm-k-sub">Maintenance and IT, same day</div></div>
+    <div class="bm-card"><p class="bm-k-label">Open items</p><div class="bm-k-num" data-draw="kOpen" data-source="kpis" data-field="open_items" data-row="0">—</div><div class="bm-k-sub">Oldest open for <span data-draw="kOldest" data-source="kpis" data-field="oldest_days" data-row="0">—</span> days · <span data-draw="kResolved" data-source="kpis" data-field="resolved_week" data-row="0">—</span> resolved in the last 7 days</div></div>
+    <div class="bm-card"><p class="bm-k-label">Reports received yesterday</p><div class="bm-k-num"><span data-draw="kRep" data-source="kpis" data-field="reports_received" data-row="0">—</span> <small>of <span data-draw="kRepExp" data-source="kpis" data-field="reports_expected" data-row="0">—</span></small></div><div class="bm-k-sub">Departments reporting on the day</div></div>
+  </section>
+
+  <section id="occupancy">
+    <h2 class="bm-h">Occupancy trend</h2>
+    <p class="bm-sub">Occupied rooms on each day a figure was reported, out of 183 units. Days without a reported figure are left out, not estimated.</p>
+    <div class="bm-card">
+      <div class="bm-legend"><span><i data-draw="legA"></i>All occupied rooms</span><span><i data-draw="legB"></i>Rabdan Academy rooms, where reported</span></div>
+      <div class="bm-chart" id="occ-chart" data-draw="occChart" data-source="occupancy"></div>
+      <div class="bm-month" data-draw="months" data-source="months"></div>
+    </div>
+  </section>
+
+  <section class="bm-two">
+    <div id="yesterday">
+      <h2 class="bm-h">What happened yesterday</h2>
+      <p class="bm-sub">The day in brief, drawn from every department's report.</p>
+      <ul class="bm-brief" data-draw="brief" data-source="brief"></ul>
+    </div>
+    <div id="reporting">
+      <h2 class="bm-h">Who reported, and when</h2>
+      <p class="bm-sub">A day counts as received when the department sent its own report or appears in the Operations summary.</p>
+      <div class="bm-card bm-scroll">
+        <div class="bm-grid" data-draw="grid" data-source="reporting lastupdate"></div>
+        <div class="bm-key"><span><span class="bm-cell ok">✓</span>Received</span><span><span class="bm-cell bad">–</span>Not seen</span><span><span class="bm-cell">·</span>Off day or leave</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="decisions">
+    <h2 class="bm-h">Waiting for a management decision</h2>
+    <p class="bm-sub">Open items that cannot move until an approval or instruction is given.</p>
+    <div class="bm-dec" data-draw="decisions" data-source="register"></div>
+  </section>
+
+  <section id="tasks">
+    <h2 class="bm-h">New tasks and priorities</h2>
+    <p class="bm-sub">Instructions and priorities raised in the last seven days, newest first.</p>
+    <div class="bm-scroll"><table class="bm-table" data-source="tasks" data-row-key="id">
+      <thead><tr><th data-field="date">Raised</th><th data-field="task">Task</th><th data-field="from">From</th><th data-field="owner">Owner</th><th data-field="due">Due</th><th data-field="status">Status</th></tr></thead>
+      <tbody data-draw="tasks"></tbody></table></div>
+  </section>
+
+  <section id="open">
+    <h2 class="bm-h">Not yet resolved</h2>
+    <p class="bm-sub">The running register of open items, longest-open first. Status is as reported by staff.</p>
+    <div class="bm-scroll"><table class="bm-table" data-source="register" data-row-key="id">
+      <thead><tr><th data-field="item">Item</th><th data-field="owner">Owner</th><th data-field="days_open">Days open</th><th data-field="status">Status</th><th data-field="note">Latest position</th></tr></thead>
+      <tbody data-draw="openItems"></tbody></table></div>
+  </section>
+
+  <section id="resolved">
+    <h2 class="bm-h">Resolved in the last seven days</h2>
+    <p class="bm-sub">Items closed and confirmed in a report.</p>
+    <div class="bm-scroll"><table class="bm-table" data-source="register" data-row-key="id">
+      <thead><tr><th data-field="resolved_on">Closed</th><th data-field="item">Item</th><th data-field="owner">Owner</th><th data-field="note">Outcome</th></tr></thead>
+      <tbody data-draw="resolvedItems"></tbody></table></div>
+  </section>
+
+  <section id="collections">
+    <h2 class="bm-h">Rent and collections</h2>
+    <p class="bm-sub">Payment position by tenant, as last confirmed by Accounts.</p>
+    <div class="bm-scroll"><table class="bm-table" data-source="collections" data-row-key="id">
+      <thead><tr><th data-field="group">Portfolio</th><th data-field="tenant">Tenant or property</th><th data-field="detail">Detail</th><th data-field="status">Status</th><th data-field="note">Position</th></tr></thead>
+      <tbody data-draw="collections"></tbody></table></div>
+  </section>
+
+  <section class="bm-two">
+    <div id="pipeline">
+      <h2 class="bm-h">Business pipeline</h2>
+      <p class="bm-sub">Live inquiries and contracts in progress.</p>
+      <div class="bm-scroll"><table class="bm-table" data-source="pipeline" data-row-key="id">
+        <thead><tr><th data-field="lead">Lead</th><th data-field="need">Requirement</th><th data-field="stage">Stage</th><th data-field="note">Position</th></tr></thead>
+        <tbody data-draw="pipeline"></tbody></table></div>
+    </div>
+    <div id="side">
+      <h2 class="bm-h">Side businesses</h2>
+      <p class="bm-sub">AJ1881 Restaurant daily sales in AED, on the days a figure was reported.</p>
+      <div class="bm-card"><div class="bm-chart" id="sales-chart" style="min-height:220px" data-draw="salesChart" data-source="sales"></div></div>
+    </div>
+  </section>
+
+  <details>
+    <summary>How this report is compiled, and what comes next</summary>
+    <p>Every morning the previous day's report emails from Operations, Housekeeping, Maintenance, Logistics, HR and Accounts, the Flower shop, IT and the Restaurant are read and consolidated into this one page. Figures are taken from the reports as written and percentages are recalculated. An item is shown as resolved only when a report says so. A department shows as "not seen" when no report reached the Management inbox; it may still have been sent elsewhere.</p>
+    <p>Photographs and attachments are not read yet. Personnel matters are kept off this page.</p>
+    <p>Planned next: department heads update their own items and replies directly on this page, so the register no longer depends on email.</p>
+  </details>
+</div>
+
+<script>
+const D = (s) => new Date(String(s).length <= 10 ? s + 'T00:00:00Z' : s);
+const fDay = d3.utcFormat('%-d %b');
+const fLong = d3.utcFormat('%A %-d %B %Y');
+const fStamp = (s) => d3.utcFormat('%-d %b, %H:%M')(new Date(D(s).getTime() + 4 * 3600e3));
+const signed = (n) => (n > 0 ? '+' : n < 0 ? '−' : '±') + Math.abs(n);
+const row0 = (id) => { const d = dash.data(id); return d.status === 'ok' && d.data && d.data.length ? d.data[0] : null; };
+const rows = (id) => { const d = dash.data(id); return d.status === 'ok' && Array.isArray(d.data) ? d.data : null; };
+const TONE = {Paid:'ok',Resolved:'ok',Received:'ok',Won:'ok',Reconciled:'ok','Action needed':'bad','No update seen':'bad','Not confirmed':'bad','Not seen':'bad'};
+const pill = (s) => { const e = document.createElement('span'); e.className = 'bm-pill ' + (TONE[s] || 'warn'); e.textContent = s; return e; };
+const td = (v, cls) => { const e = document.createElement('td'); if (cls) e.className = cls; if (v instanceof Node) e.append(v); else e.textContent = v == null || v === '' ? '—' : v; return e; };
+
+dash.calc('kpis', {
+  title: 'Headline figures',
+  description: 'Latest occupancy, change, open items and reports received, worked out from the daily datasets.',
+  inputs: ['occupancy', 'items', 'meta', 'reporting'],
+  fn: (occupancy, items, meta, reporting) => {
+    if (!occupancy.length || !meta.length) return [];
+    const day = (s) => Date.parse(s + 'T00:00:00Z') / 864e5;
+    const occ = occupancy.slice().sort((a, b) => a.date < b.date ? -1 : 1);
+    const last = occ[occ.length - 1], prev = occ[occ.length - 2] || last, first = occ[0];
+    const rd = meta[0].report_date;
+    const open = items.filter((r) => r.status !== 'Resolved');
+    const resolved = items.filter((r) => r.status === 'Resolved' && r.resolved_on && day(rd) - day(r.resolved_on) < 7);
+    const today = reporting.filter((r) => r.date === rd);
+    return [{
+      report_date: rd, occupied: +last.occupied, total_units: +last.total_units,
+      occupancy_pct: Math.round(last.occupied / last.total_units * 1000) / 10,
+      vacant: last.total_units - last.occupied,
+      prev_date: prev.date, delta_prev: last.occupied - prev.occupied,
+      first_date: first.date, delta_first: last.occupied - first.occupied,
+      open_items: open.length, decisions: open.filter((r) => r.needs_decision === 'yes').length,
+      oldest_days: open.length ? Math.max(...open.map((r) => day(rd) - day(r.opened))) : 0,
+      resolved_week: resolved.length,
+      reports_received: today.filter((r) => r.status === 'Received').length,
+      reports_expected: today.filter((r) => r.status === 'Received' || r.status === 'Not seen').length,
+    }];
+  },
+});
+dash.calc('months', {
+  title: 'Average occupancy by month',
+  description: 'Average occupied rooms across the days with a reported figure in each month.',
+  inputs: ['occupancy'],
+  fn: (occupancy) => {
+    const by = {};
+    occupancy.forEach((r) => { const m = r.date.slice(0, 7); (by[m] = by[m] || []).push(r); });
+    return Object.keys(by).sort().map((m) => {
+      const a = by[m], avg = a.reduce((s, r) => s + +r.occupied, 0) / a.length;
+      return {month: m, avg_occupied: Math.round(avg * 10) / 10, avg_pct: Math.round(avg / a[0].total_units * 1000) / 10, days_reported: a.length};
+    });
+  },
+});
+dash.calc('register', {
+  title: 'Item register with days open',
+  description: 'Every tracked item with the number of days it has been open at the report date.',
+  inputs: ['items', 'meta'],
+  fn: (items, meta) => {
+    if (!meta.length) return [];
+    const day = (s) => Date.parse(s + 'T00:00:00Z') / 864e5, rd = meta[0].report_date;
+    return items.map((r) => Object.assign({}, r, {days_open: day(r.resolved_on || rd) - day(r.opened)}));
+  },
+});
+
+const kpi = (name, field, fmt, tone) => dash.draw(name, (el) => {
+  const k = row0('kpis');
+  el.textContent = k ? fmt(k[field]) : '—';
+  if (tone) { el.classList.remove('bm-good', 'bm-poor', 'bm-flat'); if (k) el.classList.add(k[field] > 0 ? 'bm-good' : k[field] < 0 ? 'bm-poor' : 'bm-flat'); }
+});
+kpi('reportDate', 'report_date', (v) => fLong(D(v)));
+kpi('kOcc', 'occupied', String); kpi('kTotal', 'total_units', String);
+kpi('kPct', 'occupancy_pct', (v) => v.toFixed(1) + '%');
+kpi('kVacant', 'vacant', String);
+kpi('kDeltaPrev', 'delta_prev', signed, true); kpi('kPrevDate', 'prev_date', (v) => fDay(D(v)));
+kpi('kDeltaFirst', 'delta_first', signed, true); kpi('kFirstDate', 'first_date', (v) => fDay(D(v)));
+kpi('kOpen', 'open_items', String); kpi('kDec', 'decisions', String);
+kpi('kOldest', 'oldest_days', String); kpi('kResolved', 'resolved_week', String);
+kpi('kRep', 'reports_received', String); kpi('kRepExp', 'reports_expected', String);
+const metaDraw = (name, field, fmt) => dash.draw(name, (el) => { const m = row0('meta'); el.textContent = m ? fmt(m[field]) : '—'; });
+metaDraw('updatedAt', 'updated_at', fStamp);
+metaDraw('mClosed', 'room_issues_closed', String); metaDraw('mLogged', 'room_issues_logged', String);
+dash.draw('legA', (el) => { el.style.background = dash.colors[0]; });
+dash.draw('legB', (el) => { el.style.background = dash.colors[1]; });
+
+dash.draw('months', (el) => {
+  const m = rows('months'); el.replaceChildren();
+  if (!m) return;
+  const fM = d3.utcFormat('%B');
+  m.forEach((r) => {
+    const c = document.createElement('div'), v = document.createElement('div'), l = document.createElement('div');
+    v.className = 'v'; v.textContent = r.avg_occupied.toFixed(1); v.dataset.source = 'months'; v.dataset.field = 'avg_occupied'; v.dataset.where = 'month=' + r.month;
+    l.className = 'l'; l.textContent = fM(D(r.month + '-01')) + ' average rooms · ' + r.avg_pct.toFixed(1) + '% · ' + r.days_reported + ' days reported';
+    c.append(v, l); el.append(c);
+  });
+});
+
+dash.draw('occChart', (el) => {
+  const data = rows('occupancy');
+  if (!data) { el.textContent = dash.data('occupancy').status === 'error' ? 'Failed to load' : '—'; return; }
+  const pts = data.map((r) => ({t: D(r.date), occ: +r.occupied, rab: r.rabdan == null || r.rabdan === '' ? null : +r.rabdan, cap: +r.total_units, pct: +r.occupancy_pct})).sort((a, b) => a.t - b.t);
+  const W = Math.max(280, el.clientWidth), H = 300, cap = pts[pts.length - 1].cap;
+  el.replaceChildren();
+  const svg = d3.select(el).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H).attr('role', 'img')
+    .attr('aria-label', `Occupied rooms from ${fDay(pts[0].t)} to ${fDay(pts[pts.length - 1].t)}, rising from ${pts[0].occ} to ${pts[pts.length - 1].occ} of ${cap}`);
+  const m = {t: 16, r: 46, b: 28, l: 34};
+  const x = d3.scaleUtc().domain(d3.extent(pts, (d) => d.t)).range([m.l, W - m.r]);
+  const y = d3.scaleLinear().domain([0, cap]).range([H - m.b, m.t]);
+  const g = svg.append('g');
+  g.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(Math.max(3, Math.floor(W / 110))).tickFormat(fDay).tickSizeOuter(0))
+    .call((a) => a.select('.domain').style('stroke', 'var(--cds-chart-axis)')).call((a) => a.selectAll('.tick line').style('stroke', 'var(--cds-chart-axis)'));
+  g.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).tickValues([0, 50, 100, 150, cap]).tickSize(-(W - m.l - m.r)))
+    .call((a) => a.select('.domain').remove()).call((a) => a.selectAll('.tick line').style('stroke', 'var(--cds-chart-grid)'));
+  g.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(cap)).attr('y2', y(cap)).style('stroke', 'var(--cds-chart-reference)').style('stroke-dasharray', '4 4');
+  const line = (k) => d3.line().defined((d) => d[k] != null).x((d) => x(d.t)).y((d) => y(d[k]));
+  const rab = pts.filter((d) => d.rab != null);
+  g.append('path').attr('d', line('rab')(rab)).style('fill', 'none').style('stroke', dash.colors[1]).style('stroke-width', 1.5);
+  g.selectAll('.r').data(rab).join('circle').attr('cx', (d) => x(d.t)).attr('cy', (d) => y(d.rab)).attr('r', 2.5).style('fill', dash.colors[1]);
+  g.append('path').attr('d', line('occ')(pts)).style('fill', 'none').style('stroke', dash.colors[0]).style('stroke-width', 2.5).style('stroke-linejoin', 'round');
+  g.selectAll('.o').data(pts).join('circle').attr('cx', (d) => x(d.t)).attr('cy', (d) => y(d.occ)).attr('r', 3.5).style('fill', dash.colors[0]);
+  const last = pts[pts.length - 1];
+  g.append('text').attr('x', x(last.t) + 8).attr('y', y(last.occ) + 5).style('fill', 'var(--color-fg)').style('font-size', 'var(--cds-font-size-heading)').style('font-family', 'var(--font-anthropic-serif)').text(last.occ);
+  if (rab.length) { const lr = rab[rab.length - 1]; g.append('text').attr('x', x(lr.t) + 8).attr('y', y(lr.rab) + 4).style('fill', 'var(--cds-text-secondary)').style('font-size', 'var(--cds-font-size-caption)').text(lr.rab); }
+  const tip = d3.select(el).append('div').attr('class', 'bm-tip').style('display', 'none');
+  const guide = g.append('line').attr('y1', m.t).attr('y2', H - m.b).style('stroke', 'var(--cds-chart-axis)').style('display', 'none');
+  svg.append('rect').attr('x', m.l).attr('y', m.t).attr('width', W - m.l - m.r).attr('height', H - m.t - m.b).style('fill', 'transparent')
+    .on('pointermove', (ev) => {
+      const [px] = d3.pointer(ev), k = W / el.clientWidth;
+      const d = pts.reduce((a, b) => Math.abs(x(b.t) - px) < Math.abs(x(a.t) - px) ? b : a);
+      guide.style('display', null).attr('x1', x(d.t)).attr('x2', x(d.t));
+      tip.style('display', null).text('');
+      tip.append('b').text(fLong(d.t));
+      tip.append('div').text(`${d.occ} of ${d.cap} rooms occupied (${d.pct.toFixed(1)}%)`);
+      if (d.rab != null) tip.append('div').text(`${d.rab} Rabdan Academy rooms`);
+      const tw = tip.node().offsetWidth, left = Math.min(Math.max(0, x(d.t) / k - tw / 2), el.clientWidth - tw);
+      tip.style('left', left + 'px').style('top', Math.max(0, y(d.occ) / k - 78) + 'px');
+    })
+    .on('pointerleave', () => { tip.style('display', 'none'); guide.style('display', 'none'); });
+});
+
+dash.draw('salesChart', (el) => {
+  const data = rows('sales');
+  if (!data) { el.textContent = dash.data('sales').status === 'error' ? 'Failed to load' : '—'; return; }
+  const pts = data.map((r) => ({t: r.date, v: +r.sales_aed, c: +r.covers})).sort((a, b) => a.t < b.t ? -1 : 1);
+  const W = Math.max(260, el.clientWidth), H = 220, m = {t: 26, r: 8, b: 28, l: 8};
+  el.replaceChildren();
+  const svg = d3.select(el).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H).attr('role', 'img').attr('aria-label', 'AJ1881 Restaurant sales in AED by reported day');
+  const x = d3.scaleBand().domain(pts.map((d) => d.t)).range([m.l, W - m.r]).padding(0.35);
+  const y = d3.scaleLinear().domain([0, d3.max(pts, (d) => d.v) || 1]).range([H - m.b, m.t]);
+  svg.append('g').attr('class', 'bm-axis').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickFormat((d) => fDay(D(d))).tickSize(0).tickPadding(8)).call((a) => a.select('.domain').style('stroke', 'var(--cds-chart-axis)'));
+  svg.selectAll('rect').data(pts).join('rect').attr('x', (d) => x(d.t)).attr('y', (d) => y(d.v)).attr('width', x.bandwidth()).attr('height', (d) => y(0) - y(d.v)).attr('rx', 3).style('fill', dash.colors[0]);
+  svg.selectAll('.v').data(pts).join('text').attr('x', (d) => x(d.t) + x.bandwidth() / 2).attr('y', (d) => y(d.v) - 7).attr('text-anchor', 'middle').style('fill', 'var(--color-fg)').style('font-size', 'var(--cds-font-size-caption)').style('font-variant-numeric', 'tabular-nums').text((d) => `AED ${d.v} · ${d.c} ${d.c === 1 ? 'cover' : 'covers'}`);
+});
+
+dash.draw('brief', (el) => {
+  const b = rows('brief'); el.replaceChildren();
+  if (!b) return;
+  b.slice().sort((p, q) => p.n - q.n).forEach((r) => {
+    const li = document.createElement('li'), a = document.createElement('span'), t = document.createElement('span');
+    a.className = 'a'; a.textContent = r.area; t.textContent = r.text; li.append(a, t); el.append(li);
+  });
+});
+
+dash.draw('grid', (el) => {
+  const rep = rows('reporting'), lu = rows('lastupdate'); el.replaceChildren();
+  if (!rep) return;
+  const days = Array.from(new Set(rep.map((r) => r.date))).sort(), depts = Array.from(new Set(rep.map((r) => r.dept)));
+  el.style.gridTemplateColumns = `max-content repeat(${days.length}, minmax(30px,1fr)) max-content`;
+  const add = (cls, text) => { const e = document.createElement('div'); e.className = cls; e.textContent = text; el.append(e); return e; };
+  add('hd', ''); days.forEach((d) => add('hd', fDay(D(d)))); add('hd', 'Last report');
+  depts.forEach((dp) => {
+    add('rw', dp);
+    days.forEach((d) => {
+      const r = rep.find((q) => q.dept === dp && q.date === d), s = r ? r.status : '';
+      const c = add('bm-cell ' + (s === 'Received' ? 'ok' : s === 'Not seen' ? 'bad' : ''), s === 'Received' ? '✓' : s === 'Not seen' ? '–' : '·');
+      c.setAttribute('aria-label', `${dp}, ${fDay(D(d))}: ${s}`);
+    });
+    const l = lu && lu.find((q) => q.dept === dp);
+    add('last', l ? fStamp(l.last_at) : 'In Operations summary');
+  });
+});
+
+dash.draw('decisions', (el) => {
+  const reg = rows('register'); el.replaceChildren();
+  if (!reg) return;
+  reg.filter((r) => r.status !== 'Resolved' && r.needs_decision === 'yes').sort((a, b) => b.days_open - a.days_open).forEach((r) => {
+    const c = document.createElement('div'), h = document.createElement('h4'), p = document.createElement('p'), m = document.createElement('div'), a = document.createElement('span'), d = document.createElement('span');
+    c.className = 'bm-card'; h.textContent = r.item; p.textContent = r.note; m.className = 'm';
+    a.textContent = r.owner; d.textContent = `${r.days_open} days open`;
+    m.append(a, d); c.append(h, p, m); el.append(c);
+  });
+});
+
+const table = (name, src, pick, cells) => dash.draw(name, (el) => {
+  const all = rows(src); el.replaceChildren();
+  if (!all) return;
+  pick(all).forEach((r) => { const tr = document.createElement('tr'); tr.dataset.key = r.id; cells(r).forEach((c) => tr.append(c)); el.append(tr); });
+});
+table('tasks', 'tasks', (a) => a.slice().sort((p, q) => p.date < q.date ? 1 : -1), (r) => [td(fDay(D(r.date)), 'n'), td(r.task, 'strong'), td(r.from), td(r.owner), td(r.due ? fDay(D(r.due)) : '—', 'n'), td(pill(r.status))]);
+table('openItems', 'register', (a) => a.filter((r) => r.status !== 'Resolved').sort((p, q) => q.days_open - p.days_open), (r) => [td(r.item, 'strong'), td(r.owner), td(String(r.days_open), 'n'), td(pill(r.status)), td(r.note, 'note')]);
+table('resolvedItems', 'register', (a) => a.filter((r) => r.status === 'Resolved').sort((p, q) => p.resolved_on < q.resolved_on ? 1 : -1), (r) => [td(fDay(D(r.resolved_on)), 'n'), td(r.item, 'strong'), td(r.owner), td(r.note, 'note')]);
+table('collections', 'collections', (a) => a, (r) => [td(r.group), td(r.tenant, 'strong'), td(r.detail), td(pill(r.status)), td(r.note, 'note')]);
+table('pipeline', 'pipeline', (a) => a, (r) => [td(r.lead, 'strong'), td(r.need), td(pill(r.stage)), td(r.note, 'note')]);
+</script>

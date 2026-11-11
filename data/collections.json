@@ -1,0 +1,82 @@
+[
+ {
+  "id": "C1",
+  "group": "Tower – commercial",
+  "tenant": "PHO7 Restaurant",
+  "detail": "Ground floor",
+  "status": "Paid",
+  "note": "Paid to 14 Dec 2026."
+ },
+ {
+  "id": "C2",
+  "group": "Tower – commercial",
+  "tenant": "Maestro Pizza",
+  "detail": "Ground floor",
+  "status": "Reconciled",
+  "note": "Payments cross-checked against the lease on 10 Nov."
+ },
+ {
+  "id": "C3",
+  "group": "Tower – commercial",
+  "tenant": "Spirit Body & Soul Spa – rent",
+  "detail": "Contract 10 Jan 2023 – 9 Mar 2028",
+  "status": "Deposited",
+  "note": "Cheque dated 10 Nov deposited; clearance to confirm."
+ },
+ {
+  "id": "C4",
+  "group": "Tower – commercial",
+  "tenant": "Spirit Body & Soul Spa – parking",
+  "detail": "Monthly",
+  "status": "Deposited",
+  "note": "Paid through October; 10 Nov cheque deposited."
+ },
+ {
+  "id": "C5",
+  "group": "Tower – commercial",
+  "tenant": "Reneco",
+  "detail": "1st-floor offices",
+  "status": "Paid",
+  "note": "Fully paid for 2026–27."
+ },
+ {
+  "id": "C6",
+  "group": "Tower – commercial",
+  "tenant": "Regal Falcon Investment Management",
+  "detail": "Contract 15 Jul 2026 – 14 Jul 2027",
+  "status": "Reconciled",
+  "note": "Payment record updated 10 Nov."
+ },
+ {
+  "id": "C7",
+  "group": "Private properties",
+  "tenant": "Marina Square TH-202",
+  "detail": "Townhouse",
+  "status": "Action needed",
+  "note": "Cheque returned. Replacement promised 11 Nov."
+ },
+ {
+  "id": "C8",
+  "group": "Private properties",
+  "tenant": "Hydra Villa B05",
+  "detail": "1 Nov 2026 – 31 Jan 2027",
+  "status": "Paid",
+  "note": "AED 33,075 received by card."
+ },
+ {
+  "id": "C9",
+  "group": "Private properties",
+  "tenant": "Al Reef Door 105",
+  "detail": "1 bedroom · 10 Sep 2026 – 9 Sep 2027",
+  "status": "Reconciled",
+  "note": "AED 72,000 a year; record updated."
+ },
+ {
+  "id": "C10",
+  "group": "Private properties",
+  "tenant": "Al Reef Door 305",
+  "detail": "3 bedroom · 25 Sep 2026 – 24 Sep 2027",
+  "status": "Reconciled",
+  "note": "AED 100,000 a year; record updated."
+ }
+]

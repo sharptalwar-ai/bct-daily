@@ -1,0 +1,74 @@
+[
+ {
+  "id": "T1",
+  "date": "2026-11-10",
+  "from": "Accounts",
+  "owner": "Accounts",
+  "task": "Review all long-term tenant contracts against payments received",
+  "due": "2026-11-11",
+  "status": "Planned"
+ },
+ {
+  "id": "T2",
+  "date": "2026-11-10",
+  "from": "Accounts",
+  "owner": "Accounts",
+  "task": "Complete the cheque deposit list and confirm bank credits",
+  "due": "2026-11-11",
+  "status": "Planned"
+ },
+ {
+  "id": "T3",
+  "date": "2026-11-09",
+  "from": "CEO",
+  "owner": "Flower shop",
+  "task": "National Day preparations, marketing and sales plan for BCT Flowers",
+  "due": null,
+  "status": "Acknowledged"
+ },
+ {
+  "id": "T4",
+  "date": "2026-11-09",
+  "from": "CEO",
+  "owner": "All staff",
+  "task": "Sign the Company Rules and Policy acknowledgement",
+  "due": null,
+  "status": "In progress"
+ },
+ {
+  "id": "T5",
+  "date": "2026-11-08",
+  "from": "CEO",
+  "owner": "Operations Manager",
+  "task": "Occupied and unoccupied room report with tenant details and physical verification",
+  "due": "2026-11-09",
+  "status": "Not confirmed"
+ },
+ {
+  "id": "T6",
+  "date": "2026-11-07",
+  "from": "Management",
+  "owner": "Reception",
+  "task": "Enter all reception records and tenant contracts into the software",
+  "due": null,
+  "status": "In progress"
+ },
+ {
+  "id": "T7",
+  "date": "2026-11-06",
+  "from": "CEO",
+  "owner": "Operations Manager",
+  "task": "One consolidated operations dashboard every day before end of duty",
+  "due": null,
+  "status": "In progress"
+ },
+ {
+  "id": "T8",
+  "date": "2026-11-04",
+  "from": "CEO",
+  "owner": "Operations Manager",
+  "task": "Inspect and clean apartment 709, attach the report to the contract and email the tenant",
+  "due": "2026-11-05",
+  "status": "Not confirmed"
+ }
+]

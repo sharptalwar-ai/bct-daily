@@ -1,0 +1,338 @@
+[
+ {
+  "key": "Operations summary|2026-11-04",
+  "dept": "Operations summary",
+  "date": "2026-11-04",
+  "status": "Received"
+ },
+ {
+  "key": "Operations summary|2026-11-05",
+  "dept": "Operations summary",
+  "date": "2026-11-05",
+  "status": "Not seen"
+ },
+ {
+  "key": "Operations summary|2026-11-06",
+  "dept": "Operations summary",
+  "date": "2026-11-06",
+  "status": "Not seen"
+ },
+ {
+  "key": "Operations summary|2026-11-07",
+  "dept": "Operations summary",
+  "date": "2026-11-07",
+  "status": "Received"
+ },
+ {
+  "key": "Operations summary|2026-11-08",
+  "dept": "Operations summary",
+  "date": "2026-11-08",
+  "status": "Not seen"
+ },
+ {
+  "key": "Operations summary|2026-11-09",
+  "dept": "Operations summary",
+  "date": "2026-11-09",
+  "status": "Received"
+ },
+ {
+  "key": "Operations summary|2026-11-10",
+  "dept": "Operations summary",
+  "date": "2026-11-10",
+  "status": "Received"
+ },
+ {
+  "key": "Housekeeping|2026-11-04",
+  "dept": "Housekeeping",
+  "date": "2026-11-04",
+  "status": "Received"
+ },
+ {
+  "key": "Housekeeping|2026-11-05",
+  "dept": "Housekeeping",
+  "date": "2026-11-05",
+  "status": "Received"
+ },
+ {
+  "key": "Housekeeping|2026-11-06",
+  "dept": "Housekeeping",
+  "date": "2026-11-06",
+  "status": "Not seen"
+ },
+ {
+  "key": "Housekeeping|2026-11-07",
+  "dept": "Housekeeping",
+  "date": "2026-11-07",
+  "status": "Received"
+ },
+ {
+  "key": "Housekeeping|2026-11-08",
+  "dept": "Housekeeping",
+  "date": "2026-11-08",
+  "status": "Received"
+ },
+ {
+  "key": "Housekeeping|2026-11-09",
+  "dept": "Housekeeping",
+  "date": "2026-11-09",
+  "status": "Not seen"
+ },
+ {
+  "key": "Housekeeping|2026-11-10",
+  "dept": "Housekeeping",
+  "date": "2026-11-10",
+  "status": "Not seen"
+ },
+ {
+  "key": "Maintenance|2026-11-04",
+  "dept": "Maintenance",
+  "date": "2026-11-04",
+  "status": "Received"
+ },
+ {
+  "key": "Maintenance|2026-11-05",
+  "dept": "Maintenance",
+  "date": "2026-11-05",
+  "status": "Not seen"
+ },
+ {
+  "key": "Maintenance|2026-11-06",
+  "dept": "Maintenance",
+  "date": "2026-11-06",
+  "status": "Not seen"
+ },
+ {
+  "key": "Maintenance|2026-11-07",
+  "dept": "Maintenance",
+  "date": "2026-11-07",
+  "status": "Received"
+ },
+ {
+  "key": "Maintenance|2026-11-08",
+  "dept": "Maintenance",
+  "date": "2026-11-08",
+  "status": "Not seen"
+ },
+ {
+  "key": "Maintenance|2026-11-09",
+  "dept": "Maintenance",
+  "date": "2026-11-09",
+  "status": "Received"
+ },
+ {
+  "key": "Maintenance|2026-11-10",
+  "dept": "Maintenance",
+  "date": "2026-11-10",
+  "status": "Received"
+ },
+ {
+  "key": "Drivers|2026-11-04",
+  "dept": "Drivers",
+  "date": "2026-11-04",
+  "status": "Received"
+ },
+ {
+  "key": "Drivers|2026-11-05",
+  "dept": "Drivers",
+  "date": "2026-11-05",
+  "status": "Not seen"
+ },
+ {
+  "key": "Drivers|2026-11-06",
+  "dept": "Drivers",
+  "date": "2026-11-06",
+  "status": "Not seen"
+ },
+ {
+  "key": "Drivers|2026-11-07",
+  "dept": "Drivers",
+  "date": "2026-11-07",
+  "status": "Not seen"
+ },
+ {
+  "key": "Drivers|2026-11-08",
+  "dept": "Drivers",
+  "date": "2026-11-08",
+  "status": "Not seen"
+ },
+ {
+  "key": "Drivers|2026-11-09",
+  "dept": "Drivers",
+  "date": "2026-11-09",
+  "status": "Not seen"
+ },
+ {
+  "key": "Drivers|2026-11-10",
+  "dept": "Drivers",
+  "date": "2026-11-10",
+  "status": "Not seen"
+ },
+ {
+  "key": "HR & Accounts|2026-11-04",
+  "dept": "HR & Accounts",
+  "date": "2026-11-04",
+  "status": "Received"
+ },
+ {
+  "key": "HR & Accounts|2026-11-05",
+  "dept": "HR & Accounts",
+  "date": "2026-11-05",
+  "status": "Received"
+ },
+ {
+  "key": "HR & Accounts|2026-11-06",
+  "dept": "HR & Accounts",
+  "date": "2026-11-06",
+  "status": "Not seen"
+ },
+ {
+  "key": "HR & Accounts|2026-11-07",
+  "dept": "HR & Accounts",
+  "date": "2026-11-07",
+  "status": "Not seen"
+ },
+ {
+  "key": "HR & Accounts|2026-11-08",
+  "dept": "HR & Accounts",
+  "date": "2026-11-08",
+  "status": "Not seen"
+ },
+ {
+  "key": "HR & Accounts|2026-11-09",
+  "dept": "HR & Accounts",
+  "date": "2026-11-09",
+  "status": "Received"
+ },
+ {
+  "key": "HR & Accounts|2026-11-10",
+  "dept": "HR & Accounts",
+  "date": "2026-11-10",
+  "status": "Received"
+ },
+ {
+  "key": "Flower shop|2026-11-04",
+  "dept": "Flower shop",
+  "date": "2026-11-04",
+  "status": "Received"
+ },
+ {
+  "key": "Flower shop|2026-11-05",
+  "dept": "Flower shop",
+  "date": "2026-11-05",
+  "status": "Not seen"
+ },
+ {
+  "key": "Flower shop|2026-11-06",
+  "dept": "Flower shop",
+  "date": "2026-11-06",
+  "status": "Not seen"
+ },
+ {
+  "key": "Flower shop|2026-11-07",
+  "dept": "Flower shop",
+  "date": "2026-11-07",
+  "status": "Received"
+ },
+ {
+  "key": "Flower shop|2026-11-08",
+  "dept": "Flower shop",
+  "date": "2026-11-08",
+  "status": "Received"
+ },
+ {
+  "key": "Flower shop|2026-11-09",
+  "dept": "Flower shop",
+  "date": "2026-11-09",
+  "status": "Received"
+ },
+ {
+  "key": "Flower shop|2026-11-10",
+  "dept": "Flower shop",
+  "date": "2026-11-10",
+  "status": "Off day"
+ },
+ {
+  "key": "IT|2026-11-04",
+  "dept": "IT",
+  "date": "2026-11-04",
+  "status": "Not seen"
+ },
+ {
+  "key": "IT|2026-11-05",
+  "dept": "IT",
+  "date": "2026-11-05",
+  "status": "Not seen"
+ },
+ {
+  "key": "IT|2026-11-06",
+  "dept": "IT",
+  "date": "2026-11-06",
+  "status": "Not seen"
+ },
+ {
+  "key": "IT|2026-11-07",
+  "dept": "IT",
+  "date": "2026-11-07",
+  "status": "On leave"
+ },
+ {
+  "key": "IT|2026-11-08",
+  "dept": "IT",
+  "date": "2026-11-08",
+  "status": "Not seen"
+ },
+ {
+  "key": "IT|2026-11-09",
+  "dept": "IT",
+  "date": "2026-11-09",
+  "status": "Received"
+ },
+ {
+  "key": "IT|2026-11-10",
+  "dept": "IT",
+  "date": "2026-11-10",
+  "status": "Received"
+ },
+ {
+  "key": "Restaurant sales|2026-11-04",
+  "dept": "Restaurant sales",
+  "date": "2026-11-04",
+  "status": "Received"
+ },
+ {
+  "key": "Restaurant sales|2026-11-05",
+  "dept": "Restaurant sales",
+  "date": "2026-11-05",
+  "status": "Not seen"
+ },
+ {
+  "key": "Restaurant sales|2026-11-06",
+  "dept": "Restaurant sales",
+  "date": "2026-11-06",
+  "status": "Not seen"
+ },
+ {
+  "key": "Restaurant sales|2026-11-07",
+  "dept": "Restaurant sales",
+  "date": "2026-11-07",
+  "status": "Received"
+ },
+ {
+  "key": "Restaurant sales|2026-11-08",
+  "dept": "Restaurant sales",
+  "date": "2026-11-08",
+  "status": "Not seen"
+ },
+ {
+  "key": "Restaurant sales|2026-11-09",
+  "dept": "Restaurant sales",
+  "date": "2026-11-09",
+  "status": "Received"
+ },
+ {
+  "key": "Restaurant sales|2026-11-10",
+  "dept": "Restaurant sales",
+  "date": "2026-11-10",
+  "status": "Received"
+ }
+]

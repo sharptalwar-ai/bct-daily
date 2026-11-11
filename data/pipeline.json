@@ -1,0 +1,82 @@
+[
+ {
+  "id": "P1",
+  "lead": "ADNOC",
+  "need": "Staff accommodation",
+  "stage": "Contract",
+  "last": "2026-11-10",
+  "note": "Draft contract with ADNOC; HSE documents 50% complete."
+ },
+ {
+  "id": "P2",
+  "lead": "El Sewedy Power Electrical Contracting",
+  "need": "Staff rooms",
+  "stage": "Negotiation",
+  "last": "2026-11-07",
+  "note": "Offer sent 6 Nov at AED 5,500 a month per unit, VAT included."
+ },
+ {
+  "id": "P3",
+  "lead": "Ras Al Khaimah client",
+  "need": "15 rooms for January",
+  "stage": "Negotiation",
+  "last": "2026-11-07",
+  "note": "Asked for a discount and double-occupancy options."
+ },
+ {
+  "id": "P4",
+  "lead": "United Supplies Company",
+  "need": "Accommodation",
+  "stage": "Proposal",
+  "last": "2026-11-04",
+  "note": "Proposal in progress."
+ },
+ {
+  "id": "P5",
+  "lead": "Philippine Consulate General",
+  "need": "1BHK",
+  "stage": "Follow-up",
+  "last": "2026-11-07",
+  "note": "Site visit scheduled for 6 Nov; in follow-up."
+ },
+ {
+  "id": "P6",
+  "lead": "Zayed University faculty",
+  "need": "1BHK",
+  "stage": "Follow-up",
+  "last": "2026-11-07",
+  "note": "Site visit done."
+ },
+ {
+  "id": "P7",
+  "lead": "Zayed Military student",
+  "need": "Executive room, one year",
+  "stage": "Follow-up",
+  "last": "2026-11-07",
+  "note": "Reservation request for a one-year contract."
+ },
+ {
+  "id": "P8",
+  "lead": "Walk-in inquiry",
+  "need": "1BHK for one month",
+  "stage": "Follow-up",
+  "last": "2026-11-10",
+  "note": "Confirmation expected."
+ },
+ {
+  "id": "P9",
+  "lead": "IHC",
+  "need": "Weekly flower arrangements",
+  "stage": "Won",
+  "last": "2026-11-09",
+  "note": "Weekly deliveries started 9 Nov."
+ },
+ {
+  "id": "P10",
+  "lead": "Sirius Holdings",
+  "need": "Weekly flower arrangements",
+  "stage": "Won",
+  "last": "2026-11-09",
+  "note": "Weekly deliveries started 9 Nov."
+ }
+]
