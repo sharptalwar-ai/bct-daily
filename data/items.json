@@ -20,7 +20,7 @@
   "status": "No update seen",
   "last_update": "2026-11-04",
   "note": "Reported as urgent on 4 Nov. No repair confirmation in later reports.",
-  "needs_decision": "yes",
+  "needs_decision": "no",
   "resolved_on": null
  },
  {
@@ -32,7 +32,7 @@
   "status": "In progress",
   "last_update": "2026-11-10",
   "note": "TENCO inspected 10 Nov. Quotation awaited; three more being sourced. Approval needed once quotes arrive.",
-  "needs_decision": "yes",
+  "needs_decision": "no",
   "resolved_on": null
  },
  {
@@ -41,7 +41,7 @@
   "area": "Tenancy",
   "owner": "Accounts",
   "opened": "2026-10-30",
-  "status": "Open",
+  "status": "Awaiting decision",
   "last_update": "2026-11-06",
   "note": "Tenant notice 30 Oct. Refund declined under the agreement 5 Nov. Tenant replied 6 Nov.",
   "needs_decision": "yes",

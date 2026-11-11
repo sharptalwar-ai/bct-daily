@@ -1,375 +1,324 @@
-<meta name="dash-one-writer">
 <style>
-.bm{font-family:var(--font-anthropic-sans);color:var(--color-fg);max-width:1180px;margin:0 auto;display:flex;flex-direction:column;gap:var(--cds-gap-xl)}
-.bm *{box-sizing:border-box}
-.bm-eyebrow{font-size:var(--cds-font-size-caption);letter-spacing:.14em;text-transform:uppercase;color:var(--color-fg-muted);margin:0 0 6px}
-.bm-title{font-family:var(--font-anthropic-serif);font-weight:400;font-size:clamp(28px,4.2vw,44px);line-height:1.08;margin:0}
-.bm-lede{font-size:var(--cds-font-size-heading);line-height:1.45;max-width:62ch;margin:14px 0 0}
-.bm-lede b{font-weight:var(--cds-font-weight-medium)}
-.bm-stamp{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin-top:14px}
-.bm-rule{height:1px;background:var(--color-border-line);border:0;margin:0}
-.bm-kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:var(--cds-gap-md)}
-.bm-card{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-lg);min-width:0}
-.bm-k-label{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin:0 0 8px}
-.bm-k-num{font-family:var(--font-anthropic-serif);font-weight:400;font-size:38px;line-height:1;font-variant-numeric:tabular-nums}
-.bm-k-num small{font-family:var(--font-anthropic-sans);font-size:var(--cds-font-size-body);color:var(--color-fg-muted)}
-.bm-k-sub{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin-top:10px;line-height:1.4}
-.bm-good{color:var(--color-ok)}.bm-poor{color:var(--color-bad)}.bm-flat{color:var(--color-fg-muted)}
-.bm-h{font-family:var(--font-anthropic-serif);font-weight:400;font-size:var(--cds-font-size-title);margin:0 0 4px}
-.bm-sub{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin:0 0 var(--cds-gap-md);max-width:70ch;line-height:1.45}
-.bm-two{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:var(--cds-gap-lg)}
-.bm-chart{position:relative;min-height:300px}
-.bm-chart svg{display:block;width:100%;overflow:visible}
-.bm-chart .tick text,.bm-axis text{fill:var(--cds-text-secondary);font-size:var(--cds-font-size-caption);font-family:var(--font-anthropic-sans)}
-.bm-tip{position:absolute;pointer-events:none;background:var(--cds-surface-popover);border:1px solid var(--cds-border);box-shadow:var(--cds-shadow-popover);border-radius:var(--cds-radius);padding:8px 10px;font-size:var(--cds-font-size-caption);line-height:1.45;white-space:nowrap;z-index:2}
-.bm-tip b{display:block;font-weight:var(--cds-font-weight-medium);font-size:var(--cds-font-size-body)}
-.bm-legend{display:flex;gap:16px;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin-bottom:6px}
-.bm-legend i{display:inline-block;width:14px;height:3px;border-radius:2px;vertical-align:middle;margin-right:6px}
-.bm-brief{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
-.bm-brief li{display:grid;grid-template-columns:118px 1fr;gap:12px;padding:11px 0;border-top:1px solid var(--color-border-line);line-height:1.45}
-.bm-brief li:first-child{border-top:0;padding-top:0}
-.bm-brief .a{font-size:var(--cds-font-size-caption);letter-spacing:.08em;text-transform:uppercase;color:var(--color-fg-muted);padding-top:2px}
-.bm-dec{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:var(--cds-gap-md)}
-.bm-dec .bm-card{border-left:3px solid var(--color-warn)}
-.bm-dec h4{margin:0 0 6px;font-size:var(--cds-font-size-body);font-weight:var(--cds-font-weight-medium);line-height:1.3}
-.bm-dec p{margin:0;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);line-height:1.45}
-.bm-dec .m{margin-top:10px;display:flex;justify-content:space-between;gap:8px;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
-.bm-scroll{overflow-x:auto}
-.bm-table{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-body)}
-.bm-table th{text-align:left;font-weight:var(--cds-font-weight-medium);font-size:var(--cds-font-size-caption);letter-spacing:.06em;text-transform:uppercase;color:var(--color-fg-muted);padding:0 12px 8px 0;border-bottom:1px solid var(--color-border-line);white-space:nowrap}
-.bm-table td{padding:10px 12px 10px 0;border-bottom:1px solid var(--color-border-line);vertical-align:top;line-height:1.4}
-.bm-table td.n{font-variant-numeric:tabular-nums;white-space:nowrap}
-.bm-table td.note{color:var(--color-fg-muted);font-size:var(--cds-font-size-caption);min-width:220px}
-.bm-table td.strong{font-weight:var(--cds-font-weight-medium);min-width:190px}
-.bm-pill{display:inline-block;font-size:var(--cds-font-size-caption);padding:2px 9px;border-radius:999px;border:1px solid currentColor;white-space:nowrap;line-height:1.5}
-.bm-pill.ok{color:var(--color-ok)}.bm-pill.warn{color:var(--color-warn)}.bm-pill.bad{color:var(--color-bad)}.bm-pill.mute{color:var(--color-fg-muted)}
-.bm-grid{display:grid;gap:4px;align-items:center;font-size:var(--cds-font-size-caption);min-width:520px}
-.bm-grid .hd{color:var(--color-fg-muted);text-align:center;padding-bottom:4px}
-.bm-grid .rw{padding-right:10px;white-space:nowrap}
-.bm-cell{height:30px;border-radius:6px;display:flex;align-items:center;justify-content:center;border:1px solid var(--color-border-line);color:var(--color-fg-muted)}
-.bm-cell.ok{background:var(--color-ok);border-color:var(--color-ok);color:var(--color-bg)}
-.bm-cell.bad{border-color:var(--color-bad);color:var(--color-bad)}
-.bm-grid .last{color:var(--color-fg-muted);padding-left:12px;white-space:nowrap}
-.bm-key{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin-top:12px}
-.bm-key span{display:inline-flex;align-items:center;gap:6px}
-.bm-key .bm-cell{width:22px;height:18px}
-.bm-month{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:var(--cds-gap-md);margin-top:var(--cds-gap-md)}
-.bm-month .v{font-family:var(--font-anthropic-serif);font-size:26px;font-variant-numeric:tabular-nums}
-.bm-month .l{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
-.bm-group{font-size:var(--cds-font-size-caption);letter-spacing:.1em;text-transform:uppercase;color:var(--color-fg-muted);margin:var(--cds-gap-lg) 0 var(--cds-gap-sm)}
-.bm details{border-top:1px solid var(--color-border-line);padding-top:var(--cds-pad-md);font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);line-height:1.55}
-.bm details summary{cursor:pointer;color:var(--color-fg)}
-.bm details p{max-width:78ch}
-[data-dash-source-state=refreshing]{opacity:.5}
-@media (max-width:520px){.bm-brief li{grid-template-columns:1fr;gap:2px}.bm-k-num{font-size:32px}}
+:root{--navy:#0a2540;--blue:#1d5fd1;--blue-2:#6f9bea;--sky:#eaf2fe;--bg:#f5f8fc;--card:#fff;--line:#e3eaf4;--ink:#0f1b2d;--mute:#5b6b82;--ok:#1e8e5a;--ok-bg:#e6f5ee;--warn:#b86e00;--warn-bg:#fff3df;--bad:#cf3a3a;--bad-bg:#fdeaea;--r:14px;--sh:0 1px 2px rgba(10,37,64,.05),0 8px 24px rgba(10,37,64,.05)}
+*{box-sizing:border-box}html{background:var(--bg);scroll-behavior:smooth}
+body{margin:0;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);font-size:14.5px;line-height:1.5;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased}
+.top{background:var(--navy);color:#fff}
+.top-in,.wrap{max-width:1200px;margin:0 auto;padding:0 clamp(16px,3.5vw,36px)}
+.top-in{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 24px;padding-top:26px;padding-bottom:22px}
+.brand{font-size:11.5px;letter-spacing:.22em;text-transform:uppercase;color:#9db9e8;font-weight:600}
+.top h1{margin:6px 0 0;font-size:clamp(22px,3.2vw,30px);font-weight:650;letter-spacing:-.01em}
+.stamp{font-size:12.5px;color:#b9cdee;text-align:right;line-height:1.6}
+.stamp b{color:#fff;font-weight:600}
+.nav{position:sticky;top:0;z-index:5;background:rgba(255,255,255,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+.nav a{padding:12px 12px;font-size:13px;font-weight:550;color:var(--mute);text-decoration:none;white-space:nowrap;border-bottom:2px solid transparent}
+.nav a:hover{color:var(--blue);border-color:var(--blue)}
+main.wrap{display:flex;flex-direction:column;gap:28px;padding-top:26px;padding-bottom:56px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--sh);padding:22px;min-width:0}
+.sec-h{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:0 0 14px}
+.sec-h h2{margin:0;font-size:17px;font-weight:650;letter-spacing:-.005em}
+.sec-h span{font-size:12.5px;color:var(--mute)}
+.lbl{font-size:11.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--mute);font-weight:600;margin:0}
+.hero{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:18px}
+.occ{display:flex;flex-direction:column;gap:14px;background:linear-gradient(135deg,#0f3a78,#1d5fd1);color:#fff;border:0}
+.occ .lbl{color:#cfe0fb}
+.occ-big{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.occ-big .n{font-size:clamp(52px,8vw,76px);font-weight:700;letter-spacing:-.03em;line-height:.95;font-variant-numeric:tabular-nums}
+.occ-big .s{font-size:16px;color:#dbe8fd}
+.bar{height:10px;border-radius:99px;background:rgba(255,255,255,.22);overflow:hidden}
+.bar i{display:block;height:100%;border-radius:99px;background:#fff}
+.deltas{display:flex;flex-wrap:wrap;gap:8px}
+.delta{background:rgba(255,255,255,.14);border-radius:99px;padding:5px 12px;font-size:12.5px;color:#eaf2fe}
+.delta b{color:#fff;font-weight:650}
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.tile{display:flex;flex-direction:column;justify-content:space-between;gap:10px;padding:18px 20px}
+.tile .n{font-size:34px;font-weight:700;letter-spacing:-.02em;line-height:1;font-variant-numeric:tabular-nums}
+.tile .n small{font-size:14px;font-weight:500;color:var(--mute);letter-spacing:0}
+.tile .s{font-size:12.5px;color:var(--mute)}
+.tile.alert .n{color:var(--warn)}
+.two{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:18px}
+.chart{position:relative;min-height:280px}.chart svg{display:block;width:100%;overflow:visible}
+.chart text{font-family:inherit}
+.tick text{fill:var(--mute);font-size:11.5px}
+.tip{position:absolute;pointer-events:none;background:var(--navy);color:#fff;border-radius:10px;padding:8px 11px;font-size:12px;line-height:1.45;white-space:nowrap;z-index:2;box-shadow:0 8px 24px rgba(10,37,64,.25)}
+.tip b{display:block;font-size:13px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12.5px;color:var(--mute)}
+.legend i{display:inline-block;width:14px;height:3px;border-radius:2px;vertical-align:middle;margin-right:6px}
+.months{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-top:14px;padding-top:14px;border-top:1px solid var(--line)}
+.months .v{font-size:20px;font-weight:650;font-variant-numeric:tabular-nums}.months .l{font-size:12px;color:var(--mute)}
+.brief{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px 28px}
+.brief li{padding:0 0 0 14px;border-left:2px solid var(--sky);font-size:13.5px}
+.brief .a{display:block;font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--blue);font-weight:650;margin-bottom:2px}
+.dec{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.dec .card{padding:16px 18px;border-left:4px solid var(--warn);box-shadow:none}
+.dec h4{margin:0 0 4px;font-size:14px;font-weight:650;line-height:1.3}
+.dec p{margin:0;font-size:12.5px;color:var(--mute)}
+.dec .m{margin-top:10px;display:flex;justify-content:space-between;font-size:12px;color:var(--mute)}
+.dec .m b{color:var(--warn);font-weight:650}
+.scroll{overflow-x:auto}
+.grid{display:grid;gap:5px;align-items:center;font-size:12.5px;min-width:560px}
+.grid .hd{color:var(--mute);text-align:center;padding-bottom:4px;font-weight:550}.grid .rw{padding-right:12px;white-space:nowrap;font-weight:550}
+.cell{height:30px;border-radius:7px;display:flex;align-items:center;justify-content:center;background:#f1f4f9;color:#9aa7ba;font-weight:700}
+.cell.ok{background:var(--blue);color:#fff}.cell.bad{background:var(--bad-bg);color:var(--bad)}
+.grid .last{color:var(--mute);padding-left:14px;white-space:nowrap}
+.key{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12.5px;color:var(--mute);margin-top:14px}
+.key span{display:inline-flex;align-items:center;gap:6px}.key .cell{width:22px;height:18px;font-size:11px}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}
+.tab{appearance:none;border:1px solid var(--line);background:#fff;color:var(--mute);font:inherit;font-size:13px;font-weight:600;padding:7px 14px;border-radius:99px;cursor:pointer}
+.tab b{font-weight:700;margin-left:6px;color:var(--ink)}
+.tab.on{background:var(--navy);border-color:var(--navy);color:#fff}.tab.on b{color:#9db9e8}
+.battery{display:flex;height:12px;border-radius:99px;overflow:hidden;background:#f1f4f9;margin-bottom:10px}
+.battery i{display:block;height:100%}
+.bkey{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:12.5px;color:var(--mute);margin-bottom:8px}
+.bkey i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px}
+.rows{list-style:none;margin:0;padding:0}
+.rows li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 16px;padding:12px 0;border-top:1px solid var(--line);align-items:center}
+.rows .t{font-weight:600;font-size:14px}
+.rows .d{grid-column:1;font-size:12.5px;color:var(--mute)}
+.rows .r{grid-row:1/span 2;grid-column:2;display:flex;flex-direction:column;align-items:flex-end;gap:4px}
+.rows .age{font-size:12px;color:var(--mute);font-variant-numeric:tabular-nums}
+.rows.clip li:nth-child(n+6){display:none}
+.more{appearance:none;border:0;background:none;color:var(--blue);font:inherit;font-weight:600;font-size:13px;padding:12px 0 0;cursor:pointer}
+.pill{display:inline-block;font-size:11.5px;font-weight:650;padding:2px 10px;border-radius:99px;white-space:nowrap}
+.pill.ok{background:var(--ok-bg);color:var(--ok)}.pill.warn{background:var(--warn-bg);color:var(--warn)}.pill.bad{background:var(--bad-bg);color:var(--bad)}.pill.info{background:var(--sky);color:var(--blue)}.pill.mute{background:#eef1f6;color:var(--mute)}
+.cols2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
+.board{display:grid;grid-template-columns:repeat(5,minmax(170px,1fr));gap:12px;min-width:900px}
+.col h5{margin:0 0 8px;font-size:11.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--mute);font-weight:650;display:flex;justify-content:space-between}
+.lead{background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin-bottom:8px}
+.lead b{display:block;font-size:13px;font-weight:650;line-height:1.3}.lead span{font-size:12px;color:var(--mute)}
+.col.won .lead{border-left:3px solid var(--ok)}
+.foot{font-size:12.5px;color:var(--mute);border-top:1px solid var(--line);padding-top:16px}
+.foot summary{cursor:pointer;color:var(--ink);font-weight:600}.foot p{max-width:80ch}
+[hidden]{display:none!important}
+@media (max-width:860px){.hero,.two{grid-template-columns:1fr}.stamp{text-align:left}}
+@media (max-width:460px){.tiles{gap:12px}.tile .n{font-size:28px}.card{padding:16px}}
 </style>
 
-<div class="bm">
-  <header id="top">
-    <p class="bm-eyebrow">Blumont Capital Tower · Daily management report</p>
-    <h1 class="bm-title">Report for <span data-draw="reportDate" data-source="kpis" data-field="report_date" data-row="0">—</span></h1>
-    <p class="bm-lede">The tower has <b data-draw="kOcc" data-source="kpis" data-field="occupied" data-row="0">—</b> of <b data-draw="kTotal" data-source="kpis" data-field="total_units" data-row="0">—</b> rooms occupied, <b data-draw="kPct" data-source="kpis" data-field="occupancy_pct" data-row="0">—</b> of capacity. That is <b data-draw="kDeltaFirst" data-source="kpis" data-field="delta_first" data-row="0">—</b> rooms against <span data-draw="kFirstDate" data-source="kpis" data-field="first_date" data-row="0">—</span>. <b data-draw="kOpen" data-source="kpis" data-field="open_items" data-row="0">—</b> items are open and <b data-draw="kDec" data-source="kpis" data-field="decisions" data-row="0">—</b> of them wait for a management decision.</p>
-    <div class="bm-stamp">
-      <span>Compiled <span data-draw="updatedAt" data-source="meta" data-field="updated_at" data-row="0">—</span> (UAE time)</span>
-      <span>Source: daily report emails received by Management</span>
-      <span>Refreshed every morning at 11:00</span>
-    </div>
-  </header>
+<div class="top"><div class="top-in">
+  <div><div class="brand">Blumont Capital Tower</div><h1>Daily Management Report</h1></div>
+  <div class="stamp"><b data-draw="reportDate">—</b><br>Compiled <span data-draw="updatedAt">—</span> UAE time · refreshed daily by 11:00</div>
+</div></div>
+<nav class="nav"><div class="wrap"><a href="#overview">Overview</a><a href="#occupancy">Occupancy</a><a href="#yesterday">Yesterday</a><a href="#decisions">Decisions</a><a href="#reporting">Reporting</a><a href="#work">Tasks and items</a><a href="#collections">Collections</a><a href="#pipeline">Pipeline</a><a href="#side">Side businesses</a></div></nav>
 
-  <section class="bm-kpis" id="headline" aria-label="Headline figures">
-    <div class="bm-card"><p class="bm-k-label">Occupied rooms</p><div class="bm-k-num"><span data-draw="kOcc" data-source="kpis" data-field="occupied" data-row="0">—</span> <small>of <span data-draw="kTotal" data-source="kpis" data-field="total_units" data-row="0">—</span></small></div><div class="bm-k-sub"><span data-draw="kDeltaPrev" data-source="kpis" data-field="delta_prev" data-row="0">—</span> on the previous report (<span data-draw="kPrevDate" data-source="kpis" data-field="prev_date" data-row="0">—</span>)</div></div>
-    <div class="bm-card"><p class="bm-k-label">Occupancy</p><div class="bm-k-num" data-draw="kPct" data-source="kpis" data-field="occupancy_pct" data-row="0">—</div><div class="bm-k-sub"><span data-draw="kVacant" data-source="kpis" data-field="vacant" data-row="0">—</span> rooms available to sell</div></div>
-    <div class="bm-card"><p class="bm-k-label">Room issues yesterday</p><div class="bm-k-num"><span data-draw="mClosed" data-source="meta" data-field="room_issues_closed" data-row="0">—</span> <small>of <span data-draw="mLogged" data-source="meta" data-field="room_issues_logged" data-row="0">—</span> closed</small></div><div class="bm-k-sub">Maintenance and IT, same day</div></div>
-    <div class="bm-card"><p class="bm-k-label">Open items</p><div class="bm-k-num" data-draw="kOpen" data-source="kpis" data-field="open_items" data-row="0">—</div><div class="bm-k-sub">Oldest open for <span data-draw="kOldest" data-source="kpis" data-field="oldest_days" data-row="0">—</span> days · <span data-draw="kResolved" data-source="kpis" data-field="resolved_week" data-row="0">—</span> resolved in the last 7 days</div></div>
-    <div class="bm-card"><p class="bm-k-label">Reports received yesterday</p><div class="bm-k-num"><span data-draw="kRep" data-source="kpis" data-field="reports_received" data-row="0">—</span> <small>of <span data-draw="kRepExp" data-source="kpis" data-field="reports_expected" data-row="0">—</span></small></div><div class="bm-k-sub">Departments reporting on the day</div></div>
+<main class="wrap">
+  <section class="hero" id="overview">
+    <div class="card occ">
+      <p class="lbl">Occupancy</p>
+      <div class="occ-big"><span class="n" data-draw="kPct">—</span><span class="s"><b data-draw="kOcc">—</b> of <span data-draw="kTotal">—</span> rooms occupied · <span data-draw="kVacant">—</span> available</span></div>
+      <div class="bar"><i data-draw="occBar"></i></div>
+      <div class="deltas"><span class="delta"><b data-draw="kDeltaPrev">—</b> rooms vs <span data-draw="kPrevDate">—</span></span><span class="delta"><b data-draw="kDeltaFirst">—</b> rooms since <span data-draw="kFirstDate">—</span></span></div>
+    </div>
+    <div class="tiles">
+      <div class="card tile alert"><p class="lbl">Awaiting a decision</p><div class="n" data-draw="kDec">—</div><div class="s">Items blocked on an approval</div></div>
+      <div class="card tile"><p class="lbl">Open items</p><div class="n" data-draw="kOpen">—</div><div class="s"><span data-draw="kResolved">—</span> resolved in the last 7 days</div></div>
+      <div class="card tile"><p class="lbl">Room issues yesterday</p><div class="n"><span data-draw="mClosed">—</span> <small>of <span data-draw="mLogged">—</span> closed</small></div><div class="s">Maintenance and IT, same day</div></div>
+      <div class="card tile"><p class="lbl">Reports received</p><div class="n"><span data-draw="kRep">—</span> <small>of <span data-draw="kRepExp">—</span></small></div><div class="s">Departments reporting yesterday</div></div>
+    </div>
   </section>
 
   <section id="occupancy">
-    <h2 class="bm-h">Occupancy trend</h2>
-    <p class="bm-sub">Occupied rooms on each day a figure was reported, out of 183 units. Days without a reported figure are left out, not estimated.</p>
-    <div class="bm-card">
-      <div class="bm-legend"><span><i data-draw="legA"></i>All occupied rooms</span><span><i data-draw="legB"></i>Rabdan Academy rooms, where reported</span></div>
-      <div class="bm-chart" id="occ-chart" data-draw="occChart" data-source="occupancy"></div>
-      <div class="bm-month" data-draw="months" data-source="months"></div>
+    <div class="card">
+      <div class="sec-h"><h2>Occupancy trend</h2><span>Reported days only, of 183 units</span></div>
+      <div class="legend"><span><i style="background:var(--blue)"></i>All occupied rooms</span><span><i style="background:var(--blue-2)"></i>Rabdan Academy rooms</span></div>
+      <div class="chart" data-draw="occChart"></div>
+      <div class="months" data-draw="months"></div>
     </div>
   </section>
 
-  <section class="bm-two">
-    <div id="yesterday">
-      <h2 class="bm-h">What happened yesterday</h2>
-      <p class="bm-sub">The day in brief, drawn from every department's report.</p>
-      <ul class="bm-brief" data-draw="brief" data-source="brief"></ul>
-    </div>
-    <div id="reporting">
-      <h2 class="bm-h">Who reported, and when</h2>
-      <p class="bm-sub">A day counts as received when the department sent its own report or appears in the Operations summary.</p>
-      <div class="bm-card bm-scroll">
-        <div class="bm-grid" data-draw="grid" data-source="reporting lastupdate"></div>
-        <div class="bm-key"><span><span class="bm-cell ok">✓</span>Received</span><span><span class="bm-cell bad">–</span>Not seen</span><span><span class="bm-cell">·</span>Off day or leave</span></div>
-      </div>
-    </div>
+  <section class="card" id="yesterday">
+    <div class="sec-h"><h2>Yesterday in brief</h2><span>From every department's report</span></div>
+    <ul class="brief" data-draw="brief"></ul>
   </section>
 
   <section id="decisions">
-    <h2 class="bm-h">Waiting for a management decision</h2>
-    <p class="bm-sub">Open items that cannot move until an approval or instruction is given.</p>
-    <div class="bm-dec" data-draw="decisions" data-source="register"></div>
+    <div class="sec-h"><h2>Waiting for a management decision</h2><span>Cannot move without an approval</span></div>
+    <div class="dec" data-draw="decisions"></div>
   </section>
 
-  <section id="tasks">
-    <h2 class="bm-h">New tasks and priorities</h2>
-    <p class="bm-sub">Instructions and priorities raised in the last seven days, newest first.</p>
-    <div class="bm-scroll"><table class="bm-table" data-source="tasks" data-row-key="id">
-      <thead><tr><th data-field="date">Raised</th><th data-field="task">Task</th><th data-field="from">From</th><th data-field="owner">Owner</th><th data-field="due">Due</th><th data-field="status">Status</th></tr></thead>
-      <tbody data-draw="tasks"></tbody></table></div>
+  <section class="card" id="reporting">
+    <div class="sec-h"><h2>Who reported, and when</h2><span>Own report, or a section in the Operations summary</span></div>
+    <div class="scroll"><div class="grid" data-draw="grid"></div></div>
+    <div class="key"><span><span class="cell ok">✓</span>Received</span><span><span class="cell bad">–</span>Not seen</span><span><span class="cell">·</span>Off day or leave</span></div>
   </section>
 
-  <section id="open">
-    <h2 class="bm-h">Not yet resolved</h2>
-    <p class="bm-sub">The running register of open items, longest-open first. Status is as reported by staff.</p>
-    <div class="bm-scroll"><table class="bm-table" data-source="register" data-row-key="id">
-      <thead><tr><th data-field="item">Item</th><th data-field="owner">Owner</th><th data-field="days_open">Days open</th><th data-field="status">Status</th><th data-field="note">Latest position</th></tr></thead>
-      <tbody data-draw="openItems"></tbody></table></div>
-  </section>
-
-  <section id="resolved">
-    <h2 class="bm-h">Resolved in the last seven days</h2>
-    <p class="bm-sub">Items closed and confirmed in a report.</p>
-    <div class="bm-scroll"><table class="bm-table" data-source="register" data-row-key="id">
-      <thead><tr><th data-field="resolved_on">Closed</th><th data-field="item">Item</th><th data-field="owner">Owner</th><th data-field="note">Outcome</th></tr></thead>
-      <tbody data-draw="resolvedItems"></tbody></table></div>
+  <section class="card" id="work">
+    <div class="sec-h"><h2>Tasks and items</h2><span>Status as reported by staff</span></div>
+    <div class="tabs">
+      <button class="tab on" data-tab="open">Open items<b data-draw="cOpen">—</b></button>
+      <button class="tab" data-tab="tasks">New this week<b data-draw="cTasks">—</b></button>
+      <button class="tab" data-tab="done">Resolved<b data-draw="cDone">—</b></button>
+    </div>
+    <div data-panel="open">
+      <div class="battery" data-draw="battery"></div>
+      <div class="bkey" data-draw="batteryKey"></div>
+      <ul class="rows clip" data-draw="openItems"></ul>
+      <button class="more" data-more>Show all open items</button>
+    </div>
+    <div data-panel="tasks" hidden><ul class="rows" data-draw="tasks"></ul></div>
+    <div data-panel="done" hidden><ul class="rows" data-draw="resolvedItems"></ul></div>
   </section>
 
   <section id="collections">
-    <h2 class="bm-h">Rent and collections</h2>
-    <p class="bm-sub">Payment position by tenant, as last confirmed by Accounts.</p>
-    <div class="bm-scroll"><table class="bm-table" data-source="collections" data-row-key="id">
-      <thead><tr><th data-field="group">Portfolio</th><th data-field="tenant">Tenant or property</th><th data-field="detail">Detail</th><th data-field="status">Status</th><th data-field="note">Position</th></tr></thead>
-      <tbody data-draw="collections"></tbody></table></div>
+    <div class="sec-h"><h2>Rent and collections</h2><span>As last confirmed by Accounts</span></div>
+    <div class="cols2" data-draw="collections"></div>
   </section>
 
-  <section class="bm-two">
-    <div id="pipeline">
-      <h2 class="bm-h">Business pipeline</h2>
-      <p class="bm-sub">Live inquiries and contracts in progress.</p>
-      <div class="bm-scroll"><table class="bm-table" data-source="pipeline" data-row-key="id">
-        <thead><tr><th data-field="lead">Lead</th><th data-field="need">Requirement</th><th data-field="stage">Stage</th><th data-field="note">Position</th></tr></thead>
-        <tbody data-draw="pipeline"></tbody></table></div>
-    </div>
-    <div id="side">
-      <h2 class="bm-h">Side businesses</h2>
-      <p class="bm-sub">AJ1881 Restaurant daily sales in AED, on the days a figure was reported.</p>
-      <div class="bm-card"><div class="bm-chart" id="sales-chart" style="min-height:220px" data-draw="salesChart" data-source="sales"></div></div>
-    </div>
+  <section class="card" id="pipeline">
+    <div class="sec-h"><h2>Business pipeline</h2><span>Live inquiries and contracts</span></div>
+    <div class="scroll"><div class="board" data-draw="pipeline"></div></div>
   </section>
 
-  <details>
-    <summary>How this report is compiled, and what comes next</summary>
-    <p>Every morning the previous day's report emails from Operations, Housekeeping, Maintenance, Logistics, HR and Accounts, the Flower shop, IT and the Restaurant are read and consolidated into this one page. Figures are taken from the reports as written and percentages are recalculated. An item is shown as resolved only when a report says so. A department shows as "not seen" when no report reached the Management inbox; it may still have been sent elsewhere.</p>
-    <p>Photographs and attachments are not read yet. Personnel matters are kept off this page.</p>
-    <p>Planned next: department heads update their own items and replies directly on this page, so the register no longer depends on email.</p>
+  <section class="card" id="side">
+    <div class="sec-h"><h2>Side businesses</h2><span>AJ1881 Restaurant daily sales, AED</span></div>
+    <div class="chart" style="min-height:200px" data-draw="salesChart"></div>
+  </section>
+
+  <details class="foot">
+    <summary>How this report is compiled</summary>
+    <p>Every morning the previous day's report emails from Operations, Housekeeping, Maintenance, Logistics, HR and Accounts, the Flower shop, IT and the Restaurant are read and consolidated into this page. Figures are taken from the reports as written and percentages are recalculated. An item is shown as resolved only when a report says so. "Not seen" means no report reached the Management inbox. Photographs and attachments are not read yet. Personnel matters are kept off this page.</p>
   </details>
-</div>
+</main>
 
 <script>
 const D = (s) => new Date(String(s).length <= 10 ? s + 'T00:00:00Z' : s);
-const fDay = d3.utcFormat('%-d %b');
-const fLong = d3.utcFormat('%A %-d %B %Y');
+const fDay = d3.utcFormat('%-d %b'), fLong = d3.utcFormat('%A %-d %B %Y');
 const fStamp = (s) => d3.utcFormat('%-d %b, %H:%M')(new Date(D(s).getTime() + 4 * 3600e3));
 const signed = (n) => (n > 0 ? '+' : n < 0 ? '−' : '±') + Math.abs(n);
 const row0 = (id) => { const d = dash.data(id); return d.status === 'ok' && d.data && d.data.length ? d.data[0] : null; };
 const rows = (id) => { const d = dash.data(id); return d.status === 'ok' && Array.isArray(d.data) ? d.data : null; };
-const TONE = {Paid:'ok',Resolved:'ok',Received:'ok',Won:'ok',Reconciled:'ok','Action needed':'bad','No update seen':'bad','Not confirmed':'bad','Not seen':'bad'};
-const pill = (s) => { const e = document.createElement('span'); e.className = 'bm-pill ' + (TONE[s] || 'warn'); e.textContent = s; return e; };
-const td = (v, cls) => { const e = document.createElement('td'); if (cls) e.className = cls; if (v instanceof Node) e.append(v); else e.textContent = v == null || v === '' ? '—' : v; return e; };
+const TONE = {Paid:'ok',Resolved:'ok',Received:'ok',Won:'ok',Reconciled:'ok','Action needed':'bad','No update seen':'bad','Not confirmed':'bad','Not seen':'bad','In progress':'info',Planned:'info',Open:'mute','Follow-up':'mute',Acknowledged:'info',Deposited:'info'};
+const E = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+const pill = (s) => E('span', 'pill ' + (TONE[s] || 'warn'), s);
+const BLUE = '#1d5fd1', BLUE2 = '#6f9bea';
 
-dash.calc('kpis', {
-  title: 'Headline figures',
-  description: 'Latest occupancy, change, open items and reports received, worked out from the daily datasets.',
-  inputs: ['occupancy', 'items', 'meta', 'reporting'],
-  fn: (occupancy, items, meta, reporting) => {
-    if (!occupancy.length || !meta.length) return [];
-    const day = (s) => Date.parse(s + 'T00:00:00Z') / 864e5;
-    const occ = occupancy.slice().sort((a, b) => a.date < b.date ? -1 : 1);
-    const last = occ[occ.length - 1], prev = occ[occ.length - 2] || last, first = occ[0];
-    const rd = meta[0].report_date;
-    const open = items.filter((r) => r.status !== 'Resolved');
-    const resolved = items.filter((r) => r.status === 'Resolved' && r.resolved_on && day(rd) - day(r.resolved_on) < 7);
-    const today = reporting.filter((r) => r.date === rd);
-    return [{
-      report_date: rd, occupied: +last.occupied, total_units: +last.total_units,
-      occupancy_pct: Math.round(last.occupied / last.total_units * 1000) / 10,
-      vacant: last.total_units - last.occupied,
-      prev_date: prev.date, delta_prev: last.occupied - prev.occupied,
-      first_date: first.date, delta_first: last.occupied - first.occupied,
-      open_items: open.length, decisions: open.filter((r) => r.needs_decision === 'yes').length,
-      oldest_days: open.length ? Math.max(...open.map((r) => day(rd) - day(r.opened))) : 0,
-      resolved_week: resolved.length,
-      reports_received: today.filter((r) => r.status === 'Received').length,
-      reports_expected: today.filter((r) => r.status === 'Received' || r.status === 'Not seen').length,
-    }];
-  },
-});
-dash.calc('months', {
-  title: 'Average occupancy by month',
-  description: 'Average occupied rooms across the days with a reported figure in each month.',
-  inputs: ['occupancy'],
-  fn: (occupancy) => {
-    const by = {};
-    occupancy.forEach((r) => { const m = r.date.slice(0, 7); (by[m] = by[m] || []).push(r); });
-    return Object.keys(by).sort().map((m) => {
-      const a = by[m], avg = a.reduce((s, r) => s + +r.occupied, 0) / a.length;
-      return {month: m, avg_occupied: Math.round(avg * 10) / 10, avg_pct: Math.round(avg / a[0].total_units * 1000) / 10, days_reported: a.length};
-    });
-  },
-});
-dash.calc('register', {
-  title: 'Item register with days open',
-  description: 'Every tracked item with the number of days it has been open at the report date.',
-  inputs: ['items', 'meta'],
-  fn: (items, meta) => {
-    if (!meta.length) return [];
-    const day = (s) => Date.parse(s + 'T00:00:00Z') / 864e5, rd = meta[0].report_date;
-    return items.map((r) => Object.assign({}, r, {days_open: day(r.resolved_on || rd) - day(r.opened)}));
-  },
-});
+dash.calc('kpis', {inputs: ['occupancy', 'items', 'meta', 'reporting'], fn: (occupancy, items, meta, reporting) => {
+  if (!occupancy.length || !meta.length) return [];
+  const day = (s) => Date.parse(s + 'T00:00:00Z') / 864e5;
+  const occ = occupancy.slice().sort((a, b) => a.date < b.date ? -1 : 1);
+  const last = occ[occ.length - 1], prev = occ[occ.length - 2] || last, first = occ[0], rd = meta[0].report_date;
+  const open = items.filter((r) => r.status !== 'Resolved');
+  const today = reporting.filter((r) => r.date === rd);
+  return [{report_date: rd, occupied: +last.occupied, total_units: +last.total_units, occupancy_pct: Math.round(last.occupied / last.total_units * 1000) / 10,
+    vacant: last.total_units - last.occupied, prev_date: prev.date, delta_prev: last.occupied - prev.occupied, first_date: first.date, delta_first: last.occupied - first.occupied,
+    open_items: open.length, decisions: open.filter((r) => r.needs_decision === 'yes').length,
+    resolved_week: items.filter((r) => r.status === 'Resolved' && r.resolved_on && day(rd) - day(r.resolved_on) < 7).length,
+    reports_received: today.filter((r) => r.status === 'Received').length, reports_expected: today.filter((r) => r.status === 'Received' || r.status === 'Not seen').length}];
+}});
+dash.calc('months', {inputs: ['occupancy'], fn: (occupancy) => {
+  const by = {}; occupancy.forEach((r) => { const m = r.date.slice(0, 7); (by[m] = by[m] || []).push(r); });
+  return Object.keys(by).sort().map((m) => { const a = by[m], avg = a.reduce((s, r) => s + +r.occupied, 0) / a.length;
+    return {month: m, avg_occupied: Math.round(avg * 10) / 10, avg_pct: Math.round(avg / a[0].total_units * 1000) / 10, days_reported: a.length}; });
+}});
+dash.calc('register', {inputs: ['items', 'meta'], fn: (items, meta) => {
+  if (!meta.length) return [];
+  const day = (s) => Date.parse(s + 'T00:00:00Z') / 864e5, rd = meta[0].report_date;
+  return items.map((r) => Object.assign({}, r, {days_open: day(r.resolved_on || rd) - day(r.opened)}));
+}});
 
-const kpi = (name, field, fmt, tone) => dash.draw(name, (el) => {
-  const k = row0('kpis');
-  el.textContent = k ? fmt(k[field]) : '—';
-  if (tone) { el.classList.remove('bm-good', 'bm-poor', 'bm-flat'); if (k) el.classList.add(k[field] > 0 ? 'bm-good' : k[field] < 0 ? 'bm-poor' : 'bm-flat'); }
-});
-kpi('reportDate', 'report_date', (v) => fLong(D(v)));
-kpi('kOcc', 'occupied', String); kpi('kTotal', 'total_units', String);
-kpi('kPct', 'occupancy_pct', (v) => v.toFixed(1) + '%');
-kpi('kVacant', 'vacant', String);
-kpi('kDeltaPrev', 'delta_prev', signed, true); kpi('kPrevDate', 'prev_date', (v) => fDay(D(v)));
-kpi('kDeltaFirst', 'delta_first', signed, true); kpi('kFirstDate', 'first_date', (v) => fDay(D(v)));
-kpi('kOpen', 'open_items', String); kpi('kDec', 'decisions', String);
-kpi('kOldest', 'oldest_days', String); kpi('kResolved', 'resolved_week', String);
-kpi('kRep', 'reports_received', String); kpi('kRepExp', 'reports_expected', String);
+const kpi = (name, field, fmt) => dash.draw(name, (el) => { const k = row0('kpis'); el.textContent = k ? fmt(k[field]) : '—'; });
+kpi('reportDate', 'report_date', (v) => fLong(D(v))); kpi('kOcc', 'occupied', String); kpi('kTotal', 'total_units', String);
+kpi('kPct', 'occupancy_pct', (v) => v.toFixed(1) + '%'); kpi('kVacant', 'vacant', String);
+kpi('kDeltaPrev', 'delta_prev', signed); kpi('kPrevDate', 'prev_date', (v) => fDay(D(v)));
+kpi('kDeltaFirst', 'delta_first', signed); kpi('kFirstDate', 'first_date', (v) => fDay(D(v)));
+kpi('kOpen', 'open_items', String); kpi('kDec', 'decisions', String); kpi('kResolved', 'resolved_week', String);
+kpi('kRep', 'reports_received', String); kpi('kRepExp', 'reports_expected', String); kpi('cOpen', 'open_items', String);
+dash.draw('occBar', (el) => { const k = row0('kpis'); el.style.width = (k ? k.occupancy_pct : 0) + '%'; });
 const metaDraw = (name, field, fmt) => dash.draw(name, (el) => { const m = row0('meta'); el.textContent = m ? fmt(m[field]) : '—'; });
-metaDraw('updatedAt', 'updated_at', fStamp);
-metaDraw('mClosed', 'room_issues_closed', String); metaDraw('mLogged', 'room_issues_logged', String);
-dash.draw('legA', (el) => { el.style.background = dash.colors[0]; });
-dash.draw('legB', (el) => { el.style.background = dash.colors[1]; });
+metaDraw('updatedAt', 'updated_at', fStamp); metaDraw('mClosed', 'room_issues_closed', String); metaDraw('mLogged', 'room_issues_logged', String);
+dash.draw('cTasks', (el) => { const t = rows('tasks'); el.textContent = t ? t.length : '—'; });
+dash.draw('cDone', (el) => { const r = rows('register'); el.textContent = r ? r.filter((x) => x.status === 'Resolved').length : '—'; });
 
 dash.draw('months', (el) => {
-  const m = rows('months'); el.replaceChildren();
-  if (!m) return;
+  const m = rows('months'); el.replaceChildren(); if (!m) return;
   const fM = d3.utcFormat('%B');
-  m.forEach((r) => {
-    const c = document.createElement('div'), v = document.createElement('div'), l = document.createElement('div');
-    v.className = 'v'; v.textContent = r.avg_occupied.toFixed(1); v.dataset.source = 'months'; v.dataset.field = 'avg_occupied'; v.dataset.where = 'month=' + r.month;
-    l.className = 'l'; l.textContent = fM(D(r.month + '-01')) + ' average rooms · ' + r.avg_pct.toFixed(1) + '% · ' + r.days_reported + ' days reported';
-    c.append(v, l); el.append(c);
-  });
+  m.forEach((r) => { const c = E('div'); c.append(E('div', 'v', r.avg_occupied.toFixed(1)), E('div', 'l', fM(D(r.month + '-01')) + ' average · ' + r.avg_pct.toFixed(1) + '%')); el.append(c); });
 });
 
 dash.draw('occChart', (el) => {
-  const data = rows('occupancy');
-  if (!data) { el.textContent = dash.data('occupancy').status === 'error' ? 'Failed to load' : '—'; return; }
+  const data = rows('occupancy'); if (!data) { el.textContent = '—'; return; }
   const pts = data.map((r) => ({t: D(r.date), occ: +r.occupied, rab: r.rabdan == null || r.rabdan === '' ? null : +r.rabdan, cap: +r.total_units, pct: +r.occupancy_pct})).sort((a, b) => a.t - b.t);
-  const W = Math.max(280, el.clientWidth), H = 300, cap = pts[pts.length - 1].cap;
+  const W = Math.max(300, el.clientWidth), H = 290, cap = pts[pts.length - 1].cap, m = {t: 16, r: 40, b: 26, l: 30};
   el.replaceChildren();
-  const svg = d3.select(el).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H).attr('role', 'img')
-    .attr('aria-label', `Occupied rooms from ${fDay(pts[0].t)} to ${fDay(pts[pts.length - 1].t)}, rising from ${pts[0].occ} to ${pts[pts.length - 1].occ} of ${cap}`);
-  const m = {t: 16, r: 46, b: 28, l: 34};
-  const x = d3.scaleUtc().domain(d3.extent(pts, (d) => d.t)).range([m.l, W - m.r]);
-  const y = d3.scaleLinear().domain([0, cap]).range([H - m.b, m.t]);
-  const g = svg.append('g');
-  g.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(Math.max(3, Math.floor(W / 110))).tickFormat(fDay).tickSizeOuter(0))
-    .call((a) => a.select('.domain').style('stroke', 'var(--cds-chart-axis)')).call((a) => a.selectAll('.tick line').style('stroke', 'var(--cds-chart-axis)'));
-  g.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).tickValues([0, 50, 100, 150, cap]).tickSize(-(W - m.l - m.r)))
-    .call((a) => a.select('.domain').remove()).call((a) => a.selectAll('.tick line').style('stroke', 'var(--cds-chart-grid)'));
-  g.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(cap)).attr('y2', y(cap)).style('stroke', 'var(--cds-chart-reference)').style('stroke-dasharray', '4 4');
-  const line = (k) => d3.line().defined((d) => d[k] != null).x((d) => x(d.t)).y((d) => y(d[k]));
+  const svg = d3.select(el).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H).attr('role', 'img').attr('aria-label', `Occupied rooms rising from ${pts[0].occ} on ${fDay(pts[0].t)} to ${pts[pts.length - 1].occ} on ${fDay(pts[pts.length - 1].t)}, of ${cap}`);
+  const x = d3.scaleUtc().domain(d3.extent(pts, (d) => d.t)).range([m.l, W - m.r]), y = d3.scaleLinear().domain([0, cap]).range([H - m.b, m.t]);
+  const defs = svg.append('defs').append('linearGradient').attr('id', 'ga').attr('x1', 0).attr('x2', 0).attr('y1', 0).attr('y2', 1);
+  defs.append('stop').attr('offset', '0%').attr('stop-color', BLUE).attr('stop-opacity', .22); defs.append('stop').attr('offset', '100%').attr('stop-color', BLUE).attr('stop-opacity', 0);
+  svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(Math.max(3, Math.floor(W / 120))).tickFormat(fDay).tickSize(0).tickPadding(8)).call((a) => a.select('.domain').attr('stroke', '#d5deeb'));
+  svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).tickValues([0, 50, 100, 150, cap]).tickSize(-(W - m.l - m.r)).tickPadding(6)).call((a) => a.select('.domain').remove()).call((a) => a.selectAll('.tick line').attr('stroke', '#eef2f8'));
+  svg.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(cap)).attr('y2', y(cap)).attr('stroke', '#9fb2cc').attr('stroke-dasharray', '4 4');
+  svg.append('path').attr('d', d3.area().x((d) => x(d.t)).y0(y(0)).y1((d) => y(d.occ))(pts)).attr('fill', 'url(#ga)');
   const rab = pts.filter((d) => d.rab != null);
-  g.append('path').attr('d', line('rab')(rab)).style('fill', 'none').style('stroke', dash.colors[1]).style('stroke-width', 1.5);
-  g.selectAll('.r').data(rab).join('circle').attr('cx', (d) => x(d.t)).attr('cy', (d) => y(d.rab)).attr('r', 2.5).style('fill', dash.colors[1]);
-  g.append('path').attr('d', line('occ')(pts)).style('fill', 'none').style('stroke', dash.colors[0]).style('stroke-width', 2.5).style('stroke-linejoin', 'round');
-  g.selectAll('.o').data(pts).join('circle').attr('cx', (d) => x(d.t)).attr('cy', (d) => y(d.occ)).attr('r', 3.5).style('fill', dash.colors[0]);
+  svg.append('path').attr('d', d3.line().x((d) => x(d.t)).y((d) => y(d.rab))(rab)).attr('fill', 'none').attr('stroke', BLUE2).attr('stroke-width', 1.5).attr('stroke-dasharray', '3 3');
+  svg.append('path').attr('d', d3.line().x((d) => x(d.t)).y((d) => y(d.occ))(pts)).attr('fill', 'none').attr('stroke', BLUE).attr('stroke-width', 2.5).attr('stroke-linejoin', 'round');
+  svg.selectAll('.o').data(pts).join('circle').attr('cx', (d) => x(d.t)).attr('cy', (d) => y(d.occ)).attr('r', 3).attr('fill', '#fff').attr('stroke', BLUE).attr('stroke-width', 2);
   const last = pts[pts.length - 1];
-  g.append('text').attr('x', x(last.t) + 8).attr('y', y(last.occ) + 5).style('fill', 'var(--color-fg)').style('font-size', 'var(--cds-font-size-heading)').style('font-family', 'var(--font-anthropic-serif)').text(last.occ);
-  if (rab.length) { const lr = rab[rab.length - 1]; g.append('text').attr('x', x(lr.t) + 8).attr('y', y(lr.rab) + 4).style('fill', 'var(--cds-text-secondary)').style('font-size', 'var(--cds-font-size-caption)').text(lr.rab); }
-  const tip = d3.select(el).append('div').attr('class', 'bm-tip').style('display', 'none');
-  const guide = g.append('line').attr('y1', m.t).attr('y2', H - m.b).style('stroke', 'var(--cds-chart-axis)').style('display', 'none');
-  svg.append('rect').attr('x', m.l).attr('y', m.t).attr('width', W - m.l - m.r).attr('height', H - m.t - m.b).style('fill', 'transparent')
+  svg.append('text').attr('x', x(last.t) + 9).attr('y', y(last.occ) + 5).attr('fill', '#0f1b2d').attr('font-size', 15).attr('font-weight', 700).text(last.occ);
+  if (rab.length) { const lr = rab[rab.length - 1]; svg.append('text').attr('x', x(lr.t) + 8).attr('y', y(lr.rab) + 4).attr('fill', '#5b6b82').attr('font-size', 12).text(lr.rab); }
+  const tip = d3.select(el).append('div').attr('class', 'tip').style('display', 'none');
+  const guide = svg.append('line').attr('y1', m.t).attr('y2', H - m.b).attr('stroke', '#9fb2cc').style('display', 'none');
+  svg.append('rect').attr('x', m.l).attr('y', m.t).attr('width', W - m.l - m.r).attr('height', H - m.t - m.b).attr('fill', 'transparent')
     .on('pointermove', (ev) => {
-      const [px] = d3.pointer(ev), k = W / el.clientWidth;
-      const d = pts.reduce((a, b) => Math.abs(x(b.t) - px) < Math.abs(x(a.t) - px) ? b : a);
-      guide.style('display', null).attr('x1', x(d.t)).attr('x2', x(d.t));
-      tip.style('display', null).text('');
-      tip.append('b').text(fLong(d.t));
-      tip.append('div').text(`${d.occ} of ${d.cap} rooms occupied (${d.pct.toFixed(1)}%)`);
-      if (d.rab != null) tip.append('div').text(`${d.rab} Rabdan Academy rooms`);
-      const tw = tip.node().offsetWidth, left = Math.min(Math.max(0, x(d.t) / k - tw / 2), el.clientWidth - tw);
-      tip.style('left', left + 'px').style('top', Math.max(0, y(d.occ) / k - 78) + 'px');
-    })
-    .on('pointerleave', () => { tip.style('display', 'none'); guide.style('display', 'none'); });
+      const [px] = d3.pointer(ev), k = W / el.clientWidth, d = pts.reduce((a, b) => Math.abs(x(b.t) - px) < Math.abs(x(a.t) - px) ? b : a);
+      guide.style('display', null).attr('x1', x(d.t)).attr('x2', x(d.t)); tip.style('display', null).text('');
+      tip.append('b').text(fLong(d.t)); tip.append('div').text(`${d.occ} of ${d.cap} rooms (${d.pct.toFixed(1)}%)`); if (d.rab != null) tip.append('div').text(`${d.rab} Rabdan Academy rooms`);
+      const tw = tip.node().offsetWidth; tip.style('left', Math.min(Math.max(0, x(d.t) / k - tw / 2), el.clientWidth - tw) + 'px').style('top', Math.max(0, y(d.occ) / k - 78) + 'px');
+    }).on('pointerleave', () => { tip.style('display', 'none'); guide.style('display', 'none'); });
 });
 
 dash.draw('salesChart', (el) => {
-  const data = rows('sales');
-  if (!data) { el.textContent = dash.data('sales').status === 'error' ? 'Failed to load' : '—'; return; }
+  const data = rows('sales'); if (!data) { el.textContent = '—'; return; }
   const pts = data.map((r) => ({t: r.date, v: +r.sales_aed, c: +r.covers})).sort((a, b) => a.t < b.t ? -1 : 1);
-  const W = Math.max(260, el.clientWidth), H = 220, m = {t: 26, r: 8, b: 28, l: 8};
-  el.replaceChildren();
+  const W = Math.max(280, el.clientWidth), H = 200, m = {t: 24, r: 8, b: 26, l: 8}; el.replaceChildren();
   const svg = d3.select(el).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H).attr('role', 'img').attr('aria-label', 'AJ1881 Restaurant sales in AED by reported day');
-  const x = d3.scaleBand().domain(pts.map((d) => d.t)).range([m.l, W - m.r]).padding(0.35);
-  const y = d3.scaleLinear().domain([0, d3.max(pts, (d) => d.v) || 1]).range([H - m.b, m.t]);
-  svg.append('g').attr('class', 'bm-axis').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickFormat((d) => fDay(D(d))).tickSize(0).tickPadding(8)).call((a) => a.select('.domain').style('stroke', 'var(--cds-chart-axis)'));
-  svg.selectAll('rect').data(pts).join('rect').attr('x', (d) => x(d.t)).attr('y', (d) => y(d.v)).attr('width', x.bandwidth()).attr('height', (d) => y(0) - y(d.v)).attr('rx', 3).style('fill', dash.colors[0]);
-  svg.selectAll('.v').data(pts).join('text').attr('x', (d) => x(d.t) + x.bandwidth() / 2).attr('y', (d) => y(d.v) - 7).attr('text-anchor', 'middle').style('fill', 'var(--color-fg)').style('font-size', 'var(--cds-font-size-caption)').style('font-variant-numeric', 'tabular-nums').text((d) => `AED ${d.v} · ${d.c} ${d.c === 1 ? 'cover' : 'covers'}`);
+  const x = d3.scaleBand().domain(pts.map((d) => d.t)).range([m.l, W - m.r]).padding(0.45), y = d3.scaleLinear().domain([0, d3.max(pts, (d) => d.v) || 1]).range([H - m.b, m.t]);
+  svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickFormat((d) => fDay(D(d))).tickSize(0).tickPadding(8)).call((a) => a.select('.domain').attr('stroke', '#d5deeb'));
+  svg.selectAll('rect').data(pts).join('rect').attr('x', (d) => x(d.t)).attr('y', (d) => y(d.v)).attr('width', x.bandwidth()).attr('height', (d) => y(0) - y(d.v)).attr('rx', 5).attr('fill', BLUE);
+  svg.selectAll('.v').data(pts).join('text').attr('x', (d) => x(d.t) + x.bandwidth() / 2).attr('y', (d) => y(d.v) - 7).attr('text-anchor', 'middle').attr('fill', '#0f1b2d').attr('font-size', 12).attr('font-weight', 600).text((d) => `AED ${d.v} · ${d.c} ${d.c === 1 ? 'cover' : 'covers'}`);
 });
 
-dash.draw('brief', (el) => {
-  const b = rows('brief'); el.replaceChildren();
-  if (!b) return;
-  b.slice().sort((p, q) => p.n - q.n).forEach((r) => {
-    const li = document.createElement('li'), a = document.createElement('span'), t = document.createElement('span');
-    a.className = 'a'; a.textContent = r.area; t.textContent = r.text; li.append(a, t); el.append(li);
-  });
-});
+dash.draw('brief', (el) => { const b = rows('brief'); el.replaceChildren(); if (!b) return;
+  b.slice().sort((p, q) => p.n - q.n).forEach((r) => { const li = E('li'); li.append(E('span', 'a', r.area), E('span', '', r.text)); el.append(li); }); });
 
 dash.draw('grid', (el) => {
-  const rep = rows('reporting'), lu = rows('lastupdate'); el.replaceChildren();
-  if (!rep) return;
+  const rep = rows('reporting'), lu = rows('lastupdate'); el.replaceChildren(); if (!rep) return;
   const days = Array.from(new Set(rep.map((r) => r.date))).sort(), depts = Array.from(new Set(rep.map((r) => r.dept)));
-  el.style.gridTemplateColumns = `max-content repeat(${days.length}, minmax(30px,1fr)) max-content`;
-  const add = (cls, text) => { const e = document.createElement('div'); e.className = cls; e.textContent = text; el.append(e); return e; };
-  add('hd', ''); days.forEach((d) => add('hd', fDay(D(d)))); add('hd', 'Last report');
-  depts.forEach((dp) => {
-    add('rw', dp);
-    days.forEach((d) => {
-      const r = rep.find((q) => q.dept === dp && q.date === d), s = r ? r.status : '';
-      const c = add('bm-cell ' + (s === 'Received' ? 'ok' : s === 'Not seen' ? 'bad' : ''), s === 'Received' ? '✓' : s === 'Not seen' ? '–' : '·');
-      c.setAttribute('aria-label', `${dp}, ${fDay(D(d))}: ${s}`);
-    });
-    const l = lu && lu.find((q) => q.dept === dp);
-    add('last', l ? fStamp(l.last_at) : 'In Operations summary');
-  });
+  el.style.gridTemplateColumns = `max-content repeat(${days.length}, minmax(34px,1fr)) max-content`;
+  el.append(E('div', 'hd', '')); days.forEach((d) => el.append(E('div', 'hd', fDay(D(d))))); el.append(E('div', 'hd', 'Last report'));
+  depts.forEach((dp) => { el.append(E('div', 'rw', dp));
+    days.forEach((d) => { const r = rep.find((q) => q.dept === dp && q.date === d), s = r ? r.status : '';
+      const c = E('div', 'cell ' + (s === 'Received' ? 'ok' : s === 'Not seen' ? 'bad' : ''), s === 'Received' ? '✓' : s === 'Not seen' ? '–' : '·'); c.title = `${dp}, ${fDay(D(d))}: ${s}`; el.append(c); });
+    const l = lu && lu.find((q) => q.dept === dp); el.append(E('div', 'last', l ? fStamp(l.last_at) : 'In Operations summary')); });
 });
 
-dash.draw('decisions', (el) => {
-  const reg = rows('register'); el.replaceChildren();
-  if (!reg) return;
+dash.draw('decisions', (el) => { const reg = rows('register'); el.replaceChildren(); if (!reg) return;
   reg.filter((r) => r.status !== 'Resolved' && r.needs_decision === 'yes').sort((a, b) => b.days_open - a.days_open).forEach((r) => {
-    const c = document.createElement('div'), h = document.createElement('h4'), p = document.createElement('p'), m = document.createElement('div'), a = document.createElement('span'), d = document.createElement('span');
-    c.className = 'bm-card'; h.textContent = r.item; p.textContent = r.note; m.className = 'm';
-    a.textContent = r.owner; d.textContent = `${r.days_open} days open`;
-    m.append(a, d); c.append(h, p, m); el.append(c);
-  });
-});
+    const c = E('div', 'card'), m = E('div', 'm'); m.append(E('span', '', r.owner), E('b', '', `${r.days_open} days open`)); c.append(E('h4', '', r.item), E('p', '', r.note), m); el.append(c); }); });
 
-const table = (name, src, pick, cells) => dash.draw(name, (el) => {
-  const all = rows(src); el.replaceChildren();
-  if (!all) return;
-  pick(all).forEach((r) => { const tr = document.createElement('tr'); tr.dataset.key = r.id; cells(r).forEach((c) => tr.append(c)); el.append(tr); });
-});
-table('tasks', 'tasks', (a) => a.slice().sort((p, q) => p.date < q.date ? 1 : -1), (r) => [td(fDay(D(r.date)), 'n'), td(r.task, 'strong'), td(r.from), td(r.owner), td(r.due ? fDay(D(r.due)) : '—', 'n'), td(pill(r.status))]);
-table('openItems', 'register', (a) => a.filter((r) => r.status !== 'Resolved').sort((p, q) => q.days_open - p.days_open), (r) => [td(r.item, 'strong'), td(r.owner), td(String(r.days_open), 'n'), td(pill(r.status)), td(r.note, 'note')]);
-table('resolvedItems', 'register', (a) => a.filter((r) => r.status === 'Resolved').sort((p, q) => p.resolved_on < q.resolved_on ? 1 : -1), (r) => [td(fDay(D(r.resolved_on)), 'n'), td(r.item, 'strong'), td(r.owner), td(r.note, 'note')]);
-table('collections', 'collections', (a) => a, (r) => [td(r.group), td(r.tenant, 'strong'), td(r.detail), td(pill(r.status)), td(r.note, 'note')]);
-table('pipeline', 'pipeline', (a) => a, (r) => [td(r.lead, 'strong'), td(r.need), td(pill(r.stage)), td(r.note, 'note')]);
+const BCOL = {'In progress': BLUE, 'Awaiting decision': '#e6a23c', Open: '#9fb2cc', 'Not confirmed': '#cf3a3a', 'No update seen': '#8f1d1d'};
+const openRows = () => { const r = rows('register'); return r ? r.filter((x) => x.status !== 'Resolved') : null; };
+dash.draw('battery', (el) => { const o = openRows(); el.replaceChildren(); if (!o) return;
+  Object.keys(BCOL).forEach((s) => { const n = o.filter((r) => r.status === s).length; if (!n) return; const i = E('i'); i.style.width = n / o.length * 100 + '%'; i.style.background = BCOL[s]; i.title = `${s}: ${n}`; el.append(i); }); });
+dash.draw('batteryKey', (el) => { const o = openRows(); el.replaceChildren(); if (!o) return;
+  Object.keys(BCOL).forEach((s) => { const n = o.filter((r) => r.status === s).length; if (!n) return; const sp = E('span'), i = E('i'); i.style.background = BCOL[s]; sp.append(i, `${s} ${n}`); el.append(sp); }); });
+const item = (title, detail, right) => { const li = E('li'), r = E('div', 'r'); right.forEach((x) => r.append(x)); li.append(E('div', 't', title), r, E('div', 'd', detail)); return li; };
+dash.draw('openItems', (el) => { const o = openRows(); el.replaceChildren(); if (!o) return;
+  o.sort((p, q) => q.days_open - p.days_open).forEach((r) => el.append(item(r.item, `${r.owner} · ${r.note}`, [pill(r.status), E('span', 'age', `${r.days_open} days open`)]))); });
+dash.draw('resolvedItems', (el) => { const reg = rows('register'); el.replaceChildren(); if (!reg) return;
+  reg.filter((r) => r.status === 'Resolved').sort((p, q) => p.resolved_on < q.resolved_on ? 1 : -1).forEach((r) => el.append(item(r.item, `${r.owner} · ${r.note}`, [pill('Resolved'), E('span', 'age', fDay(D(r.resolved_on)))]))); });
+dash.draw('tasks', (el) => { const t = rows('tasks'); el.replaceChildren(); if (!t) return;
+  t.slice().sort((p, q) => p.date < q.date ? 1 : -1).forEach((r) => el.append(item(r.task, `From ${r.from} to ${r.owner} · raised ${fDay(D(r.date))}${r.due ? ' · due ' + fDay(D(r.due)) : ''}`, [pill(r.status)]))); });
+
+dash.draw('collections', (el) => { const c = rows('collections'); el.replaceChildren(); if (!c) return;
+  Array.from(new Set(c.map((r) => r.group))).forEach((g) => { const card = E('div', 'card'), ul = E('ul', 'rows'); card.append(E('p', 'lbl', g), ul);
+    c.filter((r) => r.group === g).forEach((r) => ul.append(item(r.tenant, r.note, [pill(r.status)]))); ul.firstChild.style.borderTop = '0'; el.append(card); }); });
+
+dash.draw('pipeline', (el) => { const p = rows('pipeline'); el.replaceChildren(); if (!p) return;
+  ['Follow-up', 'Proposal', 'Negotiation', 'Contract', 'Won'].forEach((s) => { const list = p.filter((r) => r.stage === s), col = E('div', 'col' + (s === 'Won' ? ' won' : '')), h = E('h5');
+    h.append(s, E('span', '', String(list.length))); col.append(h);
+    list.forEach((r) => { const c = E('div', 'lead'); c.append(E('b', '', r.lead), E('span', '', r.need)); c.title = r.note; col.append(c); }); el.append(col); }); });
+
+document.querySelectorAll('[data-tab]').forEach((b) => b.addEventListener('click', () => {
+  document.querySelectorAll('[data-tab]').forEach((x) => x.classList.toggle('on', x === b));
+  document.querySelectorAll('[data-panel]').forEach((p) => { p.hidden = p.dataset.panel !== b.dataset.tab; }); }));
+document.querySelectorAll('[data-more]').forEach((b) => b.addEventListener('click', () => { const ul = b.previousElementSibling, clipped = ul.classList.toggle('clip'); b.textContent = clipped ? 'Show all open items' : 'Show fewer'; }));
 </script>
