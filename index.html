@@ -106,7 +106,7 @@ main.wrap{display:flex;flex-direction:column;gap:28px;padding-top:26px;padding-b
 <main class="wrap">
   <section class="hero" id="overview">
     <div class="card occ">
-      <p class="lbl">Occupancy</p>
+      <p class="lbl">Occupancy · last reported <span data-draw="kOccDate">—</span></p>
       <div class="occ-big"><span class="n" data-draw="kPct">—</span><span class="s"><b data-draw="kOcc">—</b> of <span data-draw="kTotal">—</span> rooms occupied · <span data-draw="kVacant">—</span> available</span></div>
       <div class="bar"><i data-draw="occBar"></i></div>
       <div class="deltas"><span class="delta"><b data-draw="kDeltaPrev">—</b> rooms vs <span data-draw="kPrevDate">—</span></span><span class="delta"><b data-draw="kDeltaFirst">—</b> rooms since <span data-draw="kFirstDate">—</span></span></div>
@@ -212,7 +212,7 @@ dash.calc('kpis', {inputs: ['occupancy', 'items', 'meta', 'reporting'], fn: (occ
   const open = items.filter((r) => r.status !== 'Resolved');
   const today = reporting.filter((r) => r.date === rd);
   return [{report_date: rd, occupied: +last.occupied, total_units: +last.total_units, occupancy_pct: Math.round(last.occupied / last.total_units * 1000) / 10,
-    vacant: last.total_units - last.occupied, prev_date: prev.date, delta_prev: last.occupied - prev.occupied, first_date: first.date, delta_first: last.occupied - first.occupied,
+    vacant: last.total_units - last.occupied, occ_date: last.date, prev_date: prev.date, delta_prev: last.occupied - prev.occupied, first_date: first.date, delta_first: last.occupied - first.occupied,
     open_items: open.length, decisions: open.filter((r) => r.needs_decision === 'yes').length,
     resolved_week: items.filter((r) => r.status === 'Resolved' && r.resolved_on && day(rd) - day(r.resolved_on) < 7).length,
     reports_received: today.filter((r) => r.status === 'Received').length, reports_expected: today.filter((r) => r.status === 'Received' || r.status === 'Not seen').length}];
@@ -230,7 +230,7 @@ dash.calc('register', {inputs: ['items', 'meta'], fn: (items, meta) => {
 
 const kpi = (name, field, fmt) => dash.draw(name, (el) => { const k = row0('kpis'); el.textContent = k ? fmt(k[field]) : '—'; });
 kpi('reportDate', 'report_date', (v) => fLong(D(v))); kpi('kOcc', 'occupied', String); kpi('kTotal', 'total_units', String);
-kpi('kPct', 'occupancy_pct', (v) => v.toFixed(1) + '%'); kpi('kVacant', 'vacant', String);
+kpi('kPct', 'occupancy_pct', (v) => v.toFixed(1) + '%'); kpi('kVacant', 'vacant', String); kpi('kOccDate', 'occ_date', (v) => fDay(D(v)));
 kpi('kDeltaPrev', 'delta_prev', signed); kpi('kPrevDate', 'prev_date', (v) => fDay(D(v)));
 kpi('kDeltaFirst', 'delta_first', signed); kpi('kFirstDate', 'first_date', (v) => fDay(D(v)));
 kpi('kOpen', 'open_items', String); kpi('kDec', 'decisions', String); kpi('kResolved', 'resolved_week', String);
