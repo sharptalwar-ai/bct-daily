@@ -1,42 +1,37 @@
 [
  {
   "n": 1,
-  "area": "Reception",
-  "text": "Two check-ins (premium rooms, short stay) and one new inquiry for a 1BHK one-month stay. Renewals for rooms 212 and 1509 are still being negotiated."
+  "area": "Reporting",
+  "text": "Six reports covered 11 Nov: Operations, HR & Admin, Accounts, IT, Flower shop and AJ1881 (Accounts and IT sent the next morning). Reception, Maintenance, Housekeeping and Drivers reports not seen, so there is no occupancy figure for 11 Nov; the last reported figure is 95 of 183 rooms on 10 Nov."
  },
  {
   "n": 2,
-  "area": "Maintenance",
-  "text": "11 room issues logged and all 11 closed the same day: hot water, leaks, AC, key cards and TV. Reception power connection restored."
+  "area": "Building",
+  "text": "Gravity fixed the lifts on the 7th and 15th floors; their maintenance quotation is awaited. More vendors are being sourced for BMS comparison quotes. The VingCard key-card system was reported down; a technical inspection was requested."
  },
  {
   "n": 3,
-  "area": "Collections",
-  "text": "Spa rent and Spa parking cheques dated 10 Nov deposited. PHO7 is paid to 14 Dec 2026 and Reneco is fully paid for 2026–27."
+  "area": "IT",
+  "text": "4 complaints received and 4 closed: Wi-Fi in rooms 1401 and 501, a door in room 1110 and the reception PC. Equal software reported slow; optimisation in progress."
  },
  {
   "n": 4,
   "area": "Accounts",
-  "text": "Averda waste-collection payment made, clearing the service suspension. FAB statements from 2024 to date collected for reconciliation."
+  "text": "Payments recorded from El Sewedy Power for premium rooms 502 and 504 and for room 206; two cheques deposited. No returned cheques and no overdue rent reported. Etisalat bill awaiting payment approval. TH-202 replacement cheque not confirmed."
  },
  {
   "n": 5,
-  "area": "Building",
-  "text": "TENCO inspected the building management system; their quotation is awaited and three more are being sourced."
+  "area": "Decisions",
+  "text": "Room 212 renewal under review; Management asked for tenancy registration, licence and contract-term details. MBG sent a revised accounting and VAT proposal (V.02), with corporate tax quoted separately. Operations listed the new Etisalat Wi-Fi line as awaiting approval."
  },
  {
   "n": 6,
-  "area": "Systems",
-  "text": "Equal software data upload at 50%. ADNOC contract documentation at 50%. New Etisalat line requested to speed up the software."
+  "area": "Side businesses",
+  "text": "AJ1881 sales AED 82 from 4 covers; coffee machine still not working (missing parts). Flower shop sales AED 0, no new orders. Carpenter visited for the lobby café, kiosk and 1st-floor buffet; quotation awaited."
  },
  {
   "n": 7,
-  "area": "Side businesses",
-  "text": "Restaurant sales AED 16 from one cover. Flower shop off day. Café dining area set up; carpenter being sourced for kiosk and counter."
- },
- {
-  "n": 8,
-  "area": "Logistics & admin",
-  "text": "Sama Yalwa vehicle hand-back followed up on 10 Nov; on 11 Nov the supplier was given 48 hours to deliver all vehicles with fines and maintenance cleared. Gas refill requested 9 Nov, chased and acknowledged by the supplier 11 Nov. A single daily report format was issued to all departments on 11 Nov."
+  "area": "Sales",
+  "text": "ADNOC HSE requirements and documents still being completed, a priority for 12 Nov. El Sewedy payment received for two premium rooms."
  }
 ]

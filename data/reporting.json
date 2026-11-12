@@ -1,11 +1,5 @@
 [
  {
-  "key": "Operations summary|2026-11-04",
-  "dept": "Operations summary",
-  "date": "2026-11-04",
-  "status": "Received"
- },
- {
   "key": "Operations summary|2026-11-05",
   "dept": "Operations summary",
   "date": "2026-11-05",
@@ -42,9 +36,9 @@
   "status": "Received"
  },
  {
-  "key": "Housekeeping|2026-11-04",
-  "dept": "Housekeeping",
-  "date": "2026-11-04",
+  "key": "Operations summary|2026-11-11",
+  "dept": "Operations summary",
+  "date": "2026-11-11",
   "status": "Received"
  },
  {
@@ -84,10 +78,10 @@
   "status": "Not seen"
  },
  {
-  "key": "Maintenance|2026-11-04",
-  "dept": "Maintenance",
-  "date": "2026-11-04",
-  "status": "Received"
+  "key": "Housekeeping|2026-11-11",
+  "dept": "Housekeeping",
+  "date": "2026-11-11",
+  "status": "Not seen"
  },
  {
   "key": "Maintenance|2026-11-05",
@@ -126,10 +120,10 @@
   "status": "Received"
  },
  {
-  "key": "Drivers|2026-11-04",
-  "dept": "Drivers",
-  "date": "2026-11-04",
-  "status": "Received"
+  "key": "Maintenance|2026-11-11",
+  "dept": "Maintenance",
+  "date": "2026-11-11",
+  "status": "Not seen"
  },
  {
   "key": "Drivers|2026-11-05",
@@ -168,10 +162,10 @@
   "status": "Not seen"
  },
  {
-  "key": "HR & Accounts|2026-11-04",
-  "dept": "HR & Accounts",
-  "date": "2026-11-04",
-  "status": "Received"
+  "key": "Drivers|2026-11-11",
+  "dept": "Drivers",
+  "date": "2026-11-11",
+  "status": "Not seen"
  },
  {
   "key": "HR & Accounts|2026-11-05",
@@ -210,9 +204,9 @@
   "status": "Received"
  },
  {
-  "key": "Flower shop|2026-11-04",
-  "dept": "Flower shop",
-  "date": "2026-11-04",
+  "key": "HR & Accounts|2026-11-11",
+  "dept": "HR & Accounts",
+  "date": "2026-11-11",
   "status": "Received"
  },
  {
@@ -252,10 +246,10 @@
   "status": "Off day"
  },
  {
-  "key": "IT|2026-11-04",
-  "dept": "IT",
-  "date": "2026-11-04",
-  "status": "Not seen"
+  "key": "Flower shop|2026-11-11",
+  "dept": "Flower shop",
+  "date": "2026-11-11",
+  "status": "Received"
  },
  {
   "key": "IT|2026-11-05",
@@ -294,9 +288,9 @@
   "status": "Received"
  },
  {
-  "key": "Restaurant sales|2026-11-04",
-  "dept": "Restaurant sales",
-  "date": "2026-11-04",
+  "key": "IT|2026-11-11",
+  "dept": "IT",
+  "date": "2026-11-11",
   "status": "Received"
  },
  {
@@ -333,6 +327,12 @@
   "key": "Restaurant sales|2026-11-10",
   "dept": "Restaurant sales",
   "date": "2026-11-10",
+  "status": "Received"
+ },
+ {
+  "key": "Restaurant sales|2026-11-11",
+  "dept": "Restaurant sales",
+  "date": "2026-11-11",
   "status": "Received"
  }
 ]

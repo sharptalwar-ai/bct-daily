@@ -1,5 +1,59 @@
 [
  {
+  "id": "T14",
+  "date": "2026-11-12",
+  "from": "Management",
+  "owner": "Reception, Maintenance",
+  "task": "Send the missing 11 Nov daily reports before 10:00 on 12 Nov; from now on send daily by 8:00 pm without a reminder",
+  "due": "2026-11-12",
+  "status": "In progress"
+ },
+ {
+  "id": "T13",
+  "date": "2026-11-11",
+  "from": "Management",
+  "owner": "Operations Manager",
+  "task": "Confirm room 212 tenancy registration, licence activity, renewal intent and contract term, and how many units use the same agreement format",
+  "due": null,
+  "status": "Acknowledged"
+ },
+ {
+  "id": "T15",
+  "date": "2026-11-11",
+  "from": "Operations Manager",
+  "owner": "Operations Manager",
+  "task": "Complete ADNOC HSE requirements and documents",
+  "due": "2026-11-12",
+  "status": "Planned"
+ },
+ {
+  "id": "T16",
+  "date": "2026-11-11",
+  "from": "Operations Manager",
+  "owner": "Operations Manager",
+  "task": "Finalise the room 212 contract renewal",
+  "due": "2026-11-12",
+  "status": "Planned"
+ },
+ {
+  "id": "T17",
+  "date": "2026-11-11",
+  "from": "Operations Manager",
+  "owner": "Operations Manager",
+  "task": "Follow up Assa Abloy for VingCard technical support",
+  "due": "2026-11-12",
+  "status": "Planned"
+ },
+ {
+  "id": "T18",
+  "date": "2026-11-11",
+  "from": "Flower shop",
+  "owner": "Flower shop",
+  "task": "Follow up suppliers on the new shipment and confirm flowers for the weekly IHC and Sirius arrangements",
+  "due": "2026-11-12",
+  "status": "Planned"
+ },
+ {
   "id": "T9",
   "date": "2026-11-11",
   "from": "Management",
@@ -24,7 +78,7 @@
   "owner": "Accounts",
   "task": "Review all long-term tenant contracts against payments received",
   "due": "2026-11-11",
-  "status": "Planned"
+  "status": "Not confirmed"
  },
  {
   "id": "T2",
@@ -33,7 +87,7 @@
   "owner": "Accounts",
   "task": "Complete the cheque deposit list and confirm bank credits",
   "due": "2026-11-11",
-  "status": "Planned"
+  "status": "Not confirmed"
  },
  {
   "id": "T11",
@@ -97,14 +151,5 @@
   "task": "One consolidated operations dashboard every day before end of duty",
   "due": null,
   "status": "In progress"
- },
- {
-  "id": "T8",
-  "date": "2026-11-04",
-  "from": "CEO",
-  "owner": "Operations Manager",
-  "task": "Inspect and clean apartment 709, attach the report to the contract and email the tenant",
-  "due": "2026-11-05",
-  "status": "Not confirmed"
  }
 ]
