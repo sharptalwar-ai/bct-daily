@@ -1,37 +1,42 @@
 [
  {
   "n": 1,
-  "area": "Reporting",
-  "text": "Six reports covered 11 Nov: Operations, HR & Admin, Accounts, IT, Flower shop and AJ1881 (Accounts and IT sent the next morning). Reception, Maintenance, Housekeeping and Drivers reports not seen, so there is no occupancy figure for 11 Nov; the last reported figure is 95 of 183 rooms on 10 Nov."
+  "area": "Occupancy",
+  "text": "Reception reported 93 of 183 rooms occupied on 13 Nov (50.8%), 44 of them Rabdan. No check-ins, check-outs or new inquiries on 13 Nov. Late reports also gave 92 rooms for 11 Nov and 93 for 12 Nov (one check-in, room 504)."
  },
  {
   "n": 2,
-  "area": "Building",
-  "text": "Gravity fixed the lifts on the 7th and 15th floors; their maintenance quotation is awaited. More vendors are being sourced for BMS comparison quotes. The VingCard key-card system was reported down; a technical inspection was requested."
+  "area": "Reporting",
+  "text": "Reports for 13 Nov received from Operations, Reception, Maintenance, Accounts, HR & Admin, IT, Flower shop and AJ1881. Housekeeping and Drivers reports not seen. Staff reported Outlook email problems since 12 Nov."
  },
  {
   "n": 3,
-  "area": "IT",
-  "text": "4 complaints received and 4 closed: Wi-Fi in rooms 1401 and 501, a door in room 1110 and the reception PC. Equal software reported slow; optimisation in progress."
+  "area": "Building",
+  "text": "Maintenance closed 6 jobs on 13 Nov (lamps in rooms 1204 and 1212, room 1611 wall and door, office lights, AC filters, split-unit servicing). Room 710 FCU motor is burnt and needs rewinding; Operations asked for competitive quotations before approval. Gas refill was carried out with the supplier on 13 Nov. 15th-floor corridor painting continues."
  },
  {
   "n": 4,
-  "area": "Accounts",
-  "text": "Payments recorded from El Sewedy Power for premium rooms 502 and 504 and for room 206; two cheques deposited. No returned cheques and no overdue rent reported. Etisalat bill awaiting payment approval. TH-202 replacement cheque not confirmed."
+  "area": "IT",
+  "text": "4 complaints received and 4 closed on 13 Nov (TV in 1401, Wi-Fi and TV in 803, project-office printer). The VingCard key-card system was fixed on 12 Nov. Equal software and office 101 Wi-Fi still slow; the new Etisalat line is still awaiting approval."
  },
  {
   "n": 5,
-  "area": "Decisions",
-  "text": "Room 212 renewal under review; Management asked for tenancy registration, licence and contract-term details. MBG sent a revised accounting and VAT proposal (V.02), with corporate tax quoted separately. Operations listed the new Etisalat Wi-Fi line as awaiting approval."
+  "area": "Accounts",
+  "text": "No money received and no cheques deposited or returned on 13 Nov; no overdue rent reported. Etisalat bill still awaiting payment approval. GRN for the Rabdan purchase order submitted on their portal; invoices to follow once approved."
  },
  {
   "n": 6,
-  "area": "Side businesses",
-  "text": "AJ1881 sales AED 82 from 4 covers; coffee machine still not working (missing parts). Flower shop sales AED 0, no new orders. Carpenter visited for the lobby café, kiosk and 1st-floor buffet; quotation awaited."
+  "area": "Sales",
+  "text": "ADNOC HSE reviewer said on 13 Nov some documents are still pending and others are not yet signed; Risk Management and Emergency Response Plan still being prepared. Site visits held for a Hawksbay Real Estate agent (12 Nov) and a Rabdan Academy client for a 1BHK (13 Nov). Room 212 renewal still under review."
  },
  {
   "n": 7,
-  "area": "Sales",
-  "text": "ADNOC HSE requirements and documents still being completed, a priority for 12 Nov. El Sewedy payment received for two premium rooms."
+  "area": "Side businesses",
+  "text": "AJ1881 sales AED 304 from 10 covers on 13 Nov (AED 80 from 4 covers on 12 Nov); coffee machine still not working and approval requested for a machine. Flower shop sales AED 0; registered with Talabat, Deliveroo and Keeta and preparing for Sunday’s opening event. Glass and aluminium vendors visiting for the 1st-floor buffet."
+ },
+ {
+  "n": 8,
+  "area": "Decisions",
+  "text": "Awaiting decision: new Etisalat Wi-Fi line, Etisalat bill payment, MBG accounting and VAT proposal, AJ1881 coffee machine, offer letters and visa processing. CEO gave a 48-hour instruction on 12 Nov for in-house cleaning, pest control, pool cleaning, drainage checks before rain and a preventive maintenance list; implementation not yet confirmed."
  }
 ]

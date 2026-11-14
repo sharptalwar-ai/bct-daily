@@ -4,8 +4,8 @@
   "lead": "ADNOC",
   "need": "Staff accommodation",
   "stage": "Contract",
-  "last": "2026-11-10",
-  "note": "Draft contract with ADNOC; HSE documents 50% complete."
+  "last": "2026-11-13",
+  "note": "Draft contract with ADNOC. HSE documents partly submitted 12 Nov; ADNOC’s reviewer said on 13 Nov some are still pending and others unsigned."
  },
  {
   "id": "P2",
@@ -78,5 +78,21 @@
   "stage": "Won",
   "last": "2026-11-09",
   "note": "Weekly deliveries started 9 Nov."
+ },
+ {
+  "id": "P11",
+  "lead": "Hawksbay Real Estate (agent)",
+  "need": "Not stated",
+  "stage": "Follow-up",
+  "last": "2026-11-12",
+  "note": "Site visit completed 12 Nov."
+ },
+ {
+  "id": "P12",
+  "lead": "Rabdan Academy client",
+  "need": "1BHK",
+  "stage": "Follow-up",
+  "last": "2026-11-13",
+  "note": "Site visit completed 13 Nov."
  }
 ]

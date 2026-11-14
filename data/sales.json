@@ -28,5 +28,17 @@
   "outlet": "AJ1881 Restaurant",
   "sales_aed": 82,
   "covers": 4
+ },
+ {
+  "date": "2026-11-12",
+  "outlet": "AJ1881 Restaurant",
+  "sales_aed": 80,
+  "covers": 4
+ },
+ {
+  "date": "2026-11-13",
+  "outlet": "AJ1881 Restaurant",
+  "sales_aed": 304,
+  "covers": 10
  }
 ]
