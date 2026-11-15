@@ -1,5 +1,41 @@
 [
  {
+  "id": "T27",
+  "date": "2026-11-14",
+  "from": "Operations Manager",
+  "owner": "Operations Manager",
+  "task": "Complete the remaining ADNOC HSE requirements and documents (Risk Management and Emergency Response Plan)",
+  "due": "2026-11-15",
+  "status": "Planned"
+ },
+ {
+  "id": "T28",
+  "date": "2026-11-14",
+  "from": "Operations Manager",
+  "owner": "Operations Manager",
+  "task": "Finalise the room 212 contract renewal (under review because of the rent increase)",
+  "due": "2026-11-15",
+  "status": "Planned"
+ },
+ {
+  "id": "T29",
+  "date": "2026-11-14",
+  "from": "Maintenance",
+  "owner": "Maintenance",
+  "task": "Follow up approval for the room 710 FCU rewinding, fix the room 1604 washroom door, finish the room 1111 ceiling painting and continue the 1st–16th floor fittings inspection",
+  "due": "2026-11-15",
+  "status": "Planned"
+ },
+ {
+  "id": "T30",
+  "date": "2026-11-14",
+  "from": "Flower shop",
+  "owner": "Flower shop",
+  "task": "Finalise the mini-bouquet giveaways and remaining requirements for the Sunday soft opening",
+  "due": "2026-11-15",
+  "status": "Planned"
+ },
+ {
   "id": "T20",
   "date": "2026-11-13",
   "from": "Operations Manager",
@@ -33,7 +69,7 @@
   "owner": "Flower shop",
   "task": "Receive supplier flowers and prepare all arrangements for the Sunday soft opening",
   "due": "2026-11-15",
-  "status": "Planned"
+  "status": "In progress"
  },
  {
   "id": "T24",
@@ -42,7 +78,7 @@
   "owner": "Maintenance",
   "task": "Follow up room 710 approval, monitor 15th-floor corridor painting and continue the 1st–16th floor room fittings inspection",
   "due": "2026-11-14",
-  "status": "Planned"
+  "status": "In progress"
  },
  {
   "id": "T26",
@@ -69,7 +105,7 @@
   "owner": "Operations Manager",
   "task": "Within 48 hours: in-house cleaning, pest control, pool-cleaning machine quotations, drainage inspection and cleaning before the rains, chemicals and materials list, preventive maintenance list",
   "due": "2026-11-14",
-  "status": "Acknowledged"
+  "status": "Not confirmed"
  },
  {
   "id": "T25",
@@ -205,14 +241,5 @@
   "task": "Occupied and unoccupied room report with tenant details and physical verification",
   "due": "2026-11-09",
   "status": "Not confirmed"
- },
- {
-  "id": "T6",
-  "date": "2026-11-07",
-  "from": "Management",
-  "owner": "Reception",
-  "task": "Enter all reception records and tenant contracts into the software",
-  "due": null,
-  "status": "In progress"
  }
 ]
