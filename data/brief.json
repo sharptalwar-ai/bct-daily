@@ -2,36 +2,31 @@
  {
   "n": 1,
   "area": "Occupancy",
-  "text": "No occupancy figure was reported for 14 Nov: no Reception report was seen. The last reported figure is 93 of 183 rooms occupied on 13 Nov (50.8%)."
+  "text": "No occupancy figure was reported for Sunday 15 Nov: no Reception or Operations report was seen. The last reported figure is 93 of 183 rooms occupied on 13 Nov (50.8%)."
  },
  {
   "n": 2,
   "area": "Reporting",
-  "text": "Reports for 14 Nov received from Operations, Maintenance, IT, Flower shop and AJ1881. Reception, HR & Accounts, Housekeeping and Drivers daily reports not seen."
+  "text": "15 Nov was the Sunday off day; HR reported that only the two café baristas and the Operations Manager were on duty, 9 am to 8 pm. Reports for 15 Nov received from HR & Accounts and the Flower shop. Operations summary and AJ1881 sales not seen. HR & Accounts also sent its missing 14 Nov reports on the morning of 16 Nov."
  },
  {
   "n": 3,
-  "area": "Building",
-  "text": "Maintenance logged 11 items on 14 Nov and closed 7 (rooms 1504, 501, 412, 806, 1606 and 1103, and the 15th-floor corridor painting, now complete). Room 1111 ceiling painting continues. Room 1604 washroom door is pending. Room 710 FCU motor rewinding is awaiting management approval; quotations are being gathered."
+  "area": "Finance",
+  "text": "Accounts reported no money received and no cheques deposited or returned on 15 Nov, and no overdue rent. A room payment for room 412 was recorded on 14 Nov. The Etisalat bill (internet, mobile and telephone) is still awaiting approval. The payments section will be resent once the café invoices are in."
  },
  {
   "n": 4,
-  "area": "IT",
-  "text": "3 complaints received and 3 closed on 14 Nov (doors in rooms 1509 and 1502, TV in 805). Equal software still slow. The 16 new camera locations are still pending, and the new Etisalat Wi-Fi line is still awaiting approval."
+  "area": "HR",
+  "text": "A new café barista joined on 15 Nov. HR’s 14 and 15 Nov reports list offer letters still required and visa processing pending for 4 staff; no leave or absences reported."
  },
  {
   "n": 5,
-  "area": "Sales",
-  "text": "Operations submitted ADNOC’s HSE documentation, SOP and licence on 14 Nov; Risk Management and Emergency Response Plan still to be completed. Room 212 renewal still under review because of the rent increase. Quotations from Al Khayam (café, kiosk, buffet), Gravity (lifts) and Tecon (BMS) are still being followed up."
+  "area": "Side businesses",
+  "text": "Flower shop sales AED 0 on 15 Nov. It completed the weekly vase arrangements for IHC and Sirius Holdings, 18 mini bouquets for the Pilates studio opening giveaway and one large custom bouquet; no problems reported. Next priority: UAE National Day arrangements. AJ1881 sales for 15 Nov not reported."
  },
  {
   "n": 6,
-  "area": "Side businesses",
-  "text": "AJ1881 sales AED 290 from 7 covers on 14 Nov; coffee machine still not working. Flower shop sales AED 0; it completed 8 vase arrangements for IHC and 4 for Sirius Holdings, and prepared centrepieces and mini-bouquet giveaways for Sunday’s opening event."
- },
- {
-  "n": 7,
   "area": "Decisions",
-  "text": "Awaiting decision: room 710 FCU rewinding, the new Etisalat Wi-Fi line, the Etisalat bill payment, the MBG accounting and VAT proposal, the AJ1881 coffee machine, and pending offer letters and visa processing. The CEO’s 48-hour instruction of 12 Nov (cleaning, pest control, pool, drainage, preventive maintenance) is not yet confirmed as done."
+  "text": "Awaiting decision: room 710 FCU rewinding, the new Etisalat Wi-Fi line, the Etisalat bill payment, the MBG accounting and VAT proposal, the AJ1881 coffee machine, and pending offer letters and visa processing. The CEO’s 48-hour instruction of 12 Nov (cleaning, pest control, pool, drainage, preventive maintenance) and the outcome of the Sunday opening event are not yet confirmed."
  }
 ]

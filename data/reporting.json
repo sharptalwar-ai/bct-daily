@@ -1,11 +1,5 @@
 [
  {
-  "key": "Operations summary|2026-11-08",
-  "dept": "Operations summary",
-  "date": "2026-11-08",
-  "status": "Not seen"
- },
- {
   "key": "Operations summary|2026-11-09",
   "dept": "Operations summary",
   "date": "2026-11-09",
@@ -42,10 +36,10 @@
   "status": "Received"
  },
  {
-  "key": "Housekeeping|2026-11-08",
-  "dept": "Housekeeping",
-  "date": "2026-11-08",
-  "status": "Received"
+  "key": "Operations summary|2026-11-15",
+  "dept": "Operations summary",
+  "date": "2026-11-15",
+  "status": "Not seen"
  },
  {
   "key": "Housekeeping|2026-11-09",
@@ -84,10 +78,10 @@
   "status": "Not seen"
  },
  {
-  "key": "Maintenance|2026-11-08",
-  "dept": "Maintenance",
-  "date": "2026-11-08",
-  "status": "Not seen"
+  "key": "Housekeeping|2026-11-15",
+  "dept": "Housekeeping",
+  "date": "2026-11-15",
+  "status": "Off day"
  },
  {
   "key": "Maintenance|2026-11-09",
@@ -126,10 +120,10 @@
   "status": "Received"
  },
  {
-  "key": "Drivers|2026-11-08",
-  "dept": "Drivers",
-  "date": "2026-11-08",
-  "status": "Not seen"
+  "key": "Maintenance|2026-11-15",
+  "dept": "Maintenance",
+  "date": "2026-11-15",
+  "status": "Off day"
  },
  {
   "key": "Drivers|2026-11-09",
@@ -168,10 +162,10 @@
   "status": "Not seen"
  },
  {
-  "key": "HR & Accounts|2026-11-08",
-  "dept": "HR & Accounts",
-  "date": "2026-11-08",
-  "status": "Not seen"
+  "key": "Drivers|2026-11-15",
+  "dept": "Drivers",
+  "date": "2026-11-15",
+  "status": "Off day"
  },
  {
   "key": "HR & Accounts|2026-11-09",
@@ -207,12 +201,12 @@
   "key": "HR & Accounts|2026-11-14",
   "dept": "HR & Accounts",
   "date": "2026-11-14",
-  "status": "Not seen"
+  "status": "Received"
  },
  {
-  "key": "Flower shop|2026-11-08",
-  "dept": "Flower shop",
-  "date": "2026-11-08",
+  "key": "HR & Accounts|2026-11-15",
+  "dept": "HR & Accounts",
+  "date": "2026-11-15",
   "status": "Received"
  },
  {
@@ -252,10 +246,10 @@
   "status": "Received"
  },
  {
-  "key": "IT|2026-11-08",
-  "dept": "IT",
-  "date": "2026-11-08",
-  "status": "Not seen"
+  "key": "Flower shop|2026-11-15",
+  "dept": "Flower shop",
+  "date": "2026-11-15",
+  "status": "Received"
  },
  {
   "key": "IT|2026-11-09",
@@ -294,10 +288,10 @@
   "status": "Received"
  },
  {
-  "key": "Restaurant sales|2026-11-08",
-  "dept": "Restaurant sales",
-  "date": "2026-11-08",
-  "status": "Not seen"
+  "key": "IT|2026-11-15",
+  "dept": "IT",
+  "date": "2026-11-15",
+  "status": "Off day"
  },
  {
   "key": "Restaurant sales|2026-11-09",
@@ -334,5 +328,11 @@
   "dept": "Restaurant sales",
   "date": "2026-11-14",
   "status": "Received"
+ },
+ {
+  "key": "Restaurant sales|2026-11-15",
+  "dept": "Restaurant sales",
+  "date": "2026-11-15",
+  "status": "Not seen"
  }
 ]

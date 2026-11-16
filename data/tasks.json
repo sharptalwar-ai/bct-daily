@@ -1,5 +1,14 @@
 [
  {
+  "id": "T31",
+  "date": "2026-11-15",
+  "from": "Flower shop",
+  "owner": "Flower shop",
+  "task": "Work on and complete the floral arrangements for UAE National Day",
+  "due": "2026-11-16",
+  "status": "Planned"
+ },
+ {
   "id": "T27",
   "date": "2026-11-14",
   "from": "Operations Manager",
@@ -33,7 +42,7 @@
   "owner": "Flower shop",
   "task": "Finalise the mini-bouquet giveaways and remaining requirements for the Sunday soft opening",
   "due": "2026-11-15",
-  "status": "Planned"
+  "status": "Done"
  },
  {
   "id": "T20",
@@ -69,7 +78,7 @@
   "owner": "Flower shop",
   "task": "Receive supplier flowers and prepare all arrangements for the Sunday soft opening",
   "due": "2026-11-15",
-  "status": "In progress"
+  "status": "Done"
  },
  {
   "id": "T24",
@@ -232,14 +241,5 @@
   "task": "Sign the Company Rules and Policy acknowledgement",
   "due": null,
   "status": "In progress"
- },
- {
-  "id": "T5",
-  "date": "2026-11-08",
-  "from": "CEO",
-  "owner": "Operations Manager",
-  "task": "Occupied and unoccupied room report with tenant details and physical verification",
-  "due": "2026-11-09",
-  "status": "Not confirmed"
  }
 ]
