@@ -187,5 +187,12 @@
   "rabdan": 44,
   "total_units": 183,
   "occupancy_pct": 50.8
+ },
+ {
+  "date": "2026-11-16",
+  "occupied": 93,
+  "rabdan": 44,
+  "total_units": 183,
+  "occupancy_pct": 50.8
  }
 ]

@@ -2,31 +2,41 @@
  {
   "n": 1,
   "area": "Occupancy",
-  "text": "No occupancy figure was reported for Sunday 15 Nov: no Reception or Operations report was seen. The last reported figure is 93 of 183 rooms occupied on 13 Nov (50.8%)."
+  "text": "Reception reported 93 of 183 rooms occupied on Monday 16 Nov (50.8%), 44 of them Rabdan; unchanged from 13 Nov. No check-ins or check-outs, 1 new inquiry, no viewings or new bookings."
  },
  {
   "n": 2,
   "area": "Reporting",
-  "text": "15 Nov was the Sunday off day; HR reported that only the two café baristas and the Operations Manager were on duty, 9 am to 8 pm. Reports for 15 Nov received from HR & Accounts and the Flower shop. Operations summary and AJ1881 sales not seen. HR & Accounts also sent its missing 14 Nov reports on the morning of 16 Nov."
+  "text": "Reports for 16 Nov received from Reception, Maintenance, IT, Accounts, HR & Admin and the Flower shop. The Operations summary and AJ1881 sales report were not seen; Housekeeping and Drivers reports are still not being sent."
  },
  {
   "n": 3,
-  "area": "Finance",
-  "text": "Accounts reported no money received and no cheques deposited or returned on 15 Nov, and no overdue rent. A room payment for room 412 was recorded on 14 Nov. The Etisalat bill (internet, mobile and telephone) is still awaiting approval. The payments section will be resent once the café invoices are in."
+  "area": "Maintenance",
+  "text": "Maintenance completed 6 jobs on 16 Nov, including the room 706 AC, the room 1509 shut-off valve pipe and room 911 painting. Open: room 706 thermostat, the 7th-floor lift door not opening properly, and a calorifier (hot-water tank) leak the in-house team could not fix. Operations asked for urgent specialist support and a quotation. Reception logged 5 guest complaints, all closed; IT fixed 3 issues (two key cards and a PC)."
  },
  {
   "n": 4,
-  "area": "HR",
-  "text": "A new café barista joined on 15 Nov. HR’s 14 and 15 Nov reports list offer letters still required and visa processing pending for 4 staff; no leave or absences reported."
+  "area": "Facilities",
+  "text": "The facility management company replied on 16 Nov that it cannot do rectification or maintenance work without an active contract, but can arrange a third-party provider. How to proceed has not been confirmed."
  },
  {
   "n": 5,
-  "area": "Side businesses",
-  "text": "Flower shop sales AED 0 on 15 Nov. It completed the weekly vase arrangements for IHC and Sirius Holdings, 18 mini bouquets for the Pilates studio opening giveaway and one large custom bouquet; no problems reported. Next priority: UAE National Day arrangements. AJ1881 sales for 15 Nov not reported."
+  "area": "Finance",
+  "text": "Accounts reported one card payment received from a tenant on 16 Nov, no cheques deposited or returned, no payments made and no overdue rent. The Etisalat bill (internet, mobile and telephone) is still awaiting approval."
  },
  {
   "n": 6,
+  "area": "HR & Admin",
+  "text": "HR’s 16 Nov report lists no leave or absences, offer letters still required and visa processing pending for 4 staff. An offer letter was issued for the LUO OUI Pilates Studio project supervisor role. PACT confirmed it has the company documents and the final agreement is being prepared. PAL Group sent the business licences, commercial registrations and MoA."
+ },
+ {
+  "n": 7,
+  "area": "Side businesses",
+  "text": "Flower shop sales AED 0 on 16 Nov; the weekly IHC and Sirius Holdings vase arrangements were completed and delivered and a vase inventory check done. AJ1881 sales for 16 Nov not reported."
+ },
+ {
+  "n": 8,
   "area": "Decisions",
-  "text": "Awaiting decision: room 710 FCU rewinding, the new Etisalat Wi-Fi line, the Etisalat bill payment, the MBG accounting and VAT proposal, the AJ1881 coffee machine, and pending offer letters and visa processing. The CEO’s 48-hour instruction of 12 Nov (cleaning, pest control, pool, drainage, preventive maintenance) and the outcome of the Sunday opening event are not yet confirmed."
+  "text": "Awaiting decision: room 710 FCU rewinding, the new Etisalat line, the Etisalat bill payment, the MBG accounting and VAT proposal, the AJ1881 coffee machine, and pending offer letters and visa processing. The calorifier repair quotation will also need approval once received."
  }
 ]

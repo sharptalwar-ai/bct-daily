@@ -1,12 +1,48 @@
 [
  {
+  "id": "T32",
+  "date": "2026-11-16",
+  "from": "Maintenance",
+  "owner": "Maintenance",
+  "task": "Follow up the 7th-floor lift door with the lift vendor, replace the room 706 thermostat, follow up approval for the room 710 FCU rewinding, coordinate the calorifier leak with the vendor and follow up the Tamouh material delivery",
+  "due": "2026-11-17",
+  "status": "Planned"
+ },
+ {
+  "id": "T33",
+  "date": "2026-11-16",
+  "from": "Operations Manager",
+  "owner": "Maintenance",
+  "task": "Coordinate with the facility management team to inspect the calorifier tank leak and obtain a specialist quotation urgently",
+  "due": null,
+  "status": "Acknowledged"
+ },
+ {
+  "id": "T34",
+  "date": "2026-11-16",
+  "from": "Reception",
+  "owner": "Reception",
+  "task": "Follow up upcoming contract renewals and monitor guest complaints and new inquiries",
+  "due": "2026-11-17",
+  "status": "Planned"
+ },
+ {
+  "id": "T35",
+  "date": "2026-11-16",
+  "from": "Flower shop",
+  "owner": "Flower shop",
+  "task": "Create a floral arrangement for social media content, then photograph and post it on BCT’s accounts",
+  "due": "2026-11-17",
+  "status": "Planned"
+ },
+ {
   "id": "T31",
   "date": "2026-11-15",
   "from": "Flower shop",
   "owner": "Flower shop",
   "task": "Work on and complete the floral arrangements for UAE National Day",
   "due": "2026-11-16",
-  "status": "Planned"
+  "status": "Not confirmed"
  },
  {
   "id": "T27",
@@ -15,7 +51,7 @@
   "owner": "Operations Manager",
   "task": "Complete the remaining ADNOC HSE requirements and documents (Risk Management and Emergency Response Plan)",
   "due": "2026-11-15",
-  "status": "Planned"
+  "status": "Not confirmed"
  },
  {
   "id": "T28",
@@ -24,7 +60,7 @@
   "owner": "Operations Manager",
   "task": "Finalise the room 212 contract renewal (under review because of the rent increase)",
   "due": "2026-11-15",
-  "status": "Planned"
+  "status": "Not confirmed"
  },
  {
   "id": "T29",
@@ -33,7 +69,7 @@
   "owner": "Maintenance",
   "task": "Follow up approval for the room 710 FCU rewinding, fix the room 1604 washroom door, finish the room 1111 ceiling painting and continue the 1st–16th floor fittings inspection",
   "due": "2026-11-15",
-  "status": "Planned"
+  "status": "In progress"
  },
  {
   "id": "T30",
@@ -221,24 +257,6 @@
   "from": "Management",
   "owner": "Operations Manager",
   "task": "Arrange the company documents requested by PACT for the agreement",
-  "due": null,
-  "status": "In progress"
- },
- {
-  "id": "T3",
-  "date": "2026-11-09",
-  "from": "CEO",
-  "owner": "Flower shop",
-  "task": "National Day preparations, marketing and sales plan for BCT Flowers",
-  "due": null,
-  "status": "Acknowledged"
- },
- {
-  "id": "T4",
-  "date": "2026-11-09",
-  "from": "CEO",
-  "owner": "All staff",
-  "task": "Sign the Company Rules and Policy acknowledgement",
   "due": null,
   "status": "In progress"
  }
