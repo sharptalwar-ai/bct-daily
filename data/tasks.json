@@ -1,5 +1,59 @@
 [
  {
+  "id": "T45",
+  "date": "2026-11-19",
+  "from": "CEO",
+  "owner": "IT, Maintenance",
+  "task": "Submit daily task reports with clear photos of the work completed, effective immediately",
+  "due": null,
+  "status": "Acknowledged"
+ },
+ {
+  "id": "T41",
+  "date": "2026-11-18",
+  "from": "Operations Manager",
+  "owner": "Operations Manager",
+  "task": "Blumont operations and completion of the lobby café; driver, housekeeping and maintenance schedule/roster",
+  "due": "2026-11-19",
+  "status": "Planned"
+ },
+ {
+  "id": "T42",
+  "date": "2026-11-18",
+  "from": "Maintenance",
+  "owner": "Maintenance",
+  "task": "Finish the basement guest lift lobby painting, replace basement parking lights, follow up the room 706 thermostat and approval for the room 710 FCU rewinding, and coordinate the rooftop calorifier leak with the vendor",
+  "due": "2026-11-19",
+  "status": "Planned"
+ },
+ {
+  "id": "T43",
+  "date": "2026-11-18",
+  "from": "AJ1881 Restaurant",
+  "owner": "AJ1881 Restaurant",
+  "task": "Meet the chef on sales generation, set a single-staff shift workflow and buy approved kitchen and bar supplies",
+  "due": "2026-11-19",
+  "status": "Planned"
+ },
+ {
+  "id": "T44",
+  "date": "2026-11-18",
+  "from": "Flower shop",
+  "owner": "Flower shop",
+  "task": "Keep posting on BCT social media, follow up suppliers on the incoming shipment and follow up the chiller van",
+  "due": "2026-11-19",
+  "status": "Planned"
+ },
+ {
+  "id": "T46",
+  "date": "2026-11-18",
+  "from": "Operations Manager",
+  "owner": "Facility management company",
+  "task": "Arrange a third-party provider for the general maintenance inspection and send the details for review and approval",
+  "due": null,
+  "status": "Requested"
+ },
+ {
   "id": "T36",
   "date": "2026-11-17",
   "from": "CEO",
@@ -15,7 +69,7 @@
   "owner": "Operations Manager",
   "task": "Blumont operations and completion of the lobby",
   "due": "2026-11-18",
-  "status": "Planned"
+  "status": "In progress"
  },
  {
   "id": "T38",
@@ -24,7 +78,7 @@
   "owner": "Maintenance",
   "task": "Follow up the room 706 thermostat, the rooftop calorifier leak with the vendor, approval for the room 710 FCU rewinding and Tamouh fire and safety materials; continue the 13th-floor door accessories inspection and finish the ground-floor ceiling painting",
   "due": "2026-11-18",
-  "status": "Planned"
+  "status": "In progress"
  },
  {
   "id": "T39",
@@ -33,7 +87,7 @@
   "owner": "AJ1881 Restaurant",
   "task": "Meet the chef on sales generation, plan single-operator store management and procure kitchen supplies",
   "due": "2026-11-18",
-  "status": "Planned"
+  "status": "In progress"
  },
  {
   "id": "T40",
@@ -78,7 +132,7 @@
   "owner": "Flower shop",
   "task": "Create a floral arrangement for social media content, then photograph and post it on BCT’s accounts",
   "due": "2026-11-17",
-  "status": "Not confirmed"
+  "status": "Done"
  },
  {
   "id": "T31",
@@ -205,68 +259,5 @@
   "task": "Follow up Talabat, Deliveroo and Keeta on registration",
   "due": "2026-11-13",
   "status": "Planned"
- },
- {
-  "id": "T13",
-  "date": "2026-11-11",
-  "from": "Management",
-  "owner": "Operations Manager",
-  "task": "Confirm room 212 tenancy registration, licence activity, renewal intent and contract term, and how many units use the same agreement format",
-  "due": null,
-  "status": "Acknowledged"
- },
- {
-  "id": "T15",
-  "date": "2026-11-11",
-  "from": "Operations Manager",
-  "owner": "Operations Manager",
-  "task": "Complete ADNOC HSE requirements and documents",
-  "due": "2026-11-12",
-  "status": "In progress"
- },
- {
-  "id": "T16",
-  "date": "2026-11-11",
-  "from": "Operations Manager",
-  "owner": "Operations Manager",
-  "task": "Finalise the room 212 contract renewal",
-  "due": "2026-11-12",
-  "status": "In progress"
- },
- {
-  "id": "T17",
-  "date": "2026-11-11",
-  "from": "Operations Manager",
-  "owner": "Operations Manager",
-  "task": "Follow up Assa Abloy for VingCard technical support",
-  "due": "2026-11-12",
-  "status": "Done"
- },
- {
-  "id": "T18",
-  "date": "2026-11-11",
-  "from": "Flower shop",
-  "owner": "Flower shop",
-  "task": "Follow up suppliers on the new shipment and confirm flowers for the weekly IHC and Sirius arrangements",
-  "due": "2026-11-12",
-  "status": "Done"
- },
- {
-  "id": "T9",
-  "date": "2026-11-11",
-  "from": "Management",
-  "owner": "Logistics",
-  "task": "Sama Yalwa vehicles to be delivered to Blumont within 48 hours, with traffic fines and maintenance cleared",
-  "due": "2026-11-13",
-  "status": "Not confirmed"
- },
- {
-  "id": "T10",
-  "date": "2026-11-11",
-  "from": "Management",
-  "owner": "All departments",
-  "task": "Send one daily report per department by 8:00 pm in the new five-part format, with counts in the email body",
-  "due": "2026-11-11",
-  "status": "In progress"
  }
 ]
