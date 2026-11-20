@@ -1,5 +1,50 @@
 [
  {
+  "id": "T47",
+  "date": "2026-11-19",
+  "from": "Operations Manager",
+  "owner": "Operations Manager",
+  "task": "Blumont operations and completion of the lobby café; driver, housekeeping and maintenance schedule/roster",
+  "due": "2026-11-20",
+  "status": "Planned"
+ },
+ {
+  "id": "T48",
+  "date": "2026-11-19",
+  "from": "Maintenance",
+  "owner": "Maintenance",
+  "task": "Finish the basement guest lift lobby painting, replace the room 706 thermostat and basement parking lights, get approval for the room 710 FCU rewinding, follow up the calorifier leak with the vendor and coordinate a Tamouh site inspection",
+  "due": "2026-11-20",
+  "status": "Planned"
+ },
+ {
+  "id": "T49",
+  "date": "2026-11-19",
+  "from": "Flower shop",
+  "owner": "Flower shop",
+  "task": "Keep posting on BCT social media, follow up bloggers on collaborations and create new floral arrangements for social media",
+  "due": "2026-11-20",
+  "status": "Planned"
+ },
+ {
+  "id": "T50",
+  "date": "2026-11-19",
+  "from": "Operations",
+  "owner": "Operations",
+  "task": "Follow up access to the vacant rooms and the missing IDs for occupied rooms; obtain updated lists of commercial units and housekeeping and maintenance status",
+  "due": "2026-11-20",
+  "status": "Planned"
+ },
+ {
+  "id": "T51",
+  "date": "2026-11-20",
+  "from": "Operations Manager",
+  "owner": "PAL Group",
+  "task": "Advise on the works, permits and documents needed for the Blumont Café outdoor setup",
+  "due": null,
+  "status": "Requested"
+ },
+ {
   "id": "T45",
   "date": "2026-11-19",
   "from": "CEO",
@@ -15,7 +60,7 @@
   "owner": "Operations Manager",
   "task": "Blumont operations and completion of the lobby café; driver, housekeeping and maintenance schedule/roster",
   "due": "2026-11-19",
-  "status": "Planned"
+  "status": "In progress"
  },
  {
   "id": "T42",
@@ -24,7 +69,7 @@
   "owner": "Maintenance",
   "task": "Finish the basement guest lift lobby painting, replace basement parking lights, follow up the room 706 thermostat and approval for the room 710 FCU rewinding, and coordinate the rooftop calorifier leak with the vendor",
   "due": "2026-11-19",
-  "status": "Planned"
+  "status": "In progress"
  },
  {
   "id": "T43",
@@ -33,7 +78,7 @@
   "owner": "AJ1881 Restaurant",
   "task": "Meet the chef on sales generation, set a single-staff shift workflow and buy approved kitchen and bar supplies",
   "due": "2026-11-19",
-  "status": "Planned"
+  "status": "Not confirmed"
  },
  {
   "id": "T44",
@@ -42,7 +87,7 @@
   "owner": "Flower shop",
   "task": "Keep posting on BCT social media, follow up suppliers on the incoming shipment and follow up the chiller van",
   "due": "2026-11-19",
-  "status": "Planned"
+  "status": "Done"
  },
  {
   "id": "T46",
@@ -231,33 +276,6 @@
   "owner": "AJ1881 Restaurant",
   "task": "Supervise vendor site visits and follow up quotations for the buffet, glass panels and lobby shelving",
   "due": "2026-11-14",
-  "status": "Planned"
- },
- {
-  "id": "T14",
-  "date": "2026-11-12",
-  "from": "Management",
-  "owner": "Reception, Maintenance",
-  "task": "Send the missing 11 Nov daily reports before 10:00 on 12 Nov; from now on send daily by 8:00 pm without a reminder",
-  "due": "2026-11-12",
-  "status": "Done"
- },
- {
-  "id": "T19",
-  "date": "2026-11-12",
-  "from": "CEO",
-  "owner": "Operations Manager",
-  "task": "Within 48 hours: in-house cleaning, pest control, pool-cleaning machine quotations, drainage inspection and cleaning before the rains, chemicals and materials list, preventive maintenance list",
-  "due": "2026-11-14",
-  "status": "Not confirmed"
- },
- {
-  "id": "T25",
-  "date": "2026-11-12",
-  "from": "Flower shop",
-  "owner": "Flower shop",
-  "task": "Follow up Talabat, Deliveroo and Keeta on registration",
-  "due": "2026-11-13",
   "status": "Planned"
  }
 ]
