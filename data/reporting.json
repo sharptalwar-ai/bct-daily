@@ -1,11 +1,5 @@
 [
  {
-  "key": "Operations summary|2026-11-13",
-  "dept": "Operations summary",
-  "date": "2026-11-13",
-  "status": "Received"
- },
- {
   "key": "Operations summary|2026-11-14",
   "dept": "Operations summary",
   "date": "2026-11-14",
@@ -24,10 +18,28 @@
   "status": "Not seen"
  },
  {
-  "key": "Housekeeping|2026-11-13",
-  "dept": "Housekeeping",
-  "date": "2026-11-13",
-  "status": "Not seen"
+  "key": "Operations summary|2026-11-17",
+  "dept": "Operations summary",
+  "date": "2026-11-17",
+  "status": "Received"
+ },
+ {
+  "key": "Operations summary|2026-11-18",
+  "dept": "Operations summary",
+  "date": "2026-11-18",
+  "status": "Received"
+ },
+ {
+  "key": "Operations summary|2026-11-19",
+  "dept": "Operations summary",
+  "date": "2026-11-19",
+  "status": "Received"
+ },
+ {
+  "key": "Operations summary|2026-11-20",
+  "dept": "Operations summary",
+  "date": "2026-11-20",
+  "status": "Received"
  },
  {
   "key": "Housekeeping|2026-11-14",
@@ -48,10 +60,28 @@
   "status": "Not seen"
  },
  {
-  "key": "Maintenance|2026-11-13",
-  "dept": "Maintenance",
-  "date": "2026-11-13",
-  "status": "Received"
+  "key": "Housekeeping|2026-11-17",
+  "dept": "Housekeeping",
+  "date": "2026-11-17",
+  "status": "Not seen"
+ },
+ {
+  "key": "Housekeeping|2026-11-18",
+  "dept": "Housekeeping",
+  "date": "2026-11-18",
+  "status": "Not seen"
+ },
+ {
+  "key": "Housekeeping|2026-11-19",
+  "dept": "Housekeeping",
+  "date": "2026-11-19",
+  "status": "Not seen"
+ },
+ {
+  "key": "Housekeeping|2026-11-20",
+  "dept": "Housekeeping",
+  "date": "2026-11-20",
+  "status": "Not seen"
  },
  {
   "key": "Maintenance|2026-11-14",
@@ -72,9 +102,27 @@
   "status": "Received"
  },
  {
-  "key": "HR & Accounts|2026-11-13",
-  "dept": "HR & Accounts",
-  "date": "2026-11-13",
+  "key": "Maintenance|2026-11-17",
+  "dept": "Maintenance",
+  "date": "2026-11-17",
+  "status": "Received"
+ },
+ {
+  "key": "Maintenance|2026-11-18",
+  "dept": "Maintenance",
+  "date": "2026-11-18",
+  "status": "Received"
+ },
+ {
+  "key": "Maintenance|2026-11-19",
+  "dept": "Maintenance",
+  "date": "2026-11-19",
+  "status": "Received"
+ },
+ {
+  "key": "Maintenance|2026-11-20",
+  "dept": "Maintenance",
+  "date": "2026-11-20",
   "status": "Received"
  },
  {
@@ -96,9 +144,27 @@
   "status": "Received"
  },
  {
-  "key": "Flower shop|2026-11-13",
-  "dept": "Flower shop",
-  "date": "2026-11-13",
+  "key": "HR & Accounts|2026-11-17",
+  "dept": "HR & Accounts",
+  "date": "2026-11-17",
+  "status": "Received"
+ },
+ {
+  "key": "HR & Accounts|2026-11-18",
+  "dept": "HR & Accounts",
+  "date": "2026-11-18",
+  "status": "Received"
+ },
+ {
+  "key": "HR & Accounts|2026-11-19",
+  "dept": "HR & Accounts",
+  "date": "2026-11-19",
+  "status": "Not seen"
+ },
+ {
+  "key": "HR & Accounts|2026-11-20",
+  "dept": "HR & Accounts",
+  "date": "2026-11-20",
   "status": "Received"
  },
  {
@@ -120,9 +186,27 @@
   "status": "Received"
  },
  {
-  "key": "IT|2026-11-13",
-  "dept": "IT",
-  "date": "2026-11-13",
+  "key": "Flower shop|2026-11-17",
+  "dept": "Flower shop",
+  "date": "2026-11-17",
+  "status": "Not seen"
+ },
+ {
+  "key": "Flower shop|2026-11-18",
+  "dept": "Flower shop",
+  "date": "2026-11-18",
+  "status": "Received"
+ },
+ {
+  "key": "Flower shop|2026-11-19",
+  "dept": "Flower shop",
+  "date": "2026-11-19",
+  "status": "Received"
+ },
+ {
+  "key": "Flower shop|2026-11-20",
+  "dept": "Flower shop",
+  "date": "2026-11-20",
   "status": "Received"
  },
  {
@@ -144,9 +228,27 @@
   "status": "Received"
  },
  {
-  "key": "Restaurant sales|2026-11-13",
-  "dept": "Restaurant sales",
-  "date": "2026-11-13",
+  "key": "IT|2026-11-17",
+  "dept": "IT",
+  "date": "2026-11-17",
+  "status": "Received"
+ },
+ {
+  "key": "IT|2026-11-18",
+  "dept": "IT",
+  "date": "2026-11-18",
+  "status": "Received"
+ },
+ {
+  "key": "IT|2026-11-19",
+  "dept": "IT",
+  "date": "2026-11-19",
+  "status": "Received"
+ },
+ {
+  "key": "IT|2026-11-20",
+  "dept": "IT",
+  "date": "2026-11-20",
   "status": "Received"
  },
  {
@@ -168,81 +270,9 @@
   "status": "Not seen"
  },
  {
-  "key": "Operations summary|2026-11-17",
-  "dept": "Operations summary",
-  "date": "2026-11-17",
-  "status": "Received"
- },
- {
-  "key": "Housekeeping|2026-11-17",
-  "dept": "Housekeeping",
-  "date": "2026-11-17",
-  "status": "Not seen"
- },
- {
-  "key": "Maintenance|2026-11-17",
-  "dept": "Maintenance",
-  "date": "2026-11-17",
-  "status": "Received"
- },
- {
-  "key": "HR & Accounts|2026-11-17",
-  "dept": "HR & Accounts",
-  "date": "2026-11-17",
-  "status": "Received"
- },
- {
-  "key": "Flower shop|2026-11-17",
-  "dept": "Flower shop",
-  "date": "2026-11-17",
-  "status": "Not seen"
- },
- {
-  "key": "IT|2026-11-17",
-  "dept": "IT",
-  "date": "2026-11-17",
-  "status": "Received"
- },
- {
   "key": "Restaurant sales|2026-11-17",
   "dept": "Restaurant sales",
   "date": "2026-11-17",
-  "status": "Received"
- },
- {
-  "key": "Operations summary|2026-11-18",
-  "dept": "Operations summary",
-  "date": "2026-11-18",
-  "status": "Received"
- },
- {
-  "key": "Housekeeping|2026-11-18",
-  "dept": "Housekeeping",
-  "date": "2026-11-18",
-  "status": "Not seen"
- },
- {
-  "key": "Maintenance|2026-11-18",
-  "dept": "Maintenance",
-  "date": "2026-11-18",
-  "status": "Received"
- },
- {
-  "key": "HR & Accounts|2026-11-18",
-  "dept": "HR & Accounts",
-  "date": "2026-11-18",
-  "status": "Received"
- },
- {
-  "key": "Flower shop|2026-11-18",
-  "dept": "Flower shop",
-  "date": "2026-11-18",
-  "status": "Received"
- },
- {
-  "key": "IT|2026-11-18",
-  "dept": "IT",
-  "date": "2026-11-18",
   "status": "Received"
  },
  {
@@ -252,45 +282,15 @@
   "status": "Received"
  },
  {
-  "key": "Operations summary|2026-11-19",
-  "dept": "Operations summary",
-  "date": "2026-11-19",
-  "status": "Received"
- },
- {
-  "key": "Housekeeping|2026-11-19",
-  "dept": "Housekeeping",
-  "date": "2026-11-19",
-  "status": "Not seen"
- },
- {
-  "key": "Maintenance|2026-11-19",
-  "dept": "Maintenance",
-  "date": "2026-11-19",
-  "status": "Received"
- },
- {
-  "key": "HR & Accounts|2026-11-19",
-  "dept": "HR & Accounts",
-  "date": "2026-11-19",
-  "status": "Not seen"
- },
- {
-  "key": "Flower shop|2026-11-19",
-  "dept": "Flower shop",
-  "date": "2026-11-19",
-  "status": "Received"
- },
- {
-  "key": "IT|2026-11-19",
-  "dept": "IT",
-  "date": "2026-11-19",
-  "status": "Received"
- },
- {
   "key": "Restaurant sales|2026-11-19",
   "dept": "Restaurant sales",
   "date": "2026-11-19",
   "status": "Not seen"
+ },
+ {
+  "key": "Restaurant sales|2026-11-20",
+  "dept": "Restaurant sales",
+  "date": "2026-11-20",
+  "status": "Received"
  }
 ]

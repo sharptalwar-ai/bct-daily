@@ -1,12 +1,57 @@
 [
  {
+  "id": "T52",
+  "date": "2026-11-20",
+  "from": "Operations Manager",
+  "owner": "Operations Manager",
+  "task": "Blumont operations and completion of the lobby café",
+  "due": "2026-11-21",
+  "status": "Planned"
+ },
+ {
+  "id": "T53",
+  "date": "2026-11-20",
+  "from": "Maintenance",
+  "owner": "Maintenance",
+  "task": "Finish the basement guest lift lobby painting, follow up the room 706 thermostat, replace the basement parking lights, arrange painting of the basement areas and continue the 12th-floor wooden accessories inspection",
+  "due": "2026-11-21",
+  "status": "Planned"
+ },
+ {
+  "id": "T54",
+  "date": "2026-11-20",
+  "from": "Flower shop",
+  "owner": "Flower shop",
+  "task": "Keep posting on BCT social media, follow up flower suppliers on deliveries and create a new floral arrangement for social media",
+  "due": "2026-11-21",
+  "status": "Planned"
+ },
+ {
+  "id": "T55",
+  "date": "2026-11-20",
+  "from": "AJ1881 Restaurant",
+  "owner": "AJ1881 Restaurant",
+  "task": "Discuss guest requests for a dessert selection on the display with the team",
+  "due": "2026-11-21",
+  "status": "Planned"
+ },
+ {
+  "id": "T56",
+  "date": "2026-11-20",
+  "from": "Reception",
+  "owner": "Reception",
+  "task": "Follow up upcoming contract renewals and monitor guest satisfaction, check-ins and inquiries",
+  "due": "2026-11-21",
+  "status": "Planned"
+ },
+ {
   "id": "T47",
   "date": "2026-11-19",
   "from": "Operations Manager",
   "owner": "Operations Manager",
   "task": "Blumont operations and completion of the lobby café; driver, housekeeping and maintenance schedule/roster",
   "due": "2026-11-20",
-  "status": "Planned"
+  "status": "In progress"
  },
  {
   "id": "T48",
@@ -15,7 +60,7 @@
   "owner": "Maintenance",
   "task": "Finish the basement guest lift lobby painting, replace the room 706 thermostat and basement parking lights, get approval for the room 710 FCU rewinding, follow up the calorifier leak with the vendor and coordinate a Tamouh site inspection",
   "due": "2026-11-20",
-  "status": "Planned"
+  "status": "In progress"
  },
  {
   "id": "T49",
@@ -24,7 +69,7 @@
   "owner": "Flower shop",
   "task": "Keep posting on BCT social media, follow up bloggers on collaborations and create new floral arrangements for social media",
   "due": "2026-11-20",
-  "status": "Planned"
+  "status": "Done"
  },
  {
   "id": "T50",
@@ -33,7 +78,7 @@
   "owner": "Operations",
   "task": "Follow up access to the vacant rooms and the missing IDs for occupied rooms; obtain updated lists of commercial units and housekeeping and maintenance status",
   "due": "2026-11-20",
-  "status": "Planned"
+  "status": "In progress"
  },
  {
   "id": "T51",
@@ -223,59 +268,5 @@
   "task": "Finalise the mini-bouquet giveaways and remaining requirements for the Sunday soft opening",
   "due": "2026-11-15",
   "status": "Done"
- },
- {
-  "id": "T20",
-  "date": "2026-11-13",
-  "from": "Operations Manager",
-  "owner": "Maintenance",
-  "task": "Obtain competitive quotations for the room 710 FCU motor rewinding",
-  "due": null,
-  "status": "Acknowledged"
- },
- {
-  "id": "T21",
-  "date": "2026-11-13",
-  "from": "Operations Manager",
-  "owner": "IT",
-  "task": "Expedite the high-speed Wi-Fi proposal and share the 16-camera installation plan for approval",
-  "due": null,
-  "status": "In progress"
- },
- {
-  "id": "T22",
-  "date": "2026-11-13",
-  "from": "Operations Manager",
-  "owner": "Operations Manager",
-  "task": "Prepare the Sunday opening event (Saadiyat St Regis Pilates and Oui Matcha)",
-  "due": "2026-11-15",
-  "status": "Done"
- },
- {
-  "id": "T23",
-  "date": "2026-11-13",
-  "from": "Flower shop",
-  "owner": "Flower shop",
-  "task": "Receive supplier flowers and prepare all arrangements for the Sunday soft opening",
-  "due": "2026-11-15",
-  "status": "Done"
- },
- {
-  "id": "T24",
-  "date": "2026-11-13",
-  "from": "Maintenance",
-  "owner": "Maintenance",
-  "task": "Follow up room 710 approval, monitor 15th-floor corridor painting and continue the 1st–16th floor room fittings inspection",
-  "due": "2026-11-14",
-  "status": "In progress"
- },
- {
-  "id": "T26",
-  "date": "2026-11-13",
-  "from": "AJ1881 Restaurant",
-  "owner": "AJ1881 Restaurant",
-  "task": "Supervise vendor site visits and follow up quotations for the buffet, glass panels and lobby shelving",
-  "due": "2026-11-14",
-  "status": "Planned"
  }
 ]

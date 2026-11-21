@@ -4,8 +4,8 @@
   "lead": "ADNOC",
   "need": "Staff accommodation",
   "stage": "Contract",
-  "last": "2026-11-19",
-  "note": "Draft contract with ADNOC for a 50 premium-room accommodation offer. On 17 Nov ADNOC’s HSE Compliance head said all submitted documents were reviewed and approved and asked for the updated checklist to endorse; Operations still lists Risk Management and the Emergency Response Plan for completion. On 18 Nov ADNOC’s team forwarded Blumont’s checklist to the HSE Compliance head for endorsement. On 19 Nov Operations reported the approval email sent and is waiting for ADNOC’s response."
+  "last": "2026-11-20",
+  "note": "Draft contract with ADNOC for a 50 premium-room accommodation offer. On 17 Nov ADNOC’s HSE Compliance head said all submitted documents were reviewed and approved and asked for the updated checklist to endorse; Operations still lists Risk Management and the Emergency Response Plan for completion. On 18 Nov ADNOC’s team forwarded Blumont’s checklist to the HSE Compliance head for endorsement. On 19 Nov Operations reported the approval email sent and is waiting for ADNOC’s response. On 20 Nov Operations was still waiting for ADNOC’s response."
  },
  {
   "id": "P2",
@@ -20,8 +20,8 @@
   "lead": "Ras Al Khaimah client",
   "need": "15 premium rooms for 5 days",
   "stage": "Contract",
-  "last": "2026-11-19",
-  "note": "Earlier asked for a discount and double-occupancy options. Operations reported on 17 Nov that the client approved the proposal (15 premium rooms, 5 days); booking and payment not yet confirmed. On 18 Nov Operations sent the client the accommodation proposal with confirmation and check-in requirements. On 19 Nov Operations reported it is waiting for the client’s response and confirmation."
+  "last": "2026-11-20",
+  "note": "Earlier asked for a discount and double-occupancy options. Operations reported on 17 Nov that the client approved the proposal (15 premium rooms, 5 days); booking and payment not yet confirmed. On 18 Nov Operations sent the client the accommodation proposal with confirmation and check-in requirements. On 19 Nov Operations reported it is waiting for the client’s response and confirmation. Still waiting for the client’s confirmation on 20 Nov."
  },
  {
   "id": "P4",
@@ -110,5 +110,13 @@
   "stage": "Follow-up",
   "last": "2026-11-18",
   "note": "Agent site visit on 18 Nov for a 2-bedroom unit; proposed check-in mid-December."
+ },
+ {
+  "id": "P15",
+  "lead": "Site visits and inquiries, 20 Nov",
+  "need": "Not stated",
+  "stage": "Follow-up",
+  "last": "2026-11-20",
+  "note": "Operations reported 4 client site visits on 20 Nov; Reception logged 1 new inquiry, 1 property viewing and 1 booking confirmation. Clients not named."
  }
 ]
