@@ -1,12 +1,30 @@
 [
  {
+  "id": "T65",
+  "date": "2026-11-22",
+  "from": "AJ1881 Restaurant",
+  "owner": "AJ1881 Restaurant",
+  "task": "Prepare the requested pastry items off-site as instructed",
+  "due": "2026-11-23",
+  "status": "Planned"
+ },
+ {
+  "id": "T64",
+  "date": "2026-11-22",
+  "from": "Flower shop",
+  "owner": "Flower shop",
+  "task": "Deliver the IHC and Sirius Holdings vase arrangements and the event centrepieces, finalise the event arrangements and keep updating BCT social media",
+  "due": "2026-11-23",
+  "status": "Planned"
+ },
+ {
   "id": "T63",
   "date": "2026-11-21",
   "from": "Operations Manager",
   "owner": "Maintenance",
   "task": "Coordinate with the facility management company and submit a comprehensive maintenance and equipment status report",
   "due": null,
-  "status": "Requested"
+  "status": "Acknowledged"
  },
  {
   "id": "T62",
@@ -33,7 +51,7 @@
   "owner": "Reception",
   "task": "Follow up upcoming contract renewals and monitor guest satisfaction, check-ins and inquiries",
   "due": "2026-11-22",
-  "status": "Planned"
+  "status": "Not confirmed"
  },
  {
   "id": "T59",
@@ -42,7 +60,7 @@
   "owner": "AJ1881 Restaurant",
   "task": "Discuss guest requests for a dessert display and food items on the menu, to lift weekend sales",
   "due": "2026-11-22",
-  "status": "Planned"
+  "status": "Not confirmed"
  },
  {
   "id": "T58",
@@ -51,7 +69,7 @@
   "owner": "Flower shop",
   "task": "Prepare and deliver the weekly IHC and Sirius Holdings arrangements and run a bouquet photoshoot for social media",
   "due": "2026-11-22",
-  "status": "Planned"
+  "status": "In progress"
  },
  {
   "id": "T57",
@@ -60,7 +78,7 @@
   "owner": "Maintenance",
   "task": "Replace the room 706 thermostat and the basement parking fused lights, arrange painting of the remaining basement areas, continue the 12th-floor wooden accessories inspection and attend new complaints",
   "due": "2026-11-22",
-  "status": "Planned"
+  "status": "Not confirmed"
  },
  {
   "id": "T56",
@@ -286,14 +304,5 @@
   "task": "Follow up the 7th-floor lift door with the lift vendor, replace the room 706 thermostat, follow up approval for the room 710 FCU rewinding, coordinate the calorifier leak with the vendor and follow up the Tamouh material delivery",
   "due": "2026-11-17",
   "status": "In progress"
- },
- {
-  "id": "T31",
-  "date": "2026-11-15",
-  "from": "Flower shop",
-  "owner": "Flower shop",
-  "task": "Work on and complete the floral arrangements for UAE National Day",
-  "due": "2026-11-16",
-  "status": "Not confirmed"
  }
 ]
