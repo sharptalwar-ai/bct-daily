@@ -2,31 +2,36 @@
  {
   "n": 1,
   "area": "Occupancy",
-  "text": "No occupancy figure was reported for Sunday 22 Nov because no Reception or Operations report was seen. The latest figure is 91 of 183 rooms occupied (49.7%) on 21 Nov, 43 of them Rabdan."
+  "text": "Reception reported 93 of 183 rooms occupied on Monday 23 Nov (50.8%), 43 of them Rabdan, up from 91 on 21 Nov. There were no check-ins or check-outs; Reception logged 4 new inquiries, 3 property viewings and 1 booking confirmation, and 6 guest complaints, all resolved."
  },
  {
   "n": 2,
   "area": "Reporting",
-  "text": "Reports for 22 Nov were received from IT, the Flower shop and AJ1881. The Operations summary, Reception, Maintenance, HR & Accounts and Housekeeping reports were not seen."
+  "text": "All tracked departments reported for 23 Nov — Operations, Reception, Maintenance, IT, HR & Accounts, the Flower shop and AJ1881 — except Housekeeping, which was not seen."
  },
  {
   "n": 3,
-  "area": "Systems",
-  "text": "IT fixed a TV issue in room 810 and installed the new internet connection, which still has to be configured. The Equal software is still slow, and 13 new CCTV cameras are still to be installed."
+  "area": "Maintenance",
+  "text": "Maintenance logged 14 completed jobs (several rows repeat), including the FCU leak near room 609, room 611 pipes, B4 drainage cleaning and the B4 inventory room door closer. Still pending: the room 706 thermostat, basement parking lights, the rooftop calorifier and gas boiler leaks, and the 12th-floor wooden accessories check."
  },
  {
   "n": 4,
-  "area": "Sales",
-  "text": "AJ1881 sold AED 526 from 15 covers (AED 252 food, AED 274 beverages), its highest day so far in this report. The flower shop recorded no sales; it made the IHC vase arrangement and the Sirius Holdings base arrangement, with both deliveries planned for 23 Nov, and prepared centrepieces for an upcoming event."
+  "area": "Maintenance plan",
+  "text": "The CEO asked the Operations Manager to own the internal maintenance plan and send an action plan with responsibilities, staffing and target dates. Operations replied that the in-house team will take over pest control, drainage, pool and AC duct cleaning; the action plan is not yet seen."
  },
  {
   "n": 5,
-  "area": "Maintenance",
-  "text": "No Maintenance daily report was seen for 22 Nov. On the morning of 23 Nov Maintenance acknowledged the request for a full maintenance and equipment status report and will gather inspection reports, records and quotations from the RR Facility team and service providers."
+  "area": "Decisions",
+  "text": "Operations sent three elevator AMC quotations (Ever Gravity, Circle Elevators, Clipston Lifts) for urgent approval, calling the lifts a high safety risk. AJ1881 again asked for approval to buy bar and kitchen supplies and to rename the shop Oui Cafe. Room 710 FCU rewinding, the lobby partition, the MBG proposal, the Pilates studio, driver selection and offer letters and visa processing are still awaiting decision."
  },
  {
   "n": 6,
-  "area": "Decisions",
-  "text": "AJ1881 again asked for approval to buy critical bar and kitchen supplies. Still awaiting decision: the elevator AMC, the facility management AMC proposal, room 710 FCU rewinding, the lobby partition concern, the MBG accounting and VAT proposal, the AJ1881 rename, the Pilates studio start and housekeeping, the final driver selection, and pending offer letters and visa processing."
+  "area": "Sales",
+  "text": "AJ1881 sold AED 52 from 2 covers (beverages only) on a slow Monday. The flower shop recorded no sales and made a UAE National Day arrangement for social media. Operations contacted 7 contracting companies about staff accommodation; Al Nasr Contracting asked for a proposal by email."
+ },
+ {
+  "n": 7,
+  "area": "Systems",
+  "text": "IT fixed a Wi-Fi issue in room 1506, a TV in room 1603 and the parking gate barrier, and finalised the positions of the 13 new CCTV cameras, which are still to be installed. The Equal software is still slow. A revised Foodics POS quotation was received, and the tower was listed on Dubizzle, Airbnb, Property Finder and Bayut."
  }
 ]

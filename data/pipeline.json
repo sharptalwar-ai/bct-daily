@@ -113,11 +113,11 @@
  },
  {
   "id": "P15",
-  "lead": "Site visits and inquiries, 20–21 Nov",
+  "lead": "Site visits and inquiries, 20–23 Nov",
   "need": "Not stated",
   "stage": "Follow-up",
-  "last": "2026-11-21",
-  "note": "Operations reported 4 client site visits on 20 Nov; Reception logged 1 new inquiry, 1 property viewing and 1 booking confirmation. Clients not named. On 21 Nov Operations completed 1 client site visit; Reception logged 3 new inquiries, 2 property viewings and 1 booking confirmation. Clients not named."
+  "last": "2026-11-23",
+  "note": "Operations reported 4 client site visits on 20 Nov; Reception logged 1 new inquiry, 1 property viewing and 1 booking confirmation. Clients not named. On 21 Nov Operations completed 1 client site visit; Reception logged 3 new inquiries, 2 property viewings and 1 booking confirmation. Clients not named. On 23 Nov Operations assisted 1 client site visit (client to confirm the booking); Reception logged 4 new inquiries, 3 property viewings and 1 booking confirmation. Clients not named."
  },
  {
   "id": "P16",
@@ -132,7 +132,23 @@
   "lead": "Corporate offices (flower arrangements)",
   "need": "Office floral arrangements",
   "stage": "Proposal",
-  "last": "2026-11-21",
-  "note": "On 21 Nov the flower shop contacted several offices, emailed corporate flower arrangement proposals and prepared a BCT floral portfolio. Offices not named."
+  "last": "2026-11-23",
+  "note": "On 21 Nov the flower shop contacted several offices, emailed corporate flower arrangement proposals and prepared a BCT floral portfolio. Offices not named. On 23 Nov follow-up with potential corporate clients on weekly and monthly arrangements was still pending."
+ },
+ {
+  "id": "P18",
+  "lead": "Construction and contracting companies (outreach)",
+  "need": "Staff accommodation",
+  "stage": "Follow-up",
+  "last": "2026-11-23",
+  "note": "On 23 Nov Operations contacted 7 companies about an accommodation proposal: Trojan, Al Jaber and Fibrex Construction did not respond; Combined Group said not required; Arabian Construction Company and Gulf Contractors will reply after consulting their teams; Al Nasr Contracting asked for the proposal by email."
+ },
+ {
+  "id": "P19",
+  "lead": "Online property platforms",
+  "need": "Listings for available units",
+  "stage": "Follow-up",
+  "last": "2026-11-23",
+  "note": "On 23 Nov Accounts completed registrations on Dubizzle, Airbnb, Property Finder and Bayut."
  }
 ]

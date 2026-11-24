@@ -1,12 +1,93 @@
 [
  {
+  "id": "T82",
+  "date": "2026-11-23",
+  "from": "AJ1881 Restaurant",
+  "owner": "AJ1881 Restaurant",
+  "task": "Discuss guest requests for a dessert display and food items on the menu, to lift weekend sales",
+  "due": "2026-11-24",
+  "status": "Planned"
+ },
+ {
+  "id": "T81",
+  "date": "2026-11-23",
+  "from": "Reception",
+  "owner": "Reception",
+  "task": "Monitor guest satisfaction, check-ins and inquiries and follow up upcoming contract renewals",
+  "due": "2026-11-24",
+  "status": "Planned"
+ },
+ {
+  "id": "T80",
+  "date": "2026-11-23",
+  "from": "Flower shop",
+  "owner": "Flower shop",
+  "task": "Follow up the blogger collaboration and potential corporate clients for weekly and monthly arrangements; continue BCT social media",
+  "due": "2026-11-24",
+  "status": "Planned"
+ },
+ {
+  "id": "T79",
+  "date": "2026-11-23",
+  "from": "Accounts",
+  "owner": "Accounts / Maintenance",
+  "task": "Complete the storage room inventory, set up item tracking for storage access and verify pending payments",
+  "due": null,
+  "status": "Planned"
+ },
+ {
+  "id": "T78",
+  "date": "2026-11-23",
+  "from": "Maintenance",
+  "owner": "Maintenance",
+  "task": "Continue the basement parking painting, replace the basement parking fused lights, check the parking flap barrier remotes and follow up the 10th-floor wooden accessories inspection",
+  "due": "2026-11-24",
+  "status": "Planned"
+ },
+ {
+  "id": "T77",
+  "date": "2026-11-23",
+  "from": "Operations Manager",
+  "owner": "Operations Manager",
+  "task": "Follow up the room 212 tenant’s response to the non-renewal notice",
+  "due": "2026-11-24",
+  "status": "Planned"
+ },
+ {
+  "id": "T76",
+  "date": "2026-11-23",
+  "from": "Operations Manager",
+  "owner": "Operations / Maintenance",
+  "task": "Plan maintenance work for basements B1–B4, drainage and the rooftop, and complete the unoccupied rooms (bedding, linen)",
+  "due": "2026-11-24",
+  "status": "Planned"
+ },
+ {
+  "id": "T75",
+  "date": "2026-11-23",
+  "from": "CEO",
+  "owner": "IT",
+  "task": "Provide the biometric attendance data urgently so that salaries are processed on time",
+  "due": null,
+  "status": "In progress"
+ },
+ {
+  "id": "T74",
+  "date": "2026-11-23",
+  "from": "CEO",
+  "owner": "Operations Manager",
+  "task": "Take ownership of the internal maintenance plan; confirm who is responsible for each system and send an action plan with staffing or specialist support, outstanding reports and target completion dates",
+  "due": null,
+  "status": "Acknowledged"
+ },
+ {
   "id": "T65",
   "date": "2026-11-22",
   "from": "AJ1881 Restaurant",
   "owner": "AJ1881 Restaurant",
   "task": "Prepare the requested pastry items off-site as instructed",
   "due": "2026-11-23",
-  "status": "Planned"
+  "status": "Not confirmed"
  },
  {
   "id": "T64",
@@ -15,7 +96,7 @@
   "owner": "Flower shop",
   "task": "Deliver the IHC and Sirius Holdings vase arrangements and the event centrepieces, finalise the event arrangements and keep updating BCT social media",
   "due": "2026-11-23",
-  "status": "Planned"
+  "status": "Not confirmed"
  },
  {
   "id": "T63",
@@ -24,7 +105,7 @@
   "owner": "Maintenance",
   "task": "Coordinate with the facility management company and submit a comprehensive maintenance and equipment status report",
   "due": null,
-  "status": "Acknowledged"
+  "status": "In progress"
  },
  {
   "id": "T62",
@@ -33,7 +114,7 @@
   "owner": "Reception trainees",
   "task": "Follow up the 5 interested real estate agencies and the travel agencies that did not answer",
   "due": "2026-11-23",
-  "status": "Planned"
+  "status": "Not confirmed"
  },
  {
   "id": "T61",
@@ -42,7 +123,7 @@
   "owner": "Accounts / Maintenance",
   "task": "Full inventory of the basement storage rooms (B1–B4) and start daily item monitoring and records",
   "due": "2026-11-23",
-  "status": "Planned"
+  "status": "In progress"
  },
  {
   "id": "T60",
@@ -268,41 +349,5 @@
   "task": "Complete the immediate camera installation on 17 Nov (separate from the 16 additional cameras scheduled later this week) and confirm the timeline and completion",
   "due": "2026-11-17",
   "status": "Not confirmed"
- },
- {
-  "id": "T35",
-  "date": "2026-11-16",
-  "from": "Flower shop",
-  "owner": "Flower shop",
-  "task": "Create a floral arrangement for social media content, then photograph and post it on BCT’s accounts",
-  "due": "2026-11-17",
-  "status": "Done"
- },
- {
-  "id": "T34",
-  "date": "2026-11-16",
-  "from": "Reception",
-  "owner": "Reception",
-  "task": "Follow up upcoming contract renewals and monitor guest complaints and new inquiries",
-  "due": "2026-11-17",
-  "status": "Not confirmed"
- },
- {
-  "id": "T33",
-  "date": "2026-11-16",
-  "from": "Operations Manager",
-  "owner": "Maintenance",
-  "task": "Coordinate with the facility management team to inspect the calorifier tank leak and obtain a specialist quotation urgently",
-  "due": null,
-  "status": "In progress"
- },
- {
-  "id": "T32",
-  "date": "2026-11-16",
-  "from": "Maintenance",
-  "owner": "Maintenance",
-  "task": "Follow up the 7th-floor lift door with the lift vendor, replace the room 706 thermostat, follow up approval for the room 710 FCU rewinding, coordinate the calorifier leak with the vendor and follow up the Tamouh material delivery",
-  "due": "2026-11-17",
-  "status": "In progress"
  }
 ]

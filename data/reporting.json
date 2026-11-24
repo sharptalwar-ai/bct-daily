@@ -1,11 +1,5 @@
 [
  {
-  "key": "Operations summary|2026-11-16",
-  "dept": "Operations summary",
-  "date": "2026-11-16",
-  "status": "Not seen"
- },
- {
   "key": "Operations summary|2026-11-17",
   "dept": "Operations summary",
   "date": "2026-11-17",
@@ -42,10 +36,10 @@
   "status": "Not seen"
  },
  {
-  "key": "Housekeeping|2026-11-16",
-  "dept": "Housekeeping",
-  "date": "2026-11-16",
-  "status": "Not seen"
+  "key": "Operations summary|2026-11-23",
+  "dept": "Operations summary",
+  "date": "2026-11-23",
+  "status": "Received"
  },
  {
   "key": "Housekeeping|2026-11-17",
@@ -84,10 +78,10 @@
   "status": "Not seen"
  },
  {
-  "key": "Maintenance|2026-11-16",
-  "dept": "Maintenance",
-  "date": "2026-11-16",
-  "status": "Received"
+  "key": "Housekeeping|2026-11-23",
+  "dept": "Housekeeping",
+  "date": "2026-11-23",
+  "status": "Not seen"
  },
  {
   "key": "Maintenance|2026-11-17",
@@ -126,9 +120,9 @@
   "status": "Not seen"
  },
  {
-  "key": "HR & Accounts|2026-11-16",
-  "dept": "HR & Accounts",
-  "date": "2026-11-16",
+  "key": "Maintenance|2026-11-23",
+  "dept": "Maintenance",
+  "date": "2026-11-23",
   "status": "Received"
  },
  {
@@ -168,9 +162,9 @@
   "status": "Not seen"
  },
  {
-  "key": "Flower shop|2026-11-16",
-  "dept": "Flower shop",
-  "date": "2026-11-16",
+  "key": "HR & Accounts|2026-11-23",
+  "dept": "HR & Accounts",
+  "date": "2026-11-23",
   "status": "Received"
  },
  {
@@ -210,9 +204,9 @@
   "status": "Received"
  },
  {
-  "key": "IT|2026-11-16",
-  "dept": "IT",
-  "date": "2026-11-16",
+  "key": "Flower shop|2026-11-23",
+  "dept": "Flower shop",
+  "date": "2026-11-23",
   "status": "Received"
  },
  {
@@ -252,10 +246,10 @@
   "status": "Received"
  },
  {
-  "key": "Restaurant sales|2026-11-16",
-  "dept": "Restaurant sales",
-  "date": "2026-11-16",
-  "status": "Not seen"
+  "key": "IT|2026-11-23",
+  "dept": "IT",
+  "date": "2026-11-23",
+  "status": "Received"
  },
  {
   "key": "Restaurant sales|2026-11-17",
@@ -291,6 +285,12 @@
   "key": "Restaurant sales|2026-11-22",
   "dept": "Restaurant sales",
   "date": "2026-11-22",
+  "status": "Received"
+ },
+ {
+  "key": "Restaurant sales|2026-11-23",
+  "dept": "Restaurant sales",
+  "date": "2026-11-23",
   "status": "Received"
  }
 ]
