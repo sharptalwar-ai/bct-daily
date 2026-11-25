@@ -2,36 +2,36 @@
  {
   "n": 1,
   "area": "Occupancy",
-  "text": "Reception reported 93 of 183 rooms occupied on Monday 23 Nov (50.8%), 43 of them Rabdan, up from 91 on 21 Nov. There were no check-ins or check-outs; Reception logged 4 new inquiries, 3 property viewings and 1 booking confirmation, and 6 guest complaints, all resolved."
+  "text": "Reception reported 91 of 183 rooms occupied on Tuesday 24 Nov (49.7%), 43 of them Rabdan, down from 93 on 23 Nov. There were no check-ins and 2 check-outs (rooms 801 and 1105). Reception logged 3 new inquiries, 2 property viewings, no booking confirmations, 1 renewal confirmed, and 4 guest complaints, all resolved."
  },
  {
   "n": 2,
   "area": "Reporting",
-  "text": "All tracked departments reported for 23 Nov — Operations, Reception, Maintenance, IT, HR & Accounts, the Flower shop and AJ1881 — except Housekeeping, which was not seen."
+  "text": "Reports for 24 Nov came from the operations update, Reception, Maintenance, IT, Accounts, HR & Admin and AJ1881. The Flower shop and Housekeeping reports were not seen, and neither was the Operations Manager’s own daily task report."
  },
  {
   "n": 3,
   "area": "Maintenance",
-  "text": "Maintenance logged 14 completed jobs (several rows repeat), including the FCU leak near room 609, room 611 pipes, B4 drainage cleaning and the B4 inventory room door closer. Still pending: the room 706 thermostat, basement parking lights, the rooftop calorifier and gas boiler leaks, and the 12th-floor wooden accessories check."
+  "text": "Maintenance logged 8 completed jobs, all marked done, including B3 drainage chamber and rainwater line cleaning, room 302 mixer tap and restroom lights, the room 301 leak, the room 702 cupboard and the B2 fire pump room FCU service. Still in progress: Basement 1 painting, basement fused lights, basement drainage chambers and the room 510 ceiling; the flap barrier needs vendor follow-up with Honest Automatic."
  },
  {
   "n": 4,
-  "area": "Maintenance plan",
-  "text": "The CEO asked the Operations Manager to own the internal maintenance plan and send an action plan with responsibilities, staffing and target dates. Operations replied that the in-house team will take over pest control, drainage, pool and AC duct cleaning; the action plan is not yet seen."
+  "area": "Decisions",
+  "text": "On 25 Nov Operations again asked for urgent approval of the elevator AMC (three quotations, Ever Gravity lowest). The room 801 guest is asking for a full refund or a two-day deduction after checking out. Faiz Investment Company has asked for a 30-minute meeting with Madam. AJ1881 again asked to buy critical supplies and to rename the shop Oui Cafe."
  },
  {
   "n": 5,
-  "area": "Decisions",
-  "text": "Operations sent three elevator AMC quotations (Ever Gravity, Circle Elevators, Clipston Lifts) for urgent approval, calling the lifts a high safety risk. AJ1881 again asked for approval to buy bar and kitchen supplies and to rename the shop Oui Cafe. Room 710 FCU rewinding, the lobby partition, the MBG proposal, the Pilates studio, driver selection and offer letters and visa processing are still awaiting decision."
+  "area": "ADNOC",
+  "text": "ADNOC’s HSE Compliance head replied on 25 Nov that he has signed and returned Blumont’s checklist internally and nothing further is needed from the HSE side. The contract itself is not yet confirmed."
  },
  {
   "n": 6,
-  "area": "Sales",
-  "text": "AJ1881 sold AED 52 from 2 covers (beverages only) on a slow Monday. The flower shop recorded no sales and made a UAE National Day arrangement for social media. Operations contacted 7 contracting companies about staff accommodation; Al Nasr Contracting asked for a proposal by email."
+  "area": "Tenants",
+  "text": "Reneco has chased its Tawtheeq several times; Operations says the PRO needs UAE Pass access to finish it. The room 302 guest’s repeated complaints were worked on: Maintenance replaced the mixer tap and lights and IT fixed the Wi-Fi. Accounts verified November rent payments and reported no overdue rent and no cheques deposited or returned."
  },
  {
   "n": 7,
-  "area": "Systems",
-  "text": "IT fixed a Wi-Fi issue in room 1506, a TV in room 1603 and the parking gate barrier, and finalised the positions of the 13 new CCTV cameras, which are still to be installed. The Equal software is still slow. A revised Foodics POS quotation was received, and the tower was listed on Dubizzle, Airbnb, Property Finder and Bayut."
+  "area": "Systems and sales",
+  "text": "IT fixed a key-card fault in room 201, a door in room 102, room 302 Wi-Fi and the B3 maintenance PC, and finished camera cabling; the new cameras, the new internet connection set-up and the biometric attendance link are still in progress, and the Equal software is still slow. IT confirmed the old internet invoice does not need paying. AJ1881 sold AED 206 from 10 covers, all beverages."
  }
 ]

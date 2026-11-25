@@ -4,8 +4,8 @@
   "lead": "ADNOC",
   "need": "Staff accommodation",
   "stage": "Contract",
-  "last": "2026-11-21",
-  "note": "Draft contract with ADNOC for a 50 premium-room accommodation offer. On 17 Nov ADNOC’s HSE Compliance head said all submitted documents were reviewed and approved and asked for the updated checklist to endorse; Operations still lists Risk Management and the Emergency Response Plan for completion. On 18 Nov ADNOC’s team forwarded Blumont’s checklist to the HSE Compliance head for endorsement. On 19 Nov Operations reported the approval email sent and is waiting for ADNOC’s response. On 20 Nov Operations was still waiting for ADNOC’s response. On 21 Nov Operations reported the ADNOC offer details being handed over to Accounts; Accounts asked whether the accommodation is ready and the expected readiness date."
+  "last": "2026-11-25",
+  "note": "Draft contract with ADNOC for a 50 premium-room accommodation offer. On 17 Nov ADNOC’s HSE Compliance head said all submitted documents were reviewed and approved and asked for the updated checklist to endorse; Operations still lists Risk Management and the Emergency Response Plan for completion. On 18 Nov ADNOC’s team forwarded Blumont’s checklist to the HSE Compliance head for endorsement. On 19 Nov Operations reported the approval email sent and is waiting for ADNOC’s response. On 20 Nov Operations was still waiting for ADNOC’s response. On 21 Nov Operations reported the ADNOC offer details being handed over to Accounts; Accounts asked whether the accommodation is ready and the expected readiness date. On 24 Nov Accounts followed up on the checklist; on 25 Nov ADNOC’s HSE Compliance head said he had signed and returned the checklist internally and nothing further is needed from HSE."
  },
  {
   "id": "P2",
@@ -113,19 +113,19 @@
  },
  {
   "id": "P15",
-  "lead": "Site visits and inquiries, 20–23 Nov",
+  "lead": "Site visits and inquiries, 20–24 Nov",
   "need": "Not stated",
   "stage": "Follow-up",
-  "last": "2026-11-23",
-  "note": "Operations reported 4 client site visits on 20 Nov; Reception logged 1 new inquiry, 1 property viewing and 1 booking confirmation. Clients not named. On 21 Nov Operations completed 1 client site visit; Reception logged 3 new inquiries, 2 property viewings and 1 booking confirmation. Clients not named. On 23 Nov Operations assisted 1 client site visit (client to confirm the booking); Reception logged 4 new inquiries, 3 property viewings and 1 booking confirmation. Clients not named."
+  "last": "2026-11-24",
+  "note": "Operations reported 4 client site visits on 20 Nov; Reception logged 1 new inquiry, 1 property viewing and 1 booking confirmation. Clients not named. On 21 Nov Operations completed 1 client site visit; Reception logged 3 new inquiries, 2 property viewings and 1 booking confirmation. Clients not named. On 23 Nov Operations assisted 1 client site visit (client to confirm the booking); Reception logged 4 new inquiries, 3 property viewings and 1 booking confirmation. Clients not named. On 24 Nov Reception logged 3 new inquiries, 2 property viewings and no booking confirmations; Accounts also handled room availability inquiries. Clients not named."
  },
  {
   "id": "P16",
   "lead": "Real estate agencies and travel agencies (outreach)",
   "need": "Referrals and collaboration",
   "stage": "Follow-up",
-  "last": "2026-11-21",
-  "note": "On 21 Nov reception trainees contacted 25 companies (15 real estate agencies, 10 travel agencies); 5 agencies (Awal, Parker Premier, Bazar and others) showed interest or asked for property details. Follow-ups set for Monday 23 Nov."
+  "last": "2026-11-24",
+  "note": "On 21 Nov reception trainees contacted 25 companies (15 real estate agencies, 10 travel agencies); 5 agencies (Awal, Parker Premier, Bazar and others) showed interest or asked for property details. Follow-ups set for Monday 23 Nov. On 24 Nov the operations update reported a database of potential long-term rental clients prepared and several real estate agencies contacted with the rental rates."
  },
  {
   "id": "P17",
@@ -150,5 +150,13 @@
   "stage": "Follow-up",
   "last": "2026-11-23",
   "note": "On 23 Nov Accounts completed registrations on Dubizzle, Airbnb, Property Finder and Bayut."
+ },
+ {
+  "id": "P20",
+  "lead": "Faiz Investment Company",
+  "need": "Development opportunities and collaboration",
+  "stage": "Follow-up",
+  "last": "2026-11-24",
+  "note": "Called on 23 Nov and asked for a 30-minute meeting with Madam; her advice was requested on 24 Nov."
  }
 ]

@@ -82,5 +82,11 @@
   "outlet": "AJ1881 Restaurant",
   "sales_aed": 52,
   "covers": 2
+ },
+ {
+  "date": "2026-11-24",
+  "outlet": "AJ1881 Restaurant",
+  "sales_aed": 206,
+  "covers": 10
  }
 ]
