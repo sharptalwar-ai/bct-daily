@@ -1,12 +1,102 @@
 [
  {
+  "id": "T98",
+  "date": "2026-11-26",
+  "from": "Management office",
+  "owner": "Housekeeping and maintenance coordinator",
+  "task": "Follow the new daily KPI and SOP for Housekeeping, RR, Facilities and Maintenance and send daily updates with photos or videos to Management",
+  "due": null,
+  "status": "Acknowledged"
+ },
+ {
+  "id": "T97",
+  "date": "2026-11-25",
+  "from": "AJ1881 Restaurant",
+  "owner": "AJ1881 Restaurant",
+  "task": "Prioritise a dessert selection on the display and food items on the menu (hot food unavailable), to lift weekend sales",
+  "due": "2026-11-26",
+  "status": "Planned"
+ },
+ {
+  "id": "T96",
+  "date": "2026-11-25",
+  "from": "Flower shop",
+  "owner": "Flower shop",
+  "task": "Follow up the blogger collaboration and potential corporate clients for weekly and monthly arrangements; continue BCT social media",
+  "due": "2026-11-26",
+  "status": "Planned"
+ },
+ {
+  "id": "T95",
+  "date": "2026-11-25",
+  "from": "Reception",
+  "owner": "Reception",
+  "task": "Monitor guest satisfaction and resolved maintenance issues, new inquiries, and handle guest requests and complaints promptly",
+  "due": "2026-11-26",
+  "status": "Planned"
+ },
+ {
+  "id": "T94",
+  "date": "2026-11-25",
+  "from": "Maintenance",
+  "owner": "Maintenance",
+  "task": "Complete ceiling painting in rooms 509–511, basement wall repair and painting, B2 drainage chamber cleaning and remaining basement fused lights; follow up approval of the Honest Automatic flap barrier quotation",
+  "due": "2026-11-26",
+  "status": "Planned"
+ },
+ {
+  "id": "T93",
+  "date": "2026-11-25",
+  "from": "Operations Manager",
+  "owner": "Operations Manager",
+  "task": "Email accommodation offer proposals to further companies (including Etihad Airways, Majid Al Futtaim, Arabian Construction Company, Agility, Blue Gulf Ship Builders, Khadamat and Khidmah)",
+  "due": "2026-11-26",
+  "status": "Planned"
+ },
+ {
+  "id": "T92",
+  "date": "2026-11-25",
+  "from": "CEO",
+  "owner": "Operations Manager",
+  "task": "Contact relevant agents, operators and service providers, arrange visits or discussions, and record contacts, outcomes, next actions and evidence",
+  "due": "2026-11-25",
+  "status": "Not confirmed"
+ },
+ {
+  "id": "T91",
+  "date": "2026-11-25",
+  "from": "CEO",
+  "owner": "Operations Manager",
+  "task": "Prepare practical proposals for swimming pool rental for classes, renting the flower shop space, a larger basement laundry, and valet parking and car wash, with costs, staffing, income, approvals and next steps",
+  "due": "2026-11-25",
+  "status": "In progress"
+ },
+ {
+  "id": "T90",
+  "date": "2026-11-25",
+  "from": "CEO",
+  "owner": "Operations Manager",
+  "task": "Report all companies contacted about bulk room bookings with full contact records and evidence, and copy the CEO on all company communications from now on",
+  "due": "2026-11-25",
+  "status": "In progress"
+ },
+ {
+  "id": "T89",
+  "date": "2026-11-25",
+  "from": "CEO",
+  "owner": "Operations Manager",
+  "task": "Prepare a proposal for operating the Samha Oui Café and a separate central kitchen proposal using the Villa 11 outdoor kitchen, and send one end-of-day report by 6 PM",
+  "due": "2026-11-25",
+  "status": "Done"
+ },
+ {
   "id": "T87",
   "date": "2026-11-24",
   "from": "AJ1881 Restaurant",
   "owner": "AJ1881 Restaurant",
   "task": "Prioritise a dessert selection on the display and food items on the menu, to lift weekend sales",
   "due": "2026-11-25",
-  "status": "Planned"
+  "status": "Not confirmed"
  },
  {
   "id": "T86",
@@ -15,7 +105,7 @@
   "owner": "Accounts / Maintenance",
   "task": "Complete the storage room inventory and records, follow up repairs found in the emergency exit inspection and keep tenant payment records updated",
   "due": null,
-  "status": "Planned"
+  "status": "Not confirmed"
  },
  {
   "id": "T85",
@@ -24,7 +114,7 @@
   "owner": "Maintenance",
   "task": "Complete the Basement 1 painting, basement fused lights, basement drainage chamber cleaning and room 510 ceiling painting; follow up Honest Automatic on the flap barrier",
   "due": "2026-11-25",
-  "status": "Planned"
+  "status": "In progress"
  },
  {
   "id": "T84",
@@ -33,7 +123,7 @@
   "owner": "Reception",
   "task": "Monitor guest satisfaction and resolved maintenance issues, new check-ins and inquiries, and follow up upcoming contract renewals",
   "due": "2026-11-25",
-  "status": "Planned"
+  "status": "Done"
  },
  {
   "id": "T83",
@@ -42,7 +132,7 @@
   "owner": "IT / Meta Soft",
   "task": "Meta Soft team visit for the pending system requirements",
   "due": "2026-11-25",
-  "status": "Planned"
+  "status": "Done"
  },
  {
   "id": "T82",
@@ -304,50 +394,5 @@
   "task": "Submit daily task reports with clear photos of the work completed, effective immediately",
   "due": null,
   "status": "Acknowledged"
- },
- {
-  "id": "T46",
-  "date": "2026-11-18",
-  "from": "Operations Manager",
-  "owner": "Facility management company",
-  "task": "Arrange a third-party provider for the general maintenance inspection and send the details for review and approval",
-  "due": null,
-  "status": "Requested"
- },
- {
-  "id": "T44",
-  "date": "2026-11-18",
-  "from": "Flower shop",
-  "owner": "Flower shop",
-  "task": "Keep posting on BCT social media, follow up suppliers on the incoming shipment and follow up the chiller van",
-  "due": "2026-11-19",
-  "status": "Done"
- },
- {
-  "id": "T43",
-  "date": "2026-11-18",
-  "from": "AJ1881 Restaurant",
-  "owner": "AJ1881 Restaurant",
-  "task": "Meet the chef on sales generation, set a single-staff shift workflow and buy approved kitchen and bar supplies",
-  "due": "2026-11-19",
-  "status": "Not confirmed"
- },
- {
-  "id": "T42",
-  "date": "2026-11-18",
-  "from": "Maintenance",
-  "owner": "Maintenance",
-  "task": "Finish the basement guest lift lobby painting, replace basement parking lights, follow up the room 706 thermostat and approval for the room 710 FCU rewinding, and coordinate the rooftop calorifier leak with the vendor",
-  "due": "2026-11-19",
-  "status": "In progress"
- },
- {
-  "id": "T41",
-  "date": "2026-11-18",
-  "from": "Operations Manager",
-  "owner": "Operations Manager",
-  "task": "Blumont operations and completion of the lobby café; driver, housekeeping and maintenance schedule/roster",
-  "due": "2026-11-19",
-  "status": "In progress"
  }
 ]

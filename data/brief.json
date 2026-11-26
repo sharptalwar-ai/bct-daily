@@ -2,36 +2,36 @@
  {
   "n": 1,
   "area": "Occupancy",
-  "text": "Reception reported 91 of 183 rooms occupied on Tuesday 24 Nov (49.7%), 43 of them Rabdan, down from 93 on 23 Nov. There were no check-ins and 2 check-outs (rooms 801 and 1105). Reception logged 3 new inquiries, 2 property viewings, no booking confirmations, 1 renewal confirmed, and 4 guest complaints, all resolved."
+  "text": "Reception reported 92 of 183 rooms occupied on Wednesday 25 Nov (50.3%), 43 of them Rabdan, up from 91 on 24 Nov. There were no check-ins or check-outs. Reception logged 2 new inquiries, 1 property viewing, 1 booking confirmation, no renewals, and 5 guest complaints, all resolved."
  },
  {
   "n": 2,
   "area": "Reporting",
-  "text": "Reports for 24 Nov came from the operations update, Reception, Maintenance, IT, Accounts, HR & Admin and AJ1881. The Flower shop and Housekeeping reports were not seen, and neither was the Operations Manager’s own daily task report."
+  "text": "Reports for 25 Nov came from Operations (two updates), Reception, Maintenance, IT, Accounts, HR & Admin, the Flower shop and AJ1881. No separate Housekeeping report was seen."
  },
  {
   "n": 3,
   "area": "Maintenance",
-  "text": "Maintenance logged 8 completed jobs, all marked done, including B3 drainage chamber and rainwater line cleaning, room 302 mixer tap and restroom lights, the room 301 leak, the room 702 cupboard and the B2 fire pump room FCU service. Still in progress: Basement 1 painting, basement fused lights, basement drainage chambers and the room 510 ceiling; the flap barrier needs vendor follow-up with Honest Automatic."
+  "text": "Maintenance logged 11 completed jobs, all marked done, including the room 1112 AC relay, the room 1601 FCU leak and lights, 9 fused basement lights, the main entrance glass-door lock cylinder and the B3 lift lobby ceiling tiles. Still pending: ceiling painting in rooms 509–511, basement wall repair and painting, B2 drainage chamber cleaning and the remaining basement lights."
  },
  {
   "n": 4,
   "area": "Decisions",
-  "text": "On 25 Nov Operations again asked for urgent approval of the elevator AMC (three quotations, Ever Gravity lowest). The room 801 guest is asking for a full refund or a two-day deduction after checking out. Faiz Investment Company has asked for a 30-minute meeting with Madam. AJ1881 again asked to buy critical supplies and to rename the shop Oui Cafe."
+  "text": "Waiting on management approval: the lift AMC, the Honest Automatic flap barrier quotation, the room 710 FCU motor rewinding, the room 801 guest’s refund request, IHC’s requested contract clause on missed services, the Reneco Tawtheeq (UAE Pass access), the Fortis café payment system, the Faiz Investment meeting, and AJ1881’s supplies purchase and rename to Oui Cafe."
  },
  {
   "n": 5,
-  "area": "ADNOC",
-  "text": "ADNOC’s HSE Compliance head replied on 25 Nov that he has signed and returned Blumont’s checklist internally and nothing further is needed from the HSE side. The contract itself is not yet confirmed."
+  "area": "New business",
+  "text": "On 25 Nov the CEO asked Operations for costed proposals on the Samha Oui Café, a central kitchen at Villa 11, pool rental for classes, the flower shop space, a larger laundry, and valet parking and car wash, plus evidence of all company outreach. Operations sent the café, central kitchen and laundry proposals; the others are pending. Accommodation proposals went to four energy and oilfield companies."
  },
  {
   "n": 6,
-  "area": "Tenants",
-  "text": "Reneco has chased its Tawtheeq several times; Operations says the PRO needs UAE Pass access to finish it. The room 302 guest’s repeated complaints were worked on: Maintenance replaced the mixer tap and lights and IT fixed the Wi-Fi. Accounts verified November rent payments and reported no overdue rent and no cheques deposited or returned."
+  "area": "Contracts",
+  "text": "IHC will sign the flower arrangement contract once a clause reducing the fee for missed arrangements is added. Operations chased Sirius Holdings for its signed copy. PACT sent the revised manpower contract. No reply to the management office’s ADNOC status request was seen on 25 Nov."
  },
  {
   "n": 7,
   "area": "Systems and sales",
-  "text": "IT fixed a key-card fault in room 201, a door in room 102, room 302 Wi-Fi and the B3 maintenance PC, and finished camera cabling; the new cameras, the new internet connection set-up and the biometric attendance link are still in progress, and the Equal software is still slow. IT confirmed the old internet invoice does not need paying. AJ1881 sold AED 206 from 10 covers, all beverages."
+  "text": "IT fixed room 1508 Wi-Fi and key cards in rooms 210 and 1510, configured Wi-Fi for the whole tower and pulled camera cable in B2; new cameras and biometric data are still pending, and the Equal software is still slow. The Meta Soft team visited. Accounts reported no overdue rent and no cheques deposited or returned. AJ1881 sold AED 206 from 10 covers, all beverages; the flower shop reported no sales."
  }
 ]
