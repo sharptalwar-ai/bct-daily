@@ -4,16 +4,16 @@
   "lead": "ADNOC",
   "need": "Staff accommodation",
   "stage": "Contract",
-  "last": "2026-11-25",
-  "note": "Draft contract with ADNOC for a 50 premium-room accommodation offer. On 17 Nov ADNOC’s HSE Compliance head said all submitted documents were reviewed and approved and asked for the updated checklist to endorse; Operations still lists Risk Management and the Emergency Response Plan for completion. On 18 Nov ADNOC’s team forwarded Blumont’s checklist to the HSE Compliance head for endorsement. On 19 Nov Operations reported the approval email sent and is waiting for ADNOC’s response. On 20 Nov Operations was still waiting for ADNOC’s response. On 21 Nov Operations reported the ADNOC offer details being handed over to Accounts; Accounts asked whether the accommodation is ready and the expected readiness date. On 24 Nov Accounts followed up on the checklist; on 25 Nov ADNOC’s HSE Compliance head said he had signed and returned the checklist internally and nothing further is needed from HSE. Later on 25 Nov the management office asked Operations for a status update; the operations update said no reply had been received yet."
+  "last": "2026-11-27",
+  "note": "Draft contract with ADNOC for a 50 premium-room accommodation offer. On 17 Nov ADNOC’s HSE Compliance head said all submitted documents were reviewed and approved and asked for the updated checklist to endorse; Operations still lists Risk Management and the Emergency Response Plan for completion. On 18 Nov ADNOC’s team forwarded Blumont’s checklist to the HSE Compliance head for endorsement. On 19 Nov Operations reported the approval email sent and is waiting for ADNOC’s response. On 20 Nov Operations was still waiting for ADNOC’s response. On 21 Nov Operations reported the ADNOC offer details being handed over to Accounts; Accounts asked whether the accommodation is ready and the expected readiness date. On 24 Nov Accounts followed up on the checklist; on 25 Nov ADNOC’s HSE Compliance head said he had signed and returned the checklist internally and nothing further is needed from HSE. Later on 25 Nov the management office asked Operations for a status update; the operations update said no reply had been received yet. On 26 Nov Operations reported the site visit, HSE inspection and documents complete with positive feedback, awaiting ADNOC management’s final approval; Blumont still needs a certified HSE staff member and to finish the unit setup. On 27 Nov Accounts confirmed nothing further is needed from the HSE side."
  },
  {
   "id": "P2",
   "lead": "El Sewedy Power Electrical Contracting",
   "need": "Staff rooms",
   "stage": "Won",
-  "last": "2026-11-25",
-  "note": "Accounts' 11 Nov report records payment received from El Sewedy for premium rooms 502 and 504. On 25 Nov Operations hosted a site visit by El Sewedy for further accommodation; outcome not stated."
+  "last": "2026-11-26",
+  "note": "Accounts' 11 Nov report records payment received from El Sewedy for premium rooms 502 and 504. On 25 Nov Operations hosted a site visit by El Sewedy for further accommodation; outcome not stated. On 26 Nov Operations reported another El Sewedy site visit for accommodation."
  },
  {
   "id": "P3",
@@ -92,8 +92,8 @@
   "lead": "Rabdan Academy client",
   "need": "1BHK",
   "stage": "Follow-up",
-  "last": "2026-11-14",
-  "note": "Site visit completed 13 Nov; Operations listed it again in its 14 Nov report. Next step not stated."
+  "last": "2026-11-26",
+  "note": "Site visit completed 13 Nov; Operations listed it again in its 14 Nov report. Next step not stated. On 26 Nov a Rabdan Academy client made a walk-in site visit for a 1BHK."
  },
  {
   "id": "P13",
@@ -140,8 +140,8 @@
   "lead": "Construction and contracting companies (outreach)",
   "need": "Staff accommodation",
   "stage": "Follow-up",
-  "last": "2026-11-23",
-  "note": "On 23 Nov Operations contacted 7 companies about an accommodation proposal: Trojan, Al Jaber and Fibrex Construction did not respond; Combined Group said not required; Arabian Construction Company and Gulf Contractors will reply after consulting their teams; Al Nasr Contracting asked for the proposal by email."
+  "last": "2026-11-26",
+  "note": "On 23 Nov Operations contacted 7 companies about an accommodation proposal: Trojan, Al Jaber and Fibrex Construction did not respond; Combined Group said not required; Arabian Construction Company and Gulf Contractors will reply after consulting their teams; Al Nasr Contracting asked for the proposal by email. On 26 Nov Operations sent accommodation proposals to Al Amsaood, Ogasco Oil and Gas, Blue Gulf Ship Builders, Agility Engineering & Contracting and Arabian Construction Group; responses not yet reported."
  },
  {
   "id": "P19",
@@ -156,8 +156,8 @@
   "lead": "Faiz Investment Company",
   "need": "Development opportunities and collaboration",
   "stage": "Follow-up",
-  "last": "2026-11-25",
-  "note": "Called on 23 Nov and asked for a 30-minute meeting with Madam; her advice was requested on 24 Nov. Madam’s advice on the meeting was requested again on 25 Nov."
+  "last": "2026-11-26",
+  "note": "Called on 23 Nov and asked for a 30-minute meeting with Madam; her advice was requested on 24 Nov. Madam’s advice on the meeting was requested again on 25 Nov. Followed up again by phone on 26 Nov; the meeting request still awaits Madam’s advice."
  },
  {
   "id": "P21",
@@ -166,5 +166,21 @@
   "stage": "Follow-up",
   "last": "2026-11-25",
   "note": "On 25 Nov Operations sent accommodation proposals to Next Generation Oilfield Equipment Trading, NMDC Energy, ZMI Holdings and TAQA Distribution. Responses not yet reported."
+ },
+ {
+  "id": "P22",
+  "lead": "LifeCore Private Clinic (Royal Group)",
+  "need": "Floral arrangements, 6 vases",
+  "stage": "Proposal",
+  "last": "2026-11-27",
+  "note": "BCT Flowers sent a proposal on 26 Nov; the clinic asked for bi-weekly rather than weekly replenishment and a revised schedule and quotation. On 27 Nov Marketing recommended keeping a weekly schedule."
+ },
+ {
+  "id": "P23",
+  "lead": "NCTH Catering",
+  "need": "Flower proposal and events collaboration",
+  "stage": "Follow-up",
+  "last": "2026-11-26",
+  "note": "Operations contacted the NCTH catering team on 26 Nov about a flower proposal and events collaboration."
  }
 ]

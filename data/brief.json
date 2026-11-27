@@ -2,36 +2,36 @@
  {
   "n": 1,
   "area": "Occupancy",
-  "text": "Reception reported 92 of 183 rooms occupied on Wednesday 25 Nov (50.3%), 43 of them Rabdan, up from 91 on 24 Nov. There were no check-ins or check-outs. Reception logged 2 new inquiries, 1 property viewing, 1 booking confirmation, no renewals, and 5 guest complaints, all resolved."
+  "text": "Reception reported 89 of 183 rooms occupied on Thursday 26 Nov (48.6%), 43 of them Rabdan, down from 92 on 25 Nov. There was 1 check-in (room 708) and 2 check-outs (rooms 1312 and 403). Reception logged no new inquiries, viewings, bookings or renewals, and 4 guest complaints, all resolved. Room 806 was extended by one night and invoiced."
  },
  {
   "n": 2,
   "area": "Reporting",
-  "text": "Reports for 25 Nov came from Operations (two updates), Reception, Maintenance, IT, Accounts, HR & Admin, the Flower shop and AJ1881. No separate Housekeeping report was seen."
+  "text": "Reports for 26 Nov came from Operations, the management office, Reception, Maintenance, IT, the Flower shop and AJ1881. HR & Accounts had an off day. No separate Housekeeping report was seen."
  },
  {
   "n": 3,
   "area": "Maintenance",
-  "text": "Maintenance logged 11 completed jobs, all marked done, including the room 1112 AC relay, the room 1601 FCU leak and lights, 9 fused basement lights, the main entrance glass-door lock cylinder and the B3 lift lobby ceiling tiles. Still pending: ceiling painting in rooms 509–511, basement wall repair and painting, B2 drainage chamber cleaning and the remaining basement lights."
+  "text": "Maintenance logged 10 jobs, all marked done, including fused lamps in basements 1–3, the room 812 shattaf pipe, room 312 mirror lights, room 803 kitchen lights, the B4 ceiling refixing and painting in the B1 parking area. Still pending: ceiling painting in rooms 509–511, basement wall repair and painting, and B2 drainage chamber cleaning. Maintenance asked for approval to buy epoxy paint for the basement parking."
  },
  {
   "n": 4,
   "area": "Decisions",
-  "text": "Waiting on management approval: the lift AMC, the Honest Automatic flap barrier quotation, the room 710 FCU motor rewinding, the room 801 guest’s refund request, IHC’s requested contract clause on missed services, the Reneco Tawtheeq (UAE Pass access), the Fortis café payment system, the Faiz Investment meeting, and AJ1881’s supplies purchase and rename to Oui Cafe."
+  "text": "Waiting on management approval: the lift AMC (described as urgent), the security barrier remote quotation, the room 710 FCU motor rewinding, the epoxy paint purchase, the room 801 guest’s refund request, the florist recruitment package, the Faiz Investment meeting, the St Regis Pilates portfolio, AJ1881’s rename to Oui Cafe and its kitchen supplies."
  },
  {
   "n": 5,
-  "area": "New business",
-  "text": "On 25 Nov the CEO asked Operations for costed proposals on the Samha Oui Café, a central kitchen at Villa 11, pool rental for classes, the flower shop space, a larger laundry, and valet parking and car wash, plus evidence of all company outreach. Operations sent the café, central kitchen and laundry proposals; the others are pending. Accommodation proposals went to four energy and oilfield companies."
+  "area": "ADNOC",
+  "text": "Operations reported that ADNOC’s site visit, the HSE inspection and the HSE documents are complete with positive feedback, and Blumont is awaiting ADNOC management’s final approval. On Blumont’s side a certified HSE staff member and the final accommodation unit setup are still needed. On 27 Nov Accounts confirmed nothing further is needed from the HSE side."
  },
  {
   "n": 6,
-  "area": "Contracts",
-  "text": "IHC will sign the flower arrangement contract once a clause reducing the fee for missed arrangements is added. Operations chased Sirius Holdings for its signed copy. PACT sent the revised manpower contract. No reply to the management office’s ADNOC status request was seen on 25 Nov."
+  "area": "New business",
+  "text": "Operations sent the Oui Café and central kitchen, laundry and swimming pool rental proposals, and sent the café outdoor seating documents to PAL Group for the permit. The flower shop space and car wash and valet proposals are still pending. Accommodation proposals went to five more companies, El Sewedy and a Rabdan Academy client made site visits, and BCT Flowers sent LifeCore Clinic a proposal for 6 vases; the clinic asked for bi-weekly service."
  },
  {
   "n": 7,
   "area": "Systems and sales",
-  "text": "IT fixed room 1508 Wi-Fi and key cards in rooms 210 and 1510, configured Wi-Fi for the whole tower and pulled camera cable in B2; new cameras and biometric data are still pending, and the Equal software is still slow. The Meta Soft team visited. Accounts reported no overdue rent and no cheques deposited or returned. AJ1881 sold AED 206 from 10 covers, all beverages; the flower shop reported no sales."
+  "text": "IT reported the software fixed and fully functional, with installation on all company laptops still to finish, and the new Meta Soft connection live with strong Wi-Fi. IT blocked and encoded key cards and fixed the reception printer; new cameras and the biometric data are still pending. PAL Group submitted the Reneco Tawtheeq application. AJ1881 sold AED 122 (beverages only) to 7 covers; the flower shop reported no sales."
  }
 ]
