@@ -1,12 +1,12 @@
 [
  {
-  "report_date": "2026-11-26",
-  "updated_at": "2026-11-27T06:35:33Z",
+  "report_date": "2026-11-27",
+  "updated_at": "2026-11-28T06:36:01Z",
   "emails_from": "2026-09-22",
-  "emails_to": "2026-11-27",
+  "emails_to": "2026-11-28",
   "checkins": 1,
   "inquiries": 0,
-  "room_issues_logged": 10,
-  "room_issues_closed": 10
+  "room_issues_logged": 7,
+  "room_issues_closed": 7
  }
 ]

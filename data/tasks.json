@@ -1,5 +1,68 @@
 [
  {
+  "id": "T111",
+  "date": "2026-11-27",
+  "from": "Management office",
+  "owner": "All staff",
+  "task": "Complete all assigned tasks and instructions within the specified timeframe, even where no deadline is stated",
+  "due": null,
+  "status": "Requested"
+ },
+ {
+  "id": "T110",
+  "date": "2026-11-27",
+  "from": "Accounts",
+  "owner": "Accounts",
+  "task": "Submit the consolidated maintenance issues report and complete the outstanding rental sheets",
+  "due": "2026-11-28",
+  "status": "Planned"
+ },
+ {
+  "id": "T109",
+  "date": "2026-11-27",
+  "from": "Operations Manager",
+  "owner": "Operations Manager",
+  "task": "Continue sending bulk room accommodation proposals to large companies and prepare the car wash proposal",
+  "due": "2026-11-28",
+  "status": "Planned"
+ },
+ {
+  "id": "T108",
+  "date": "2026-11-27",
+  "from": "AJ1881 Restaurant",
+  "owner": "AJ1881 Restaurant",
+  "task": "Purchase fresh milk, condensed milk, fresh mint and fresh lemon for the next day’s operation, subject to management approval",
+  "due": "2026-11-28",
+  "status": "Planned"
+ },
+ {
+  "id": "T107",
+  "date": "2026-11-27",
+  "from": "Flower shop",
+  "owner": "Flower shop",
+  "task": "Keep managing BCT social media, prepare more floral arrangements for content and keep exploring corporate clients",
+  "due": "2026-11-28",
+  "status": "Planned"
+ },
+ {
+  "id": "T106",
+  "date": "2026-11-27",
+  "from": "Maintenance",
+  "owner": "Maintenance",
+  "task": "Complete ceiling painting in rooms 509–511, the remaining B1 and ground-floor rainwater drainage chamber cleaning and remaining basement fused lights; continue routine inspections",
+  "due": "2026-11-28",
+  "status": "Planned"
+ },
+ {
+  "id": "T105",
+  "date": "2026-11-27",
+  "from": "Reception",
+  "owner": "Reception",
+  "task": "Monitor guest satisfaction and resolved maintenance issues, follow up upcoming check-outs and renewals, and keep monitoring new inquiries",
+  "due": "2026-11-28",
+  "status": "Planned"
+ },
+ {
   "id": "T104",
   "date": "2026-11-26",
   "from": "Management office",
@@ -15,7 +78,7 @@
   "owner": "AJ1881 Restaurant",
   "task": "Prioritise a dessert selection on the display and food items on the menu (hot food unavailable), to lift weekend sales",
   "due": "2026-11-27",
-  "status": "Planned"
+  "status": "Not confirmed"
  },
  {
   "id": "T102",
@@ -24,7 +87,7 @@
   "owner": "Flower shop",
   "task": "Confirm the final flower selection and quantities with the supplier for the upcoming shipment, prepare arrangements for social media and keep posting on BCT social media",
   "due": "2026-11-27",
-  "status": "Planned"
+  "status": "Done"
  },
  {
   "id": "T101",
@@ -33,7 +96,7 @@
   "owner": "Reception",
   "task": "Monitor guest satisfaction and resolved maintenance issues, new inquiries, and handle guest requests and complaints promptly",
   "due": "2026-11-27",
-  "status": "Planned"
+  "status": "Done"
  },
  {
   "id": "T100",
@@ -42,7 +105,7 @@
   "owner": "Maintenance",
   "task": "Complete ceiling painting in rooms 509–511, basement parking wall repair and painting, B2 drainage chamber cleaning and remaining basement fused lights; continue routine inspections",
   "due": "2026-11-27",
-  "status": "Planned"
+  "status": "In progress"
  },
  {
   "id": "T99",
@@ -51,7 +114,7 @@
   "owner": "Operations Manager",
   "task": "Email accommodation offer proposals to further companies (including Majid Al Futtaim, Dussmann Gulf, Enova, Khadamat, Galfar, Fibrex, Western Bainoona and Gulf Contractors)",
   "due": "2026-11-27",
-  "status": "Planned"
+  "status": "Done"
  },
  {
   "id": "T98",
@@ -349,59 +412,5 @@
   "task": "Replace the room 706 thermostat and the basement parking fused lights, arrange painting of the remaining basement areas, continue the 12th-floor wooden accessories inspection and attend new complaints",
   "due": "2026-11-22",
   "status": "Not confirmed"
- },
- {
-  "id": "T56",
-  "date": "2026-11-20",
-  "from": "Reception",
-  "owner": "Reception",
-  "task": "Follow up upcoming contract renewals and monitor guest satisfaction, check-ins and inquiries",
-  "due": "2026-11-21",
-  "status": "Done"
- },
- {
-  "id": "T55",
-  "date": "2026-11-20",
-  "from": "AJ1881 Restaurant",
-  "owner": "AJ1881 Restaurant",
-  "task": "Discuss guest requests for a dessert selection on the display with the team",
-  "due": "2026-11-21",
-  "status": "Planned"
- },
- {
-  "id": "T54",
-  "date": "2026-11-20",
-  "from": "Flower shop",
-  "owner": "Flower shop",
-  "task": "Keep posting on BCT social media, follow up flower suppliers on deliveries and create a new floral arrangement for social media",
-  "due": "2026-11-21",
-  "status": "Done"
- },
- {
-  "id": "T53",
-  "date": "2026-11-20",
-  "from": "Maintenance",
-  "owner": "Maintenance",
-  "task": "Finish the basement guest lift lobby painting, follow up the room 706 thermostat, replace the basement parking lights, arrange painting of the basement areas and continue the 12th-floor wooden accessories inspection",
-  "due": "2026-11-21",
-  "status": "In progress"
- },
- {
-  "id": "T52",
-  "date": "2026-11-20",
-  "from": "Operations Manager",
-  "owner": "Operations Manager",
-  "task": "Blumont operations and completion of the lobby café",
-  "due": "2026-11-21",
-  "status": "In progress"
- },
- {
-  "id": "T51",
-  "date": "2026-11-20",
-  "from": "Operations Manager",
-  "owner": "PAL Group",
-  "task": "Advise on the works, permits and documents needed for the Blumont Café outdoor setup",
-  "due": null,
-  "status": "Requested"
  }
 ]
